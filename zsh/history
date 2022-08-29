@@ -1,0 +1,10239 @@
+ls .config
+nvim .config/nvim/autoload
+ls .config/nvim
+cp init.vim .config/nvim
+cp init.vim .config/nvim/init.vim
+echo $NVIM_PYTHON_LOG_FILE
+cd .config/nvim/plugged/YouCompleteMe
+brew info cmake
+brew install cmake
+cp -r nvim/templates ~/.config/nvim
+cat xterm-256color.ti
+rm xterm-256color.ti
+rm .p10k.zsh
+ls .oh-my-zsh
+nvim zshrc.zsh-template
+cd .oh-my-zsh/custom
+ls .vim
+rm .vim
+rm -r .vim
+cp .oh-my-zsh/templates/zshrc.zsh-template .
+mv zshrc.zsh-template .zshrc
+cp git/reproducing-arch-installation/p10k.zsh .
+cp .p10k.zsh git/reproducing-arch-installation/
+mv .p10k.zsh p20k.zsh
+mv p10k.zsh .p10.zsh
+nvim p10k.zsh
+rm p20k.zsh
+mv p10k.zsh
+mv p10k.zsh ~
+mv p10k.zsh git/reproducing-arch-installation
+cp p10k.zsh ~
+mv p10k.zsh .p10k.zsh
+source ~/.p10k.zsh
+rm .p10.zsh
+cd ~/.oh-my-zsh/custom/plugins
+git clone https://github.com/zpm-zsh/ls.git
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+lx
+for i in {0..255} ; do\
+    printf "\x1b[38;5;${i}m%3d " "${i}"\
+    if (( $i == 15 )) || (( $i > 15 )) && (( ($i-15) % 12 == 0 )); then\
+        echo;\
+    fi\
+done
+nvim git/reproducing-arch-installation/zshrc
+rm .zshrc.orig
+nvim .viminfo 
+brew install coreutils
+brew info feh
+brew cask install xquartz
+ls -Ga
+phoenix
+https://github.com/mbadolato/iTerm2-Color-Schemes.git
+git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
+homebrew info pywal
+brew info pywal
+pip3 install pywal
+pywal
+cp git/reproducing-arch-installation/wallpapers .
+cp -r git/reproducing-arch-installation/wallpapers .
+wal
+wal --backend
+wal --backend colorz -i wallpapers/matterhorn.jpg
+wal --backend wal -i wallpapers/matterhorn.jpg
+wal --backend schemer2 -i wallpapers/matterhorn.jpg
+brew info imagemagick
+brew tap install imagemagick
+wal -i wallpapers/matterhorn.jpg
+wal -r
+cd git/iTerm2-Color-Schemes
+nvim Dracula.itermcolors
+cd wallpapers
+feh forest.jpg
+brew remove feh
+brew rmtree feh
+brew rmtree imagemagick
+brew tap homebrew/cask-fonts && brew cask install font-iosevka && brew cask install font-iosevka-slab
+brew info spicetify
+mkdir -r ~/.config/spicetify/Themes
+mkdir -p ~/.config/spicetify/themes
+cp -r * ~/.config/spicetify/themes
+cd ~/.config/spicetify/themes/Dribbblish
+mv themes Themes
+mv ~/.config/spicetify/themes ~/.config/spicetify/Themes
+mv themes lalala
+mv lalala Themes
+spicetify config current_theme dribbblish
+spicetify config current_theme SpicetifyDefault
+cd .config/spicetify
+rm -rf Extensions/ Themes
+cd ~/spicetify_data
+spicetify config color_scheme nord-light
+z /Users/shreyash/git/reproducing-arch-installation
+ls -al
+brew info ipython
+brew install python
+mkdir phylab
+./test.py
+mkdir lab1
+rm -rf lab1
+mkdir l1
+cd l1
+python3 q7.py
+brew upgrade iosevka
+brew search latex
+brew cask install basictex
+brew info basictex
+safari --version
+mkdir extension
+curl -L https://addons.mozilla.org/firefox/downloads/file/3566525/video_speed_controller-0.6.1-an+fx.xpi\?src\=dp-btn-primary > video.xpi
+unzip video.xpi -d video
+cd video
+vim manifest.json
+nvim manifest.json
+xcrun safari-web-extension-converter video
+mv Neurobiology\ week\ 1\ summary.pdf neurobio/
+spicetify config color_scheme base
+spicetify config color_scheme horizon
+spicetify config color_scheme white
+ipython
+desktop
+git
+cd iTerm2-Color-Schemes
+cd schemes
+ipython --pylab
+at the speed of light we see that something is wrong
+at
+bwe
+brew cast uninstall iterm2
+brew cask uninstall iterm2
+brew cask list
+lag
+brew rmtree ipython
+brew cask install ipython
+brew install ipython
+brew install jupyter
+/usr/local/bin/pip3 install numpy
+cd phy
+rm Untitled.ipynb
+cat plot.py
+rm plot.py
+nvim ~
+tar -xvf ctags-5.8.tar
+cd ctags-5.8
+cd git/ctags-5.8
+./configure
+make check
+make install
+rm -rf ctags-5.8*
+brew install ctags
+pip3 install pep8 flake8
+pip3 install pylint
+cd ~/phylab
+python3 plot.py
+rm ~/.local/share/nvim/swap/%Users%shreyash%phylab%plot.py.swp ~/.local/share/nvim/swap/%Users%shreyash.swp
+echo $TER
+echo $TERM
+cd .config/nvim/plugged
+cd nerdtree
+pip3 install pylab
+pip3 install rcParams
+brew install feh
+feh test1.pdf
+mkdir l3
+cd l3
+git clone https://github.com/Ramlord/Frostify.git
+cd Frostify
+ls spicetify_data
+cp git/Frostify spicetify_data/Themes
+cp -r git/Frostify spicetify_data/Themes
+cd git/Frostify/
+spicetify config current_theme Honne
+spicetify config current_theme JarvisBot
+ls spicetify_data/Themes
+spicetify config current_theme Flatten
+spicetify -h
+spicetify enable-devtools
+spicetify enable-devtool
+mkdir l4
+python3 q4.py
+python3 q5.py
+python3 q
+feh --bg-scale wallpapers/asian_cafe.jpg
+cd l4
+mkdir l5
+l5
+mv -r l5 ..
+mv l5 ..
+nvim l4/q5.py
+nvim gaussian_integ.py
+cat p1.py
+mv p1.py trapezoid.py
+mv p2.py simpson3-8.py
+python3 gauss_quadrature.py
+python3 lagurre_gauss_quadrature.py
+python3 hermite_gauss_quadrature.py
+nvim plot.py
+mkdir l2
+mv plot.py test1.pdf
+cat test1.pdf
+mv test1.pdf plot.py
+mv plot.py l2
+brew search highlight
+brew install highlight
+brew leaves
+cd .config/ranger
+ranger --copy-config=rifle
+cd ~/phylab/l3
+open d2.jpg
+open q3.jpg
+cd ~/.config/ranger/
+ranger --copy-config=all
+nvim rifle.conf
+nvim rc.conf
+nvim .config/ranger/rc.conf
+cd phylab/l5
+rm \;\ \!python3\ lagurre_gauss_quadrature.py
+python3 simpson3-8.py
+nvim trapezoid.py
+nvim simpson3-8.py
+nvim simpson1-3.py
+nvim gauss_quadrature.py
+mv gauss_quadrature.py legendre_gauss_quadrature.py
+nvim legendre_gauss_quadrature.py
+nvim hermite_gauss_quadrature.py
+nvim lagurre_gauss_quadrature.py
+git clone https://github.com/ragmahe/CS711A.git
+cd Desktop/Courses/game\ theory
+cd CS711A
+git checkout -b q4
+git branch -d q4
+git checkout q4
+git branch -m q3
+gb
+nvim ~/.config/ranger/scope.sh
+nvim .config/nvim/autoload/plug.vim
+brew search fzf
+brew install fzf
+nvim /usr/local/share/nvim/runtime/ftplugin/python.vim
+nvim fzf
+nvim $(fzf)
+rm .fehbg
+nfzf
+nfzf\
+fzf
+nfzf\
+phylab
+open -a TextEdit .zshrc
+open -a Sublime .zshrc
+open -a Sublime Text .zshrc
+open -a "Sublime Text" .zshrc
+nvim ~/.config/nvim/plugged/minimalist/autoload/airline/themes/minimalist.vim
+git commit -m "partial q3"
+git push --set-upstream origin q3
+git branch master
+git checkout q3
+nvim -r q3.py
+/Applications/Alfred.app/Contents/Resources/reindex.sh ; exit;
+gc -m "finished q3, awaiting checking"
+git merge q3
+git mergetool q1.py
+homebrew search vimdiff
+brew search vimdiff
+git mergetool -help
+git mergetool --tool-help
+git commit -m "merged q3 branch into main"
+nvim q1.py.orig
+git restore q1.py q3.py
+remove q1.py.orig
+rm q1.py.orig
+git add q3.py
+git commit -m "removed print line"
+mv 5-player-5-strategy.nfg Q1.nfg
+cd CS711A/
+nvim g_reader.py
+git restore data/Q1.nfg g_reader.py
+cp testing_6 Q3.nfg
+cp testing_6.nfg Q3.nfg
+cp testing_6.nfg Q2.nfg
+cp testing_6.nfg Q1.nfg
+python3 check.py
+cp testing_4.nfg Q3.nfg
+python3 ../check.py
+cp testing_5.nfg Q3.nfg
+nvim data/temp.nfg
+git restore data/Q*
+cd Desktop/Courses/game\ theory/CS711A
+cat q3.py
+git restore q3.py
+rm -rf __pycache__ data/temp.nfg
+mkdir midsem
+rm -rf midsem
+mkdir l6
+nvim ~/.viminfo
+python3 p1.py 
+cat p2.py
+python3 p4.py
+nvim p5.
+python3 p6.py
+nvim p8
+nvim p8.py
+nvim p7.py
+cd l6
+nvim p1
+python3 p2
+python3 p3.py
+nvim p3.py
+nvim p4.py
+python3 p5
+rm p52.py
+python3 p5.py
+nvim p5.py
+nvim p6.py
+/Applications/iTerm.app/Contents/MacOS/image_decoder ; exit;
+rm = \=\ n
+nvim q5
+caty
+cat
+git config --global credential.helper store
+mkdir minimalist
+cp ~/.config/nvim/plugged/minimalist
+cp -r  ~/.config/nvim/plugged/minimalist 
+cp -r  ~/.config/nvim/plugged/minimalist .
+ls minimalist
+nvim phylab/l7/q2.py
+cp -r git/minimalist .config/nvim/plugged/
+nvim .config/nvim/plugged/minimalist/colors/minimalist.vim
+nvim phy
+echo $neovimruntime
+da
+dads
+fzfr
+nvim phylab/l6/q2.py
+nvim phylab/l7/q3.py
+cd Library/Containers/com.apple.BKAgentService/Data/Documents/iBooks/
+mls
+mv l2 l1
+mv l3 l2
+mv l4 l3
+mv l5 l4
+mv l6 l5
+mv l7 l6
+mkdir l7
+cd l7
+rm new.py
+python3 p2.py
+cp ~/Desktop/Courses/comp\ phy/Lab\ 7\ sample\ codes/schordinger.py .
+nvim schordinger.py
+mv schordinger.py q5.py
+nvim q4
+cd phylab/l7
+chmod u+x clean.sh
+rm clean.sh
+mkdir euler
+nvim p42.py
+nvim p43.py
+cd euler
+nvim p44.py
+nvim p45.py
+nvim p48.py
+nvim p49.py
+nvim timetest.py
+rm timetest.py
+rm p1
+nvim p1.cpp
+mkdir l8
+cd phylab/l8
+nvim shivi_q2.py
+mkdir project
+git pull https://github.com/prajjwalm/CS711-project
+git restore environment.py
+nvim environment.py
+git pull master
+git pull origin
+ga environment.py
+gc -m "wrote functions for single player repeated game"
+git config --global pull.ff only
+nvim players/TypeR.py
+git add .gitignore
+git commit -m "added pycaches to gitignore"
+nvim base_player.py
+nvim players/base_player.py
+git remove players/typeShr.py
+git reset --soft HEAD^
+echo $aliases
+echo $aliases > alises
+nvim alises
+rm alises
+git stauts
+git add .git
+git add logs/proceeds.log 
+git add main.py players/*
+git restore --staged players/typeShr.py
+git commit -m "Small changes"
+cp Desktop/Courses/comp\ phy/Comp_phys.pdf git/
+mkdir comp_phy_doc
+cp ../Comp_phys.pdf .
+gc -m "Le pdf le bhadwe"
+git remote add origin https://github.com/shreyashravi/comp_phy_doc.git
+nvim typeShr.py
+git add players/typeShr.py
+git pull --rebase
+git rebase --abort
+grep ff | history
+grep "ff" | history
+history > hist
+grep "ff" hist
+grep "ff" < history
+rm hist
+history | grep "ff"
+git config --global pull only
+git commit -m "added shreyash's agent"
+nvim main.py.orig
+rm main.py.orig
+mkdir l9
+cd l9
+cp ~/Desktop/Courses/comp\ phy/scrodinger.py .
+nvim scrodinger.py
+rm SC_equation_free_particle_box_10pi.pdf
+mv scrodinger.py schrodinger.py
+rm schrodinger\ graph.png
+nvim schrodinger.py
+rm mcq*
+mv q1_shivi.pi q1_shivi.py
+nvim q1_shivi.py
+git add main.py players/base_player.py
+git commit -m "updated constants"
+git restore players/base_player.py logs/proceeds.log
+git add main.py players/TypeR.py players/base_player.py
+git commit -m "updated u_infected"
+mv players/typeShr.py players/TypeShr.py
+ls players
+git restore players/typeShr.py
+git commit -m "Changes to Srajit's player along with updated constants"
+cd players
+nvim players/__init__.py
+git add players/__init__.py
+gc -m "fixed player names"
+mkdir l10
+python3 p1.py
+nvim p1.py
+nvim p2.py
+mv p2.py p3.py
+mv p1.py bisection.py
+mv p3.py newton_raphston.py
+nvim secant.py
+nvim relaxation.py
+nvim shooting_1.py
+nvim shooting_2.py
+nvim mcq3.py
+python mcq4.py
+nvim q1
+nvim q1.py q1_alt.py
+cd phylab/l10
+sudo rm /Users/shreyash/.local/share/nvim/swap/*.swp
+git add enviornment
+git restore enviornment
+git remove enviornment
+git reset enviornment
+rm -rf CS711-project
+git clone https://github.com/prajjwalm/CS711-project
+git history
+git add players/planner.py
+gc -m "added simple updation function"
+git add games/population.py players/base_player.py
+gc -m "Group scenario updates"
+ga players/planner.py games/population.py
+gc -m "theoretical developments for planner archtype"
+ga games/population.py players
+gc -m "updated planner.py with geometric weights"
+mkdir aoc
+mkdir 20
+nvim input
+nvim players/simple.py
+cp ~/random/test.py .
+mv test.py estimating_h.py
+git restore data.json
+ga estimating_h.py players
+gc -m "added h estimation"
+cd ran
+cd 1
+rm work_history.py
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+rustc -v
+rustc --v
+rustc --version
+nvim d1.py
+python3 estimating_h.py
+rm -rf games/__pycache__
+gc -m "planner.py updates"
+nvim d2.py
+nvim players/planner.py
+ga games/population.py
+gc -m "numpied boms type"
+gc -m "Coward.py updated"
+nvim players/coward.py
+nvim notes.txt
+python3 main
+gc -m "Bug fixing and logging updates"
+rm test2.py
+nvim estimating_h.py
+gc -m "Updated population.py for coward player"
+git mergetool -t vimdiff3
+nvim .git/MERGE_HEAD
+git commit -m "Merged files"
+python3 main.py
+nvim games/population.py
+nvim .config/nvim/templates/skeleton.py
+vim d4.py
+vim 
+rm d4.py
+nvim check.py
+CD 20
+nvim d3.py
+nvim d4.cpp
+dadd
+nvim logs/proceeds.log
+python3 main.py --simulate person --age-group m --job-type s --type c
+nvim main.py
+python3 main.py --simulate group --n-cowards 9 --n-planners 0 --n-simple 0
+pip3 install mathplotlib
+python3 main.py --simulate population --t-max 1000
+gc -m "added graphs and plotting functions"
+python3 main.py --simulate population
+rm -rf constants/__pycache__ games/__pycache__
+ga graphs
+ga main.py games/population.py
+git restore logs/proceeds.log
+gc -m "added graph diagram"
+nvim d4.py
+python3 d4.py
+python3 main.py --simulate population --type s --age y --job p
+python3 main.py --simulate person --type s --age y --job p
+chmod u+x simulation.sh
+nvim simulation.sh
+./simulation.sh
+python3 main.py --simulate population --plot
+python3 main.py -h
+python3 main.py --simulate population --eta-types 3 3 3 1
+ls -a graphs
+ls -h graphs
+python3 main.py --simulate population --eta-types 0.3 0.3 0.3 0.1
+python3 main.py --simulate population --eta-types 0.3 0.3 0.25 0.1 --plot
+python3 main.py --simulate population --eta-types 3 2.8 3 3 --plot
+python3 main.py --simulate population --eta-types 0.3 0.3 0.3 0.1 --plot
+python3 main.py --simulate population --eta-types 0.3 0.28 0.3 0.3 --plot
+rm simulation.sh
+git restore games/population.py graphs logs
+ga notes.txt
+gc -m "Updated notes.txt to reflect last day changes"
+nvim d5.py
+nvim d7.py
+nvim d8.py
+cd Desktop/Courses/game\ theory/CS711-project
+du --h
+du --help
+du CS711-project
+du .
+du -h .
+du -chd 1 | sort -h
+cd neurobio
+nvim .config
+nvim /cores
+;q
+cd Endsem
+tlmgr install blindtext
+sudo tlmgr install blindtext
+cd 2020basic/bin
+cd Desktop/Courses/neurobio/Endsem
+nvim endsem
+nvim endsem.tex
+nvim d9.py
+spicetify backup apply\
+: 1606871675:0;spicetify backup apply
+cd aoc/20
+nvim d10.py
+rm comp_phy*
+rm Comp_phys.pdf
+cd comp_phy_doc
+rm comp_phy_doc -rf
+cd extension
+rm -rf .
+rm -rf extension
+git clone https://github.com/shreyashravi/comp_phy.git
+mkdir -r phylab/endsems
+mkdir --help
+mkdir -p phylab/endsems
+mv -r  git/comp_phy/Snehal phylab/endsems/
+mv  git/comp_phy/Snehal phylab/endsems/
+cd comp_phy
+rm -rf comp_phy
+phylab/endsems
+nvim 1D_lagrange_interpolation.py
+cp ../l3/q3 .
+cp ../l3/q3.py .
+mv q3.py 2D_lagrange_interpolation.py
+nvim 2D_lagrange_interpolation.py
+nvim trapezoid_integration.py
+nvim simpson_1_3_integration.py
+nvim simpson_3_8_integration.py
+nvim laguerrre_gauss_integration.py
+nvim hermite_gauss_integration.py
+nvim legendre_gauss_integration.py
+nvim simple_differentiation.py
+nvim euler_forward.py
+nvim time_step_ode_methods.py
+cd ../l6
+cd ../endsems
+nvim leapfrog.py
+mv leapfrog.py leapfrog_for_oscillator.py
+r
+nvim 2D_fourier_transform.py
+cd Snehal
+jupyter notebook LAB7.ipynb
+jupyter --help
+nvim spectral_method_fourier_1D.py
+nvim 1D_diffusion_finite_difference
+nvim 1D_diffusion_finite_difference.py
+cd phylab/endsems/Snehal
+nvim 1D_wave_eqn_finite_difference.py
+nvim tes
+nvim fd_complex_pde.py
+nvim mcq2.py
+nvim 1D_fourier_transform.py
+nvim mcq6.py
+nvim mcq1.py
+nvim mcq7.py
+nvim mcq8.py
+nvim mcq9.py
+cd phylab/endsems/
+rm -rf Snehal
+cd endsems
+nvim mcq4.py
+nvim mcq5.py
+cd l10
+nvim newton_raphston.py
+v
+vv
+mkdir assgn1
+mv assgn1* assgn1
+cd assgn1
+nvim assgn1.tex
+tar
+cd Desktop/Courses/253
+tar -xvf q2-cs253.tar.gz
+rm 10ZmoZg3pWmw9aA DFwAU7iSoYorHy8 Q2.pdf q1-cs253.zip Q1.pdf.gz
+rm 10ZmoZg3pWmw9aA dUkeKOpRSOxQfx2
+cd --h
+cd -
+cd -h
+cd --help
+man 2 cd
+man 3 cd
+help cd
+mkdir q1
+mkdir q2
+mkdir t1 t2
+rm t1 t2
+rm -r t1 t2
+mv q1-cs253.tar.gz q1
+mv q2-cs253.tar.gz q2
+man tar
+chmod 755 Q1.pdf.gz
+cd q1-cs253.zip
+chmod 000 Q1.pdf.gz
+chmod u+x Q1.pdf.gz
+chmod 700 Q1.pdf.gz
+tar -xv Q1.pdf.gz
+tar -xvf Q1.pdf.gz
+cd q2/q2-cs253
+chmod 700 Q2.pdf
+cd git/reproducing-arch-installation
+nvim update.sh
+chmod u+x update.sh
+./update.sh
+nvim nvim/init.vim
+nvim nvim/.netrwhist
+gc -m "updated with current init.vim in use on the mac"
+git rm nvim
+cd Desktop/Courses/Quantum\ Computing
+mkdir assgn2
+cd assgn
+cd assgn2
+nvim assgn2.tex
+tlmgr install dsfont
+sudo tlmgr install dsfont
+chmod 700 10ZmoZg3pWmw9aA DFwAU7iSoYorHy8 dUkeKOpRSOxQfx2
+touch a.txt
+echo "lasdsdfafa" >> a.txt
+./dUkeKOpRSOxQfx2 < a.txt
+./10ZmoZg3pWmw9aA < a.txt
+ps aux 
+ps aux | grep 
+ps aux | grep "10ZmoZ"
+kill -9 36782
+ps -ef
+ps aux | grep daemon
+ps -ef | grep daemon
+pstree -x
+cd 1611338434_cs253_assign_1
+cd q2-cs253
+./DFwAU7iSoYorHy8 < a.txt
+kill 37660
+./DFwAU7iSoYorHy8 < a.txt &
+kill 37710
+p
+./dUkeKOpRSOxQfx2 < a.txt &
+pa
+ps
+ps -f | grep timeout 43 
+ps -f\\
+ps -fs -f
+ps -f
+ps -f | grep 'timeout 43'
+ps -o pid,args -C bash
+ps -o pid,args
+man ps
+ps -o pid --ppid
+nmap
+brew install nmap
+nmap -v
+nmap --version
+nmap -v scanme.nmap.org
+nmap localhost
+nmap localhost -sV
+nmap -sV -F  www.google.com
+nmap --open -sV scanme.nmap.org
+nmap --open -sV 10.1.3.9 
+nmap --open -sV -Pn  10.1.3.9 
+ipcalc
+nmap --open 10.1.3.9
+nmap -sP 192.169.0.0-100
+cd Desktop/Courses/Quantum\ Computing\ \(CS682\)
+cd Weekly\ Assignments/
+mkdir assgn3
+cd assgn3
+nvim assgn3.tex
+homebrew search jq
+brew search jq
+brew install jq
+jq
+jq "." coding
+brew install wget
+wget https://api.covid19india.org/v4/data.json -O covid_Data.json
+jq "." covid_Data.json
+neovim .config/nvim/init.vim
+ls | grep python
+brew cask upgrade
+python -m pip uninstall neovim pynvim
+python3 -m pip3 uninstall neovim pynvim
+pip3 uninstall neovim pynvim
+pip3 install pynvim --upgrade
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+cd ~/.config/nvim/plugged/YouCompleteMe
+~/.config/nvim
+nvim youcompleteme.vim
+rm -rf /usr/bin/python
+sudo rm -rf /usr/bin/python /usr/local/bin/python3
+which python3 
+brew uninstall --ignore-dependencies python3
+brew link python@3.9
+nvim .config/nvim/init.vim
+python3 -m pip install --upgrade pynvim
+pip install --upgrade pip
+python -m pip install setuptools
+nvim -u NORC
+pip3 install --no-cache-dir --upgrade --force-reinstall pynvim
+pip3 install --no-cache-dir --upgrade --force-reinstall neovim
+pip3 install pynvim
+latexmk
+sudo tlmgr install latexmk
+jq "AN" covid_Data.json
+jq ".AN.districts | count" covid_Data.json
+jq ".AR.districts | length" covid_Data.json
+jq ".AR" covid_Data.json
+jq ". | length" covid_Data.json
+jq . covid_Data.json --tab
+cd Security\ Systems\ \(CS628\)
+mkdir lab2
+z253
+jq . covid_Data.json
+jq ".[]" covid_Data.json
+nvim covid_Data.json
+jq ".[]" --tab covid_Data.json
+jq ".[]" covid_Data.json -c
+jq ".[]" covid_Data.json -c >> sample
+nvim sample
+rm sample
+chmod 700 process.sh
+jq ".Aa.districtsN" covid_Data.json
+jq ".Aa.districts" covid_Data.json
+jq ".AN.districts" covid_Data.json
+jq ".AN.districts | length" covid_Data.json
+jq ".AP.districts | length" covid_Data.json
+jq ".BH.districts | length" covid_Data.json
+jq ".BI.districts | length" covid_Data.json
+jq ".BR.districts | length" covid_Data.json
+jq " . | length" covid_Data.json
+jq ".AP | length" covid_Data.json
+jq ".AP" covid_Data.json
+jq ".AN" covid_Data.json
+jq '.AN' covid_Data.json
+./process.sh > test1
+mv test1 test1.json
+cat small_data.json
+touch small_data.json
+cat covid_Data.json > small_data.json
+nvim small_data.json
+rm test1.json 
+./proce
+%?
+jq --help
+z 628
+mkdir assgn4
+cd assgn4
+nvim assgn4.tex
+./proc
+cd
+nvim process.sh
+z 253 
+cd cs
+jq ".AR.districts | length" small_data.json
+jq ".AR.districts | to_entries[] " small_data.json
+jq ".AR.districts | to_entries[] | select( .key != Unknown)" small_data.json
+jq ".AR.districts | to_entries[] | select( .key != 'Unknown')" small_data.json
+man vc
+man bc
+jq ".AR.districts | to_entries[] | select( .key != \"Unknown\")" small_data.json
+jq ".AN.districts | to_entries[] | select( .key != \"Unknown\")" small_data.json
+cat output.txt
+cat logfile
+rm logfile output.txt
+cat csv
+cat error
+rm error
+jq " [ 234, 42.34 | floor, 23]\
+quit
+jq " [ 234, 42.34 | floor, 23]"\
+quit
+jq -null-input " [ 234, 42.34 | floor, 23]"\
+quit
+jq --null-input " [ 234, 42.34 | floor, 23]"\
+quit
+jq --null-input " [243, 42.34 | floor, 23] | reverse " 
+jq --null-input " [243, 42, 23] | reverse " 
+jq --null-input " [243, 42.4, 23] | reverse " 
+jq --null-input " [243, 42.4 | floor, 23] | reverse " 
+jq --null-input " [243, 42.4 | floor] | reverse " 
+jq --null-input " [42, 243, 42.4 | floor] | reverse " 
+jq --null-input " [42, 243, 42.467 | floor] | reverse " 
+jq --null-input " [42, 243.4 | floor, 42.467] | reverse " 
+jq --null-input " [42, 243.4 | floor, 42.467] " 
+man jq
+./process.sh 
+./process.sh
+nvim csv
+rm cs
+rm csv
+rm cs253_assign_2_17807683.sh
+mv process.sh cs253_assign_2_17807683.sh
+chmod 700 cs253_assign_2_17807683.sh
+sed --help
+cat pro
+cd cs253_assign_2
+./pro
+ls;
+man awk
+cat processed_Covid_Data_17807683.csv-r
+rm processed_Covid_Data_17807683.csv-r
+cat cs253_assign_2_17807683.sh
+rm processed_Covid_Data_17807683.csv*
+rm sma
+mv small_data.json ..
+cat Errors.log
+rm Errors.log
+rm processed_Covid_Data_17807683.csv
+rm errors.log
+rm errors.log processed_Covid_Data_17807683.csv
+mv cs253_assign_2 cs253_assign_2_17807683
+zip -r cs253_assign_2_17807683 cs253_assign_2_17807683.zip
+zip -r cs253_assign_2_17807683.zip cs253_assign_2_17807683
+rm small_data.json
+rm cs253_assign_2_17807683.zip
+nvim processed_Covid_Data_17807683.csv
+mkdir demo1
+cd cs253_assign_1_17807683
+chmod 700 Q1.pdf.gz q1-cs253.tar.gz
+gzip -r Q1.pdf.gz
+nvim steps.md
+cd ../
+cd demo1
+gunzip Q1.pdf.gz
+tar -xvf q1-cs253.tar.gz
+unzip q1-cs253.zip
+chmod 700 deploy.gz 5688bc90-ab36-4a02-b192-d2426572bc93.gz
+gzip -d 5688bc90-ab36-4a02-b192-d2426572bc93.gz deploy.gz
+./deploy
+./5688bc90-ab36-4a02-b192-d2426572bc93
+chmod u+r 97jsu9aGWUWPAKk ZKC05PWZZDPsF7L
+chmod 700 97jsu9aGWUWPAKk ZKC05PWZZDPsF7L
+ls -la 97jsu9aGWUWPAKk
+cat 97jsu9aGWUWPAKk/Og0u5EZF8RLMA1p
+cat 97jsu9aGWUWPAKk/Sh1NkUqkCgaGHoG
+cat ZKC05PWZZDPsF7L/mE1e3:9j\[y\}zD\}\*
+chmod 700 deploy
+./deploy ZKC05PWZZDPsF7L IlNdvGvIi2GtuCc 97jsu9aGWUWPAKk 17807683
+cd q2
+cat alpha
+cat beta
+cat gamma
+nvim print_script.sh
+cat killer.sh
+nvim killer.sh
+./print_script.sh
+cd assign_1/q2
+./killer.sh
+nmap --help
+nmap scanme.nmap.org
+iw dev
+sudo iw de
+sudo iw dev
+brew search iw
+nvim Test.tex
+g++
+g++ --help
+man g++
+man gcc
+z 682
+cd Wek
+cd Weekly\ Assignments
+ls assgn4
+nvim assgn5.tex
+history | grep tex
+sudo tlmgr install physics
+sudo tlmgr update --self && tlmgr install physics
+tlmgr update --self
+mkdir assign_3
+git clone https://github.com/CS253-IITK-2021/Demo-Codes.git
+chmod u+x generate.sh
+rm 2
+./
+./generate.sh 2 
+man test
+./generate.sh 2 examples
+./generate.sh 2
+echo $random
+echo $RANDOM
+man coreutils
+man shuf
+shuf -i 1-10 0n 1
+shuf -i 1-10 -n 1
+shuf -i -2147483648-2147483647 -n 1
+./generate.sh 5
+z 53
+cs assign_3
+./generate.sh 4
+cat testcases.txt
+cd Demo-Codes
+cd Demo-1-gcov-googletest
+cp coverage ../../
+cp coverage ../../ -r
+rm -rf Demo-Codes
+cd coverage
+make 
+ls coverage
+cp coverage/coverage.cpp .
+g++ -g -fprofile-arcs -ftest-coverage coverage.cpp
+ls a.out
+ls a.out.dSYM 
+rm coverage.gcno
+rm testcases.txt
+g++ -g -fprofile-arcs -ftest-coverage coverage.cpp -o coverage
+g++ -g -fprofile-arcs -ftest-coverage coverage.cpp -o coverager
+./coverager
+rm coverage.*
+rm coverage*
+rm coverage* -rf
+./generate.sh
+man 4 random
+./cs253_assign_2_17807683.sh
+cd Demo2
+cd cs253_assign_2_17807683
+cd Demo2/cs253_assign_2_17807683
+nvim cs253_assign_2_17807683.sh
+ls -lt
+cat processed_Covid_Data_17807683.csv
+cat errors.log
+jq --version
+cat covid_Data.json
+cd reproducing-arch-installation
+z arch
+cp ~/.config/nvim/init.vim .
+git add init.vim
+gc -m "Added init.vim and removed nvim directory"
+mkdir assign_1
+python3 sender.py
+./receiver.py
+python3 receiver.py
+chmod u+x reduce.sh
+cd assign_1
+cd q1
+man kill
+kill --help
+cd ~/.config/spicetify
+ls .
+spicetify config current_theme BreezeLight
+spicetify config current_theme Frostify
+spicetify config current_theme CherryBlossom
+spicetify config current_theme base
+spicetify config current_theme Base
+spicetify config current_theme Dribbblish
+z /Users/shreyash/Desktop/Courses
+history | grep "tlmgr"
+sudo tlmgr update --all
+cat hw1sol.
+cat hw1sol.tex
+sudo tlmgr install pmisubmit
+cat hw1sol.log
+rm hw1sol.log
+sudo tlmgr install fullpage
+sudo tlmgr install geometry
+sudo tlmgr install preprint
+sudo tlmgr install algorithmic
+sudo tlmgr install algorithm
+sudo tlmgr install stmaryrd
+sudo tlmgr install titlesec
+sudo tlmgr install framed
+nvim pmisubmit.sty
+nvim pmi.sty
+cd ~/.config/nvim
+cd plugged/ultisnips
+rm -rf YouCompleteMe
+sudo rm -rf YouCompleteMe
+python3 install.py --all
+history | grep "python3 install"
+sudo python3 install.py --all
+mv 1612953165_hw1v2.pdf assign1
+cd assign1
+z 698
+cd hw1
+sudo tlmgr install algpseudocode
+sudo tlmgr install hyperref
+nvim plots.py
+pip3 install scipy
+mv plots.py q1_1.py
+nvim q1_2.py
+python3 q1_1.py
+rm q1_1.py q1_2.py
+mkdir plots
+mv q1_1.jpg q1_2.jpg plots
+mv plots/q1_1.jpg .
+mv q1_1.jpg plots
+mkdir code_for_q6
+cd code_for_q6
+cd banga\'s\ code
+mv Untitled.ipynb q1_6.ipynb
+rm googlechrome.dmg
+chmod u+x Anaconda3-2020.11-MacOSX-x86_64.sh
+nvim q6,py
+mv q6,py q6.py
+nvim q
+rm *.png
+nvim hw1sol.tex
+z hw1
+cd plots
+mv code_for_q6 17807683
+zip 17807683.zip 17807683
+zip -rf 17807683.zip 17807683
+cd 17807683
+cd plot
+rm 17
+rm 17807683
+rm 17807683 -rf
+rm 17807683.zip
+mv plots
+mv plots 1780683
+zip -r 17807683.zip 17807683
+ls 1780683
+zip -r 1780683.zip 1780683
+mkdir coding
+cd include
+cd codin
+z local
+rm -rf bits
+brew search gcc
+brew install gcc 
+cd coding
+rm -rf coding
+mkdir courses
+rm courses -rf 
+mv phylab Desktop/Courses
+mv phylab 7th\ Sem
+cd 7th\ Sem/
+mv phylab comp\ phy
+mv euler project_euler
+mkdir competitive
+nvim ~/.config/nvim/init.vim
+nvim ~/.zshrc
+./test
+g++ test.cpp > error.log &2>1
+g++ test.cpp > error.log 2>&1
+nvim -q error.log
+rm 1
+rm error.log
+mkdir esc101
+nvim test2
+nvim ~/.config/nvim/templates/skeleton.c
+cd YouCompleteMe
+nvim .ycm_extra_conf.py
+rm .ycm_extra_conf.py
+gcc chakravyuh.c
+./a.out < test1
+./a.out < test2
+nvim chakravyuh_statement.txt
+mv chakravyuh.c chakravyuh_solution.c
+nvim chakravyuh_template.c
+cat test2
+mkdir testcases
+mv test* test
+mv test* testcases
+nvim test3
+nvim test4
+nvim test5
+nvim test6
+rm chakravyuh_statement.txt
+rm chakravyuh_template.c
+mv chakravyuh_solution.c chakravyuh.c
+gcc encrypt.c
+gcc decrypt.c
+gcc encrypt.c -o encrypt.c
+rm encrypt.c
+wc -l "helloooo"
+echo "hello" | wc -c 
+echo "helloa" | wc -c 
+wc -c 
+man wc
+wc --help
+wc -c
+"heelo sda" | wc -c
+echo "afhhafarefad" | wc -c
+echo "afhhafarefaadswjksd" | wc -c
+mkdir cf106
+g++ test.cpp
+g++ -std=c++11 test.cpp
+g++ -std=c++16 test.cpp
+z competet
+z competit
+cd cf106
+cp script.py ~/random
+python3 script.py
+cd Cou
+cd CS253
+mkdir assgn5
+cd assgn5
+rm assgn5 -rf
+mkdir a5
+cd a5
+mv faker-6795-600x330.jpg faker.jpg
+rm test*
+rm ~/.local/share/nvim/swap/%Users%shreyash%Desktop%Courses%CS253%a5%script.py.swp
+nvim script.py
+rm Champ\ pool.png
+z a5
+nvim faker.tex
+rm 3PP.png
+rn Champ\ pool.jpg
+rm Champ\ pool.jpg
+mv a5 cs253_assign5_17807683
+zip -r cs253_assign5_17807683
+zip -r cs253_assign5_17807683.zip cs253_assign5_17807683
+mkdir lab_problems
+mv testcases *.c encrypt decrypt a.out lab_problems
+mkdir tutorials
+rm -rf w1
+mkdir w1
+nvim hello.md
+rm test.c a.out
+cd w1
+nvim hello.c
+gcc temp.c
+nvim temp.c
+nvim hello1.c
+gcc hello.c -o hello
+gcc hello.c
+gcc hello1.c
+z w1
+nvim escape.c
+mkdir w2
+rm a.out hello.c
+mkdir cf712
+cd cf712
+nvim dejavu.cpp
+rm dejavu.cpp
+rm -rf cf712
+z esc
+cd w2
+ping -c 3 reddit.com
+traceroute reddit.com
+nvim sender.py
+nvim random.latex
+nvim rand.tex
+cd assign2
+cd sen
+z Q2
+cd rec
+z networks
+rm sender_pm.py
+mv sender_pm-2.py sender_pm.py
+python3 receiver.py 8 5 output.txt
+nvim receiver.py
+nvim FileToTransfer.txt
+python3 receiver.py 5 5 output.txt
+cat FileToTransfer.txt
+z rec
+nvim sender_pm.py
+python3 sender_pm.py
+python3 receiver.py 4 5 output.txt
+cd Q1
+nvim TestCase.txt
+nvim Q1_HelperFile.
+cat Q1_HelperFile.txt
+rm Q1_HelperFile.txt
+python3 Q1_HelperFile.py
+cp Q1_HelperFile.py ..
+cd Q2
+cp Q2/sen/sender_pm.py .
+mv sender_pm.py sender.py
+rm -rf Q1 Q2
+zip -r cs425_group_21_assign_2.zip Q1_HelperFile.py sender.py
+z q1
+z Q1
+z sen
+z assign2
+cd Assignment2
+mkdir lc
+nvim software.tex
+zip -r cs253_critique.zip CS253_6C_Documentation_critique.pdf software.pdf design_critique.pdf
+mkdir w3
+cd w
+nvim triangle.c
+./Anaconda3-2020.11-MacOSX-x86_64.sh
+./Anaconda3-2020.11-MacOSX-x86_64.sh -u
+cd w3
+nvim rand.c
+spicetify clear backup
+spicetify restore backup
+spotify backup apply
+nvim encrypt
+rm a.out encrypt
+rm decrypt
+cd testcases
+nvim test1
+rm decrypt encrypt
+gcc decrypt.c -o decrypt
+nvim encrypt.c
+gcc encrypt.c -o encrypt
+nvim decrypt
+echo "Encyclopaedia" | wc - l
+./decrypt
+history | grep "wc"
+nvim cipher_testcases
+echo "Encyclopaedia" | wc -c
+echo "++i is better than i++" | wc -c
+echo "++i is faster than i++" | wc -c
+echo "the quick brown fox jumps over the lazy dog" | wc -c
+echo "lorem ipsum dolor sit amet" | wc -c
+./encrypt 26
+echo "Et tu Brutus?" | wc -c
+echo "Linux >>> Windows" | wc -c
+./encrypt
+cd cou
+z 253
+cd assign_
+cd assign_3
+cd cs253_demo
+cat steps.md
+./generate.sh 10
+ls tes
+ls test
+cat test/T
+nvim generate.sh
+nvim S
+z cs253_demo
+cd cs253_assgn3_17807683
+nvim reduce.sh
+nvim test/P.cpp
+chmod u+x coverage.sh
+./coverage.sh
+./reduce.sh
+cat test/S
+nvim coverage.sh
+./coverage.sh test/P test/S
+./coverage.sh P S
+./coverage.sh P test/S
+mkdir w4
+nvim rabbit.c
+nvim chars.c
+nvim rahber.c
+nvim rahber_q1.c
+mkdir w5
+cp ../lab_problems/decrypt.c .
+cp decrypt.c w5
+nvim decrypt.c
+nvim decrypt.c q1.c
+mv decrypt.c q1.c
+rm q2.c
+mv q2_my.c q2.c
+nvim q1.c
+nvim q2.c
+nvim q3.c
+cd w4
+nvim abundance.c
+cd lab
+z /Users/shreyash/esc101
+cd w5
+nvim array_in_function.c
+nvim array_
+nvim array_in_function.c hex.
+mv array_in_function.c hex.c
+gcc array_func.c
+z w5
+nvim function.c
+3
+nvim test1.c
+gcc test1.c
+nvim input_file.txt
+nvim array_func.c
+Y
+z COurses
+cd Algorithmic\ Information\ Theory\ \(CS687\)
+cd a2
+z 687
+cd assign1/
+nvim hw1.tex
+cd ../a2
+z a2
+rm hw1*
+nvim a2.tex
+cd 
+nvim quiz.c
+gcc quiz.c
+cd CS698X
+cd MEGAsync\ Downloads
+rm MEGAsync\ Downloads
+rm -rf MEGAsync\ Downloads
+rm -rf cs253_demo
+z 698x
+cd hw3
+nvim hw3sol.tex
+ping -c 3 mirror.cse.iitk.ac.in
+pip
+pip3
+z nisheeth
+cd Nisheeth
+rm -rf Nisheeth
+mkdir thesis
+/Users/shreyash/Downloads/chromedriver ; exit;
+python3 youtube_metadata.py
+nvim aaj_tak_data.py
+nvim top_channels.txt
+nvim hindi_channel_ytlinks
+nvim english_channel_ytlinks
+mkdir w7
+nvim w7
+nvim paranthesis.c
+cd competitive
+mv competitive cp
+nvim 7.cpp
+nvim 9.cpp
+nvim 13.cpp
+cd lp
+nvim 14.cpp
+nvim 20.cpp
+cd esc101/tutorials/w7
+cd plugged/vimspector
+python3 install_gadget.py --all
+python3 install_gadget.py --enable-cpp
+nvim 21.cpp
+nvim 26.cpp
+nvim 27.cpp
+nvim 28.cpp
+nvim 35.cpp
+cd esc101
+nvim recursion.c
+cd w7
+nvim reverse.c
+gcc rev
+gcc reverse.c
+nvim youtube_metadata.py
+cd 20
+nvim d6.py
+nvim aajtak.csv
+rm videos.csv
+nvim RepublicTVBharat.csv
+cat channel_data/RepublicWorld.csv
+nvim RepublicWorld.csv
+rm dat
+rm 53.cpp
+nvim 53.cpp
+nvim 66.cpp
+nvim 67.cpp
+nvim 69.cpp
+nvim 70.cpp
+nvim 83.cpp
+nvim 88.cpp
+nvim 94.cpp
+nvim 100.cp
+grep sleep .
+grep sleep -r .
+nvim channel_data/Republic
+nvim data
+nvim cf
+mv project_euler cp
+mkdir 273
+cd 273
+nvim tutorials
+mkdir w8
+nvim movies.c
+z wk8
+nvim w8
+cd w8
+gcc test.c
+nvim mult_arrays.c
+nvim data_logs
+mv data_logs logs
+nvim chakravyuh_solution.c
+nvim channel_data/RepublicWorld.csv
+nvim test.l
+rm test.l
+z tehsis
+nvim chakravyuh.c k
+rm 101.
+z lab_problems
+nvim num_paths.c
+z w8
+mkdir w9
+nvim files.c
+gcc files.c -o xD
+./xD
+./a.out 4 5 6
+z w9
+./a.out 4 5 24 52
+gcc command_line_arguments.c
+gcc files.c
+./a.out 56 20 /
+nvim command_line_arguments.c
+nvim structures.c
+nvim esc101
+nvim random/test.c
+nvim debugger.csv
+rm debugger.csv 
+git push -u origin master
+git reset --hard origin/master
+git reset --hard origin
+git reset --hard master
+rm -rf .git .gitignore
+git commit -m "initial commit"
+git remote add origin https://github.com/shreyashravi/media_content_diversity.git
+nvim 100.cpp
+nvim 101.cpp
+nvim 104.cpp
+git add channel_data
+nvim lo
+git commit -m "The data for all news channels for the past 3 months has been scrapped and stored in the channel_data folder"
+nvim 112.cpp
+ls -a spicetify_data/
+cd spicetify_data
+spicetify restore backup apply
+nvim 118.cpp
+curl -fsSL https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.sh | sh
+/Users/shreyash/spicetify-cli/spicetify --help
+/usr/local/Cellar/coreutils/8.32/bin/gbase32 ; exit;
+/Users/shreyash/spicetify-cli/spicetify
+ls -s /Users/shreyash/spicetify-cli/spicetify /usr/bin/spicetify
+ls -s /Users/shreyash/spicetify-cli/spicetify /usr/bin/
+yes
+ls | head -n 10
+cd /Users/shreyash/spicetify-cli
+ln -s test spicetify
+history | tail -n 15
+mkdir test
+ln -s spicetify test
+rm test -rf
+ln -s /Users/shreyash/spicetify-cli/spicetify /usr/bin/spicetify
+sudo ln -s /Users/shreyash/spicetify-cli/spicetify /usr/bin/spicetify
+ln -s /Users/shreyash/spicetify-cli/spicetify /usr/local/bin/spicetify
+spicetify --help
+cd git/ls
+spicetify -c
+cd git/spicetify-themes
+cd Ext
+cp dribbblish.js ../../Extensions
+spicetify config current_theme Dribbblish color_scheme purple
+spicetify config current_theme Dribbblish color_scheme samourai
+cd ../Themes
+spicetify config current_theme Tree-Green
+spicetify path
+gc -m "Updated readme\
+"
+du channel_data
+mv english_channel_ytlinks english_channels_ytlinks
+mv hindi_channel_ytlinks hindi_channels_ytlinks
+nvim todolist
+git rm english_channel_ytlinks hindi_channel_ytlinks
+git add english_channels_ytlinks hindi_channels_ytlinks
+mkdir w10
+cd w10
+nvim 7th\ Sem
+cd 7th\ Sem
+cd game\ theory
+z CS711
+git add channel_statistics.py tools.py
+git add .gitignore data_collector.py hindi_channels_ytlinks tags
+nvim channel_data/DDIndia.csv
+python3 channel_
+q
+z w10
+nvim linked_lists.c
+gcc linked_lists.c
+pip3 install pep8 flake8 isort yapf
+mkdir vim_source_files
+mv semshi.vim vim_source_files
+nvim vim_source_files/semshi.vim
+nvim plugged
+cd minimalist/m
+cd syntax
+nvim python.vim
+cd autoload
+cd airline
+cd themes
+nvim minimalist.vim
+../../
+../
+cd plugged/python-syntax
+nvim syntax/python.vim 
+nvim plugged/python-syntax/syntax/python.vim
+nvim ~/.config/nvim/plugged/minimalist/colors/minimalist.vim
+rm OPLOLReplay.csv
+rm halfasinteresting.csv
+z tesi
+python3 sanitise_data.py
+mv random cnnnews18.csv.old
+mv cnnnews18.csv.old cnnnews18.csv
+rm cnnnews18.csv.old
+nvim channel_statistics.py
+git restore --staged channel_data
+git restore channel_data
+git restore abpnews.csv
+nvim channel_data/abpnews.csv
+python3 channel_statistics.py
+ga graphs.py
+mkdir graphs\
+
+git add ../graphs
+git add graphs.py graphs/
+pip3 install plotly
+pip3 install tabulate
+nvim graphs
+pip3 install dataframe-image
+du -h channel_
+du -h channel_data
+nvim 119.cpp
+nvim 121.cpp
+nvim 122.cpp
+nvim 125.cpp
+nvim 136.cpp
+rm TodayontheKoreanServer.csv
+mv channel_statistics.py channel_class.py
+grep "channel_statistics" -r *
+nvim graphs.py
+mv graphs.py data_statistics.py
+gc -m "Renamed some files"
+cd tutorials
+z w11
+mkdir w11
+cd w11
+nvim data_structures.h
+nvim data_structures.c
+nvim vector_add.c
+rm data_structures.o
+gcc -c data_structures.c
+rm vector_add.o
+gcc vector_add.c
+gcc -c vector_add.c
+gcc vector_add.c data_structures.o
+nvim macros.c
+ls -ah
+cd Google
+fzf .
+cd Chrome
+cd Default
+cd Extension
+cd Extensions
+z google
+cd Chrome/Default/Extensions
+cd cjpalhdlnbpafiamejdnhcphjbkeiagm
+echo $pwd
+cd 1.35.2_0
+mv channel_data/adblockplus.crx .
+echo "adblockplus.crx" >> .gitignore
+rm logs
+nvim data_collection_logs
+nvim ch
+python3 -m site
+cd /Users/shreyash/
+cd anaconda3/
+cd lib/python3.8
+cd python3.8/site-packages/selenium
+cd webdriver/
+cd webdriver
+cd chrome
+nvim __init__.py
+z webdriver
+grep "Firefox" -r *
+grep "geckodriver" -r *
+cd webdriver/firefox/
+nvim webdriver.xpi
+nvim webdriverpy
+nvim webdriver.py
+nvim -M webdriver.py
+cd common
+cd webdriver/common
+nvim service.py
+pip3 install webdrivermanager
+brew install geckodriver
+cd /usr/local/Cellar/geckodriver/0.29.1
+cp geckodriver /Applications
+mkdir -p ~/thesis/drivers
+mv geckodriver ~/thesis/drivers
+mv /Applications/geckodriver .
+mv /Applications/chromedriver ~/thesis/drivers
+rm geckodriver
+mv drivers/chromedriver /Applications
+cat channel_data/TodayontheKoreanServer.hsv
+mkdir extensions
+mv adblockplus.crx ublock_origin.xpi extensions
+ls extensions
+mkdir doubts
+cd doubts
+nvim ifndef.c
+nvim fscanf.c
+nvim 4.cpp
+z /Users/shreyash/esc101/tutorials
+nvim channel_data/TodayontheKoreanServer.hsv
+echo geckodriver.log >> .gitignore
+cd extensions
+ga extensions
+git restore --staged channel_data/TodayontheKoreanServer.hsv
+echo channel_data/TodayontheKoreanServer.hsv >> .gitignore
+mkdir 728
+cd 728
+z template
+nvim cf_skel.cpp
+nvim skeleton.cpp
+nvim skeleton.c
+nvim skeleton.py
+rm 1.cpp
+nvim 1.
+gcc 1.cpp
+mv 1.cpp 728
+cat 1.cpp
+cp/cf
+z 728
+g++ 2.cpp
+g++ -std=c++17 2.cpp
+nvim 3.cpp
+nvim test.cpp 
+mkdir 727
+cd 727
+nvim 1
+nvim channel_class.py 
+grep "News_Channel" *
+grep "News_Channel" * -r
+where is
+where flake8
+conda list
+flake8 data_collector.py
+flake8 sanitise_data.py
+cd plenary.nvim
+ls .git
+rm tags .git -rf
+cd python-syntax
+nvim syntax/python.vim
+ls plugged/auto-pairs
+ls plugged/auto-pairs -a
+git submodule add plugged/auto-pairs
+git restore all
+git restore .
+nvim .netrwhist
+git add autoload templates vim_source_files init.vim
+echo ".netrwhist" > .gitignore
+git add plugged/*/
+git reset plugged
+git add plugged/python-syntax
+cd minimalist
+rm -rf minimalist
+tree
+git clone https://github.com/shreyashravi/nvim_configurations --recurse-submodules
+git submodule add plugged/python-syntax
+git submodule add https://github.com/vim-python/python-syntax plugged/python-syntax
+cd .git
+nvim index
+rm python-syntax/.git
+rm python-syntax/.git -rf vim-hexokinase/.git
+rm .git/index
+git commit -m "new commit"
+rm -rf nvim_configurations
+git clone https://github.com/shreyashravi/nvim_configurations
+cd nvim_configurations
+rm -rf nvim_configurations/
+softwareupdate --all --install --force
+sudo rm -rf /Library/Developer/CommandLineTools
+sudo xcode-select --install
+brew unlink luajit
+brew install --HEAD luajit
+brew link luajit
+brew unlinnk neovim
+vim init.vim
+brew link neovim
+rm test.c
+cd gut
+cd vim-gitgutter
+cd vim-gutentags
+neovim --version
+brew install --HEAD neovim
+nvim ~/.local/share/nvim/log
+cd ~/.local/share
+brew uninstall neovim
+brew unlink neovim
+vimrc 
+nvim unimpaired.vim
+ls *.py
+nvim 5.1c
+nvim 5_1.c
+gcc 5_1.c
+mkdir advanced_stuff
+grep "switch" *
+grep "switch" * -r
+cd w9
+nvim switch_case.c
+z advanced
+nvim bitwise_operators.c
+z tutorials
+cd advanced_stuff
+nvim static_int.c
+mkdir ed109
+cd ed109
+echo "" | gcc -xc - -v -E\
+
+cd X11
+cd /Library/Developer/CommandLineTools
+cd /usr/local/include
+z include
+ls bits
+mv stdc++.h bits
+nvim lalala.h
+mv lalala.h /usr/local/include
+rm /usr/local/include/lalala.h
+history | grep "bits"
+history 10
+history 3
+fc -l
+fc -l 10
+fc -l 10 20
+fc -l 4245 4255
+fc -l 4235 4255
+cd /Library/Developer/CommandLineTools/usr
+cd lib/clang/12.0.5/include
+echo "" | g++ -xc - -v -E\
+
+cd SDKs/
+cd MacOSX11.3.sdk/usr/include/
+mkdir bits
+sudo mkdir bits
+cd bits
+nvim stdc++.h
+sudo nvim stdc++.h
+nvim mohan1.c
+nvim 141_v2.cpp
+nvim 144.cpp
+nvim revision_topics
+nvim 145.cpp
+z esc101
+cd lab_problems
+snvim chakravyuh.c
+nvim chakravyuh.c
+z l
+nvim 160.cpp
+nvim 167.cpp
+nvim ~/.config/nvim/templates/skeleton.cpp
+rm 168.cpp
+nvim 168.cpp
+mkdir 729
+cd 729
+nvim ~/.config/nvim/templates/cf_skel.cpp
+g++ 1.cp
+g++ 1.cpp
+nvim 2.cpp
+brew link six
+brew link --overwrite --dry-run six
+brew link --overwrite six
+where gcc
+g++ -v
+Software Update
+xcode-select --version
+sudo xcode-select --switch /Library/Developer/CommandLineTools
+xcodebuild --version
+brew reinstall gcc
+./install.py --clang-completer
+sudo ./install.py --clang-completer
+npm
+npm -v
+npm update
+cd vim_source_files
+nvim compe_config.lua
+npm - -g pyright
+npm cache clean
+npm i -g pyright
+nvim vim_source_files/compe_config.lua
+cd nvim-compe
+grep "highlight" -r .
+z minimalist
+nvim colors/minimalist.vim
+brew install llvm
+where clangd
+cd llvm/12.0.0_1/
+cd llvm
+cd 12.0.0_1
+cd /etc/paths.d
+cd /etc
+nvim paths
+sudo nvim paths
+cd llvm/12.0.0_1
+echo $PWD
+cd vim-unimpaired
+mv vim_source_files config_files/
+cd config_files
+nvim lsp_config.lua
+z thesi
+nvim channel_class.py -M
+vim channel_class.py
+sudo rm YouCompleteMe
+git add plugged/python-syntax 
+git add plugged
+git add config_files
+echo "tags" >> .gitignore
+git add init.vim .gitignore plugged templates vim_source_files
+git commit -m "Moved to LSP"
+cd plugged/YouCompleteMe
+sudo rm YouCompleteMe -rf
+cd sonokai
+nvim config_files/tree_sitter.lua
+nvim plugged/sonokai/colors/sonokai.vim
+nvim 169.cpp
+rm *.py
+nvim 141.cp
+nvim 141.cpp
+git add plugged/YouCompleteMe
+git add plugged/nvim-compe
+nvim config_files/compe_config.lua
+nvim 58.cpp
+git aa
+nvim config_files/lsp_config.lua
+git add channel_class.py data_collector.py
+git commit -m
+cd plugged/popfix
+cd nvim-lsputils
+homebrew search bat
+brew search bat
+brew install bat
+grep "bat" * . -r
+vimr
+cd plugged
+nvim plugged/vim-hexokinase/README.md
+nvim plugged/vim-hexokinase/t_colours.txt
+cd plugged/vim-hexokinase
+nvim config_files/lsp_saga.lua
+mv config_files lua
+where ninja
+brew install ninja
+git clone https://github.com/sumneko/lua-language-server
+git submodule update --init --recursive
+cd 3rd/luamake
+compile/install.sh
+./3rd/luamake/luamake rebuild
+/Users/shreyash
+z /Users/shreyash/.
+z plugged
+cd nvim-compe/lua
+nvim compe_emoji/items.lua
+rm test.lua
+rm lua/lsp_saga.lua
+git add lua
+brew install jesseduffield/lazygit/lazygit
+brew install lazygit
+cd ~/.local/share/nvim/swap
+rm .local/share/nvim/swap/
+dadaq
+quit()\
+qf
+\:exit
+cd plugged/lspsaga.nvim
+A
+nvim lua/lsp_saga.lua
+nvim lua/which_key.lua
+mv nvim nvim.old
+git clone https://github.com/ChristianChiarulli/LunarVim
+cd LunarVim
+./utils/installer/install.sh
+nvim lv-config.lua
+mv nvim nvimoldold
+mv nvim.old nvim
+rm nvimoldold
+rm -rf nvimoldold
+cd start/
+rm -rf start/*
+rm -rf pack
+rm -rf packer
+rm -rf .local/share/nvim/site
+rm package-lock.json
+z config nvim
+z lunarvim
+nvim colors
+cd plugged/sonokai
+nvim lua/colors.vim
+git clone https://github.com/ChristianChiarulli/nvcode-color-schemes.vim
+cd nvcode-color-schemes.vim
+z nvcode
+cd plugged/minimalist
+nvim plugged/minimalist/colors/minimalist.vim
+rm telescope_config
+mv telescope.lua telescope_conf.lua
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+brew install --cask font-iosevka-nerd-font
+locale -a | grep -i utf
+z ~
+nvim random/test.
+nvim ap_seq.c
+nvim -u none
+nvim 11.cp
+nvim semshi.vim
+rm semshi.vim 
+nvim python.lua
+cd colors
+mkdir after
+mv lua/colors.vim after
+nvim 11.cpp
+nvim.
+nvim 15.cpp
+nvim 15.py
+nvim 155.cpp
+nvim 16.cpp
+nvim lua/lsp_
+nvim ~/.config/nvim/lua/compe_config.lua
+nvim 31.cpp
+nvim 33.cpp
+rm performance.h
+nvim performance.cpp
+mv performance.cpp performance.h
+nvim performance.h
+mv revision_topics revision_topics.md
+mv performance.h benchmark.h
+history | grep "stdc++"
+history | grep "std"
+g++ 34.cpp
+nvim 34.cpp
+nvim 36.cpp
+git remote set-url origin https://github.com/drakari7/nvim_configurations
+echo $packpath
+cd .local/share/nvim/
+mkdir -p site/pack/packer/start/
+cd site/pack/packer/start
+git clone https://github.com/wbthomason/packer.nvim
+cd packer.nvim
+nvim lc
+nvim lua/neorg.lua
+mv lua/neorg.lua lua/neorg_conf.lua
+mkdir games
+cd games
+nvim tictactoe.py
+open https://stackoverflow.com/questions/9458294/open-url-under-cursor-in-vim-with-browser
+nvim lua/neorg_conf.lua
+npm i -g vim-language-server
+cd /usr/local
+cd share/nvim/runtime/
+nvim plugin/netrwPlugin.vim
+cd 2
+which nvim
+ls nvim
+history -n 10
+history -n10
+history -10
+history -30
+z /usr/local
+nvim netrwPlugin.vim
+nvim opt/nvim/share/nvim/runtime/plugin
+nvim var/homebrew/linked/neovim/share/nvim/runtime/plugin/netrwPlugin.vim
+pip3 install scrapy
+nvim neorg_conf.lua
+mkdir neorg
+nvim neorg/notes.md
+nvim neorg/notes.norg
+echo "logs_data_collection" >> .gitignore
+nvim DDIndia.csv
+vimtutor
+brew install tmux
+tmux new-session test
+tmux attach 0
+tmux attach -t 9
+tmux kill-session -t 0
+brew update fzf
+brew upgrade fzf
+ff
+nvim 40.cpp
+nvim 39.cpp
+nvim 41.cpp
+mkdir ctci
+diff lua/compe_config.lua
+git diff lua/compe_config.lua
+git restore lua/compe_config.lua
+rm helper.h.gch
+nvim 42.cp
+ls plug
+nvim usr/local/etc/gitconfig
+git config --help
+git config --list --show-origin
+git config --global user.name "drakari7"
+git config --global user.email "random@rand.com"
+git config --global user.email "shreyash.ravi@gmail.com"
+gc -m "test push"
+gc -m "test push 2"
+git remote 
+git config --get remote.origin.url
+brew install qt
+git clone https://github.com/quackle/quackle
+cd quackle
+qmake quackle.pro && make
+cd quackleio 
+qmake && make && cd ..
+rm -rf quackle
+nvim channel_data/aajtak.csv
+z 42.cpp
+git add data_collector.py
+gc -m "refactor: Minor refactoring"
+git checkout -b parsing
+git branch -D parsing
+git fetch origin scraping
+git checkout -b scraping
+man git-pull
+git pull origin scraping
+vimdiff
+vimdiff .gitignore
+nvim -d .gitignore
+git reset
+git restore .gitignore
+git revert 6c79b07cf
+git restore data_collector.py  tools.py
+git reflog
+git reset --hard c5a7f1b
+gs
+rm channel_data/DDIndia.hsv channel_data/TimesNow.hsv
+git branch -D scraping
+git checkout master
+git branch -D scraping 
+git branch -d parsing
+git checkout --track origin/scraping
+git branch -d lang_parsing
+git checkout -b lang_parse
+nvim channel_data/IndiaTV.csv
+nvim 45.cpp
+nvim 46.cpp
+nvim 47.cpp
+nvim 48.cpp
+git config --global color.ui "auto"
+git config --global core.editor "nvim"
+rm 42.cpp
+cd ctci
+nvim 1.1.cpp
+nvim 1_1.cpp
+cp ../lc/helper.h .
+nvim 1_2.cpp
+nvim 1_3.cpp
+nvim after
+rm k
+rm ;
+rm \;
+nvim 1_4.cpp
+nvim 1_5.cpp
+ping 125.17.242.34 -c 3
+nvim 54.cpp
+nvim 56.cp
+nvim 56.cpp
+g++ 56.cpp
+out 
+nvim 57.cpp
+py
+nvim geckodriver.log
+rm geckodriver.log
+rm data_collection_logs
+mkdir text_files
+mv *ytlinks top_channels.txt text_files
+nvim .config/flake8
+ga text_files/
+gaa hindi_channels_ytlinks english_channels_ytlinks top_channels.txt text_files/*
+git branch -d scraping
+git branch -d lang_parse 
+gaa parser.py
+brew install fontforge
+cd /Library/Fonts
+cd /usr/local/Caskroom/font-iosevka
+cd 7.2.5
+fz
+z caskroom
+cd font-iosevka/7.2.5
+fontforge -script font-patcher iosevka-regular.ttc
+cp chromedriver ~/thesis/
+z tehs
+mkdir drivers
+mv chromedriver drivers
+rm channel_data/aajtak.tmp
+git rm parser.py
+git rm -f parser.py
+nvim 5.cpp
+nvim 6.cpp
+nvim 8.cpp
+nvim 10.cpp
+mkdir global_15
+rm ib
+rm -r ib
+mkdir ib
+nvim 1_arr.cpp
+cd global_15
+nvim tmp.cpp
+nvim 22.cpp
+git commit -m "feat: add new time_format function in tools"
+git mergetool
+git commit 
+rm data_collector.py.orig
+nvim 19.cpp
+brew install haskell-stack
+stack ghci
+brew install ghc
+ls /usr/local/var/homebrew/locks
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+sudo nvim /etc/paths
+source ~/.zshrc
+
+nvim sorted_squares.cpp
+nvim 23.cpp
+nvim revision_topics.md
+nvim 24.cpp
+nvim 206.cpp
+nvim 25.cpp
+out
+out > temp.txt
+nvim temp.txt
+rm temp.txt
+nvim 29.cpp
+mkdir 735
+cd 735
+git checkout lang_parsing
+git restore tags
+git remove tags
+git delete tags
+git restore --staged tags
+git rm tags
+git rm -f tags
+git add tags
+git commit -m "chore: removed annoying tags file from working tree"
+git branch -D lang_parsing
+git checkout -b lang_parsing
+neovim --startup-time channel_class.py
+nvim --startup-time channel_class.py
+nvim --startuptime channel_class.py
+nvim --startuptime
+nvim --startuptime test.txt
+git restore channel_class.py
+pip install contractions
+pip install inflect
+which java
+ls -l /usr/bin/java
+mkdir edu_112
+rm -rf edu_112
+mkdir ed112
+mv ed112 edu_112
+mv ed109 edu_109
+cd edu_112
+mv edu_112 ed112
+mv edu_109 ed109
+cd ed112
+ga parser.py text_preprocessing.py
+z lunar
+nvim lua/telescope/mappings.lua
+git stash status
+git stash list
+nvim lsp_saga.lua
+nvim telescope_conf.lua
+git rm plugged
+nvim .gitmod
+git rm --cached plugged/auto-pairs
+git rm --cached plugged/gruvbox
+git rm --cached plugged/lightline.vim
+git rm --cached plugged/lsp_signature.nvim
+git rm --cached plugged/*
+git rm --cached plugged/l*
+git rm --cached plugged/lspsaga.nvim
+git rm --cached plugged/markdown-preview.nvim
+git rm --cached plugged/nerdtree
+git rm --cached plugged/nerdtree-git-plugin 
+git rm --cached plugged/nvim-compe
+git rm --cached plugged/
+git rm --cached plugged/ -r
+git rm plugged -r
+git config --global init.defaultBranch main
+git branch -m main
+git remote add origin https://github.com/shreyashravi/nvim_configurations.git
+gc -m "reload repo and delete plugged folder"
+git push --set-upstream origin main
+rm .git
+gc -m "first commit"
+git remote add origin https://github.com/shreyashravi/nvim-configurations.git
+git remote add origin https://github.com/drakari7/nvim-configurations.git
+nvim .git/config
+git restore lua/telescope/mappings.lua
+cd plugged/nvim-compe
+nvim 17.cpp
+nvim 42.cpp
+history | grep "neovim
+history | grep "neovim"
+brew install neovim
+nvim 55.cpp
+npm install -g typescript typescript-language-server
+npm fund
+nvim index.ks
+mkdir test && cd test && npm init
+npm install lodash --save
+npm install @types/lodash --save-dev
+echo import { } from "lodash" >> index.js
+nvim index.js
+rm -rf test
+python clean_text.py
+nvim cnnnews18.hsv.new
+cd plugged/nvim-treesitter/parser/
+mv cnnnews18.hsv.new cnnnews18.hsv
+nvim clean_text.py
+mv clean_text.py remove_footer.p
+mv remove_footer.p remove_footer.py
+git clone https://github.com/drakari7/frost-lake-setup
+cd frost
+cd frost-lake-setup
+nvim spell.py
+mv spell.py norvig_spell.py
+git add remove_footer.py
+git add README.md channel_class.py parser.py tools.py channel_data/*
+git push --set-upstream origin lang_parsing
+raner
+rm channel_data/RepublicTVBharat.hsv.new
+mv news18India.hsv.new news18India.hsv
+z ..
+python3 remove_footer.py
+rm channel_data/news18India.hsv.new
+git restore RepublicTVBharat.hsv
+mv RepublicTVBharat.hsv.new RepublicTVBharat.hsv
+nvim re
+nvim reom
+mv aajtak.hsv.new aajtak.hsv
+wc -l aajtak.hsv
+git restore aajtak.hsv
+brew install fortune
+ga remove_footer.py tools.py channel_data/*
+nvim 78.cpp
+nvim 90.cpp
+nvim after/search.vim
+rm after/search.vim
+git checkout -b mac
+echo "plugin" >> .gitignore
+git rm plugin
+git rm plugin -r
+git add all
+git push --set-upstream origin mac
+git restore README.md
+git checkout lang_parsing 
+nvim max_sum_trip.cpp
+pip3 install wikipedia
+cd CSV
+rm meanvar1.csv
+mv CSV ..
+rm wikipedia_data
+rm wikipedia_data -r
+mv CSV wikipedia_data
+mkdir 736
+rm helper.h
+mkdir custom_cpp_headers
+rm custom_cpp_headers
+rm -r custom_cpp_headers
+mkdir custom_headers_cpp
+git clone https://github.com/prajjwalm/dnd-dm-tools.git
+cd 736
+cp helper.h benchmark.h structs.h ~/custom_headers_cpp
+brew install --cask keycastr
+history | grep pyright
+rm -rf neorg
+fortune
+nvim somet.tex
+z thes 
+git cloen https://github.com/yashsriv/resume
+git clone https://github.com/yashsriv/resume
+sudo tlmg update --self
+sudo tlmgr install enumitem
+sudo tlmgr install xifthen.sty
+sudo tlmgr install xifthen
+mv texlab /usr/local/bin/
+nvim cv-onepage.
+nvim cv-onepage.tex
+ls fonts
+zf
+cd Library/Font
+cd Library/Fonts
+cd ~/Library/FontCollections
+cp fonts/* ~/Library/Fonts
+open cv-onepage.pdf
+brew uninstall spicetify
+history | grep spicetify
+brew remove spicetify-cli
+cat test.
+cat test.txt
+rm test.txt
+cat test.py
+mv meanvar60.csv meanvar49.csv
+mv meanvar49.csv meanvar60.csv
+nvim pretty_print.cpp
+z rand
+mkdir cp
+mv cp cp_guide
+brew search pdflatex
+brew --help
+brew info latexmk
+brew tap zegervdv/zathura
+brew install zathura
+brew install dbus
+brew reinstall dbus
+nvim /usr/local/opt/dbus/share/dbus-1/session.conf
+brew services start dbus
+brew remove zathura
+brew unlink zathura
+brew uninstall girara
+brew uninstall --force girara
+brew unlink girara
+brew install girara --HEAD
+brew install zathura --HEAD --with-synctex
+brew install zathura-pdf-poppler
+mkdir -p $(brew --prefix zathura)/lib/zathura
+ln -s $(brew --prefix zathura-pdf-poppler)/libpdf-poppler.dylib $(brew --prefix zathura)/lib/zathura/libpdf-poppler.dylib
+nvim Quantum\ Computing\ \(CS682\)
+z guide
+nvim cp_guide.tex
+z cellar
+cd neovim/0.5.0/share/
+cd nvim/runtime/
+cd doc
+ls grep 
+ls | grep .h
+ls | grep ".h"
+ls | grep "*h"
+gdb a.out
+g++ -g primesum.cpp
+lldb a.out
+nvim primesum.cpp
+cd plugged/telescope.nvim
+nvim lua/telescope_conf.lua 
+z telescope.nvim
+nvim telescope
+z telescope
+cd plugged/vim-airline
+nvim norvig_spell.py
+nvim remove_footer.py -R
+nvim autoload/airline.vim
+nvim autoload/airlineini
+nvim autoload/airline/init.vim
+ga after/airline.vim
+nvim lua/compe_config.lua
+z airline
+ga lua/autopairs.lua
+nvim lua/autopairs.lua
+nvim meanvar 9.csv
+why is this so bad
+just give me the old terminal
+vim -h
+vim -u .config/nvim/init.vim
+\:FloatermToggle
+xit
+nvim meanvar9.csv
+mkdir 737
+cd 737
+mv wordlist
+mv Collins\ Scrabble\ Words\ \(2019\).txt wordlist
+grep "^text$" wordlist
+grep "^TEXT$" wordlist
+grep -h
+tr A-Z a-z < wordlist
+nvim scrab.sh
+chmod u+x scrab
+scrab 2
+./scrab 2
+npm i -g bash-language-server
+nvim lua/lsp_config.lua
+./scrab 5
+./scrab
+./scrab eve
+grep "zzz" wordlist
+bash scrab zzz
+./scrab zzz
+./scrab zz.
+./scrab ^zz
+./scrab zz$
+$?
+rm -rf a.out.dSYM/Contents
+z 737
+cd a.out.dSYM/Contents
+rm -rf a.out.dSYM
+pip3 install textblob pyspellchecker autocorrect
+pip3 install textblob
+pip3 install autocorrect
+pip3 install pyspellchecker
+pip3 install -U symspellp
+pip3 install -U symspellpy
+python3 -m pip install -U symspellpy
+rm norvig_spell.py
+pytho3n test.py
+touch test1.old test2.old
+mv *.old *.new
+nvim meanvar1.csv.new
+rm *.new
+for x in *.old; do mv "$x" "${x%.old}"; done
+rm *.old
+for x in *.new; do mv "$x" "${x%.new}"; done
+nvim meanvar1
+z channel_data
+grep "opposition proceedings" .
+grep "opposition proceedings" . -r
+grep "mirabai" . -r
+grep "chanu" . -r
+mkdir noun_data
+nvim noun_data/DDIndia.csv
+rm -rf noun_data
+mkdir wiki_nouns
+mv wiki_nouns nouns
+cd noun
+mkdir all_nouns
+cat n1.csv
+mv n1.csv n1
+mv n2.csv n2
+touch n3
+nvim n3
+cat n1
+cp wikipedia_data wikipedia_data.bak
+cp wikipedia_data wikipedia_data.bak -r
+chmod u+x join.sh
+tail -n 10 meanvar1.csv
+tail -n 10 meanvar57.csv
+nvim join.sh
+./join.sh
+git remote set-url origin https://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@github.com/drakari7/media_content_diversity
+grep "indiatodaylivetv" meanvar1.csv
+grep "indiatoday" meanvar1.csv
+cd wikipedia_data.bak
+grep "indiatoday" . -r
+nvim wiki_nouns
+z wiki
+nvim meanvar1.csv
+wc -l meanvar1.csv
+z bak
+nvim meanvar2
+nvim meanvar2.csv
+mv wikipedia_data.bak ..
+l wikipedia_data.bak
+mv wikipedia_data.bak wikipedia_data
+grep "\"\"" -r .
+grep "\"\"," -r .
+grep "saint luke" -r .
+nvim meanvar32.csv
+nvim nouns/wiki_nouns/DDIndia.csv
+grep "^k.no$" wordlist
+grep "k.no$" wordlist
+grep "k.no" wordlist
+grep "kon" wordlist
+z /Users/shreyash/scrabble
+grep "^he" wordlist
+grep "^he$" wordlist
+grep "^he\n$" wordlist
+grep "^he\$" wordlist
+"^he." wordlist
+grep "^he." wordlist
+nvim nouns/wiki_nouns
+nvim nouns/wiki_nouns/indiatoday.csv
+mkdir atcoder
+z a.cpp
+nvim a.zpp
+rm n.
+rm n*
+mkdir pclub
+mkdir temp
+cd temp
+z headers
+nvim b
+z temp
+g++ c.cpp
+./a.out < testfile
+mv temp 23
+mv atcoder ..
+mkdir 738
+cd 738
+nvim lal.sh
+nvim t.cpp
+nvim after/airline.vim
+lst
+git config credential.helper store
+echo url=https://drakari7@github.com | git credential reject
+gitdiff
+git config credential.helper
+nvim gcd.cpp
+nvim power.cpp
+z
+grep "amit shah" -r .
+gsg
+nvim 303.cpp
+mkdir expo
+cd expo
+nvim a.
+z help
+z /Users/shreyash/custom_headers_cpp
+nvim lua/telescope_conf.lua
+mv lua/plugins.lua lua/packer.lua
+nvim lua/packer.lua
+mv lua/packer.lua lua/plugins.lua
+z tele
+z expo
+nvim random/test.cpp
+nvim custom_headers_cpp/helper.h
+nvim custom_headers_cpp/structs.h
+z exp
+g++ -std=c++17 d.cpp
+mkdir 739
+cd 739
+history | grep git
+history | grep gp
+git remote set-url origin https://github.com/drakari7/media_content_diversity
+history | grep "git config"
+history | grep "echo"
+mkdir 24
+cd 24
+pip install stanza
+[C
+pip3 install bs4
+pip3 install requests
+pip3 install lxml
+pip3 install pdfkit
+brew search wkhtmltopdf
+brew install wkhtmltopdf
+git clone https://github.com/ritwiksaha/Codeforces-Contest-Scraper.git
+jupyter notebook Scrape.ipynb
+nvim git
+/Applications
+nvim archive_scraper.py
+z /Users/shreyash/git/Codeforces-Contest-Scraper
+nvim filehandler.py
+rm Contest_24_SF
+rm -r Contest_24_SF
+python archive_scraper.py
+nvim temp.html
+python3 archive_scraper.py
+rm temp.html
+nvim scraper2.py 
+pip install html5lib
+nvim scraper2.py
+python3 scraper2.py
+mv scraper2.py scraper.py
+mv scraper.py pclub_archive_scraper.py
+pip install PIL
+pip install pil
+rm -rf Contest_24_SF
+git restore data_
+mkdir 25
+cd 25
+defaults write -g InitialKeyRepeat -int 5
+defaults write -g InitialKeyRepeat -int 10
+history | tail -n 5
+defaults write -g KeyRepeat -int 2
+defaults write -g KeyRepeat -int 1
+defaults write -g InitialKeyRepeat -int 4
+defaults write -g InitialKeyRepeat -int 14
+z work
+cd Desktop/Work
+mkdir my_resume
+cp ~/git/resume .
+cp ~/git/resume . -r
+mv resume my_resume
+cd my_resume
+mv resume/* .
+gc -m "initial template commit"
+nvim lua/plugins.lua
+nvim simple_queries.cpp
+cd Desktop/Courses/Data\ Mining
+z DATA
+mkdir assign1
+mv assign1/ 1assign
+cd Contest_1_EV
+nvim 338.cpp
+nvim fibonacci.c
+nvim fibonacci.cpp
+sudo tlmgr install adjustbox
+sudo tlmgr install collectbox
+xelatex cv.tex
+nvim sections/education
+nvim sections/project.tex
+mkdir 740
+cd 740
+nvim increment.cpp
+rm c.cpp
+nvim d1.cpp
+mkdir 741
+cd 741
+nvim primes.cpp
+mkdir deltix
+cd deltix
+ga sections/achievemets.tex
+gc -m "master resume submitted to spo"
+nvim 598.cpp
+lc
+python3 image_joiner.py
+z mining
+z Applications
+ls -l 
+ls fort
+ls FortiClient
+cd FortiClient.app/
+ls -l FortiClient.app
+sudo rm -rf FortiClient.app
+cd FortiClient.app
+ls -IO FortiClient.app
+ls -1O FortiClient.app
+ls -IOe FortiClient.app
+ls -I0e
+ls -IOe
+xattr -d com.apple.FinderInfo /Applications/FortiClient.app 
+sudo xattr -d com.apple.FinderInfo /Applications/FortiClient.app 
+/bin/ls -dleO@/Applications/FortiClient.app 
+/bin/ls -dleO@ /Applications/FortiClient.app 
+/bin/ls -dleO@ /Applications/Google\ Chrome.app
+sudo shutdown now
+su
+sudo su
+[200~ping 125.17.242.34 ~
+ping 125.17.242.34 
+z courses
+cd Data_Mining/1assign
+python3 neighbours.py
+nvim 172.cpp
+nvim neighbo
+nvim neighbor-districts.json
+z /
+python covid_data.py
+z leetcode
+z lp
+which wkhtmltopdf
+nvim .zsh
+brew install xfvb
+brew install xvfb
+nvim count_and_say.cpp
+mv test.py page_downloader.py
+z ac
+mkdir 216
+cd 216
+which gcc
+git commit -m "corrections in some fields, updated some more"
+nvim sections/education.tex
+z atcoder
+cd cp/atco
+brew install testdisk
+cd Volumes
+cd New\ Volume
+sudo photorec
+cd /Volumes/Seagate
+nvim photorec.se
+nvim photorec.se2
+sudo testdisk
+rm photorec.se2 photorec.ses
+mkdir atcoder lc ib pclub
+mv 216 atcoder
+mkdir misc
+ls Contest_27_AD
+python pclub_archive_scraper.py
+rm TodayontheKoreanServer.hsv
+mv IMG_3407.JPG me.jpg
+mv vlcsnap-2020-11-13-00h59m00s209.png beth.jpg
+rm Contest_* -rf
+python3 pclub_archive_scraper.py
+rm */*.pdf
+ranger --help
+nvim ~/.config/ranger/rifle.conf
+nvim image_joiner.py
+python image_joiner.py
+cd atcoder
+mkdir 217
+cd 217
+z resume
+scrabble
+nvim wordlist
+gc -m "one page resume submitted to spo"
+mkdir cf
+mkdir 742
+cd 742
+nvim neighbours.py
+chmod u+x run.sh
+cd scrabble
+nvim scrab
+nvim vaccine_data.csv
+11
+Âƒ
+python fix_csv.py
+mv vaccine_data.csv vaccination_data.csv
+rm %Users%shreyash%Desktop%Courses%Data_Mining%1assign%vaccination_data.csv.sw %Users%shreyash%Desktop%Courses%Data_Mining%1assign%vaccination_data.csv.sw
+rm %Users%shreyash%Desktop%Courses%Data_Mining%1assign%vaccination_data.csv.swo
+rm %Users%shreyash%Desktop%Courses%Data_Mining%1assign%vaccination_data.csv.swp
+nvim covid_data.py
+nvim DDW_PCA0000_2011_Indiastatedist.xlsx
+nvim new_district_names.txt
+cd .local/share/nvim/swap
+cp ~/Downloads/neighbor-districts.json .
+echo ".DS_Store" >> .gitignore
+gc -m "Initial commit, none of the files are broken"
+git clone https://github.com/tjdevries/config_manager.git
+mkdir session
+z share
+cd shada
+nvim main.shada
+vimrc
+nvim test.py fix_csv.py
+ga neighbo
+z config-manager
+ncim
+pip install debugpy
+mkdir confs
+mv *.lua confs
+ga lua/confs
+whats this
+ls /usr/bin/python
+where lldb-vscode
+nvim lua/confs/telescope_conf.lua
+nvim xdg_config/nvim
+cd .virtualenvs/debugpy/bin
+z /Users/shreyash/git/config_manager
+nvim xdg_config/nvim/after/plugin/cyclist.vim
+pip install cppman
+pip uninstall cppman
+brew install cppman
+gc -m "moved lua configs to lua/confs/ from lua/. Added nvim-dap"
+z config_manager
+z xdg_config/nvim
+z test.py
+nvim atcoder/216/c.cpp
+mkdir notes
+file channel_data/cnnnews18.hsv
+file channel_class.py
+ls 20
+chmod u+x .remove_default_folders.sh
+z ranodm
+z misc
+nvim prefix_function.cpp
+nvim nouns/all_nouns/RepublicTVBharat.csv
+brew list --cask
+brew list
+quit
+brew outdated
+brew upgrade
+brew cleanup spicetify-cli
+brew search spicetify-cli
+spicetify -v
+spicetify --version
+brew info spicetify-cli
+rm -rf spicetify-themes
+git clone https://github.com/morpheusthewhite/spicetify-themes.git
+rm -rf spicetify_data
+brew uninstall spicetify-cli
+brew insta
+brew install khanhas/tap/spicetify-cli
+mkdir spicetify_data
+rm spicetify_data
+mkdir spicetify_data/Themes -p
+cd spicetify_data/Themes
+cd spicetify-themes
+cp -r * ~/spicetify_data/Themes
+cd "$(dirname "$(spicetify -c)")/Themes/Dribbblish"
+mkdir -p ../../Extensions
+cp dribbblish.js ../../Extensions/.
+spicetify config extensions dribbblish.js
+spicetify config current_theme Dribbblish color_scheme base
+spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
+spicetify backup apply
+nvim config-xpui.ini
+spicetify config color_scheme samourai
+cd Themes
+spicetify config color_scheme beach-sunset
+spicetify config color_scheme gruvbox
+spicetify apply
+spicetify config current_theme Onepunch color_scheme dark
+sp color light
+spcolor light
+sptheme dreary
+spcolor psycho
+spcolor deeper
+spicetify config sidebar_config 1
+sptheme sleek
+spcolor coral
+sptheme onepunch
+spcolor dakr
+spcolor dark
+sptheme zip
+rm a.out a.out.dSYM -rf
+nvim 62.cpp
+nvim vectors.cpp
+z Data_mining
+cd cp/lc
+history
+etc
+cd defaults
+nano test.c
+vim grub.cfg
+ip link
+brew install ip
+cd plugged/which-key.nvim
+ls lua
+nvim lua/which-key/plugins/registers.lua
+rm a
+nvim neighbor-districts.json 
+ga district_rename.txt
+mkdir edu113/
+cd edu113
+nvim *.py
+git add district_new_names.csv
+git rm assign_1.pdf
+git restore --staged assign_1.pdf
+git restore assign_1.pdf
+git rm --cached assign_1.pdf
+echo todo.md >> .gitignore
+cd ib
+nvim numrange.cpp
+python dist_cmp.py
+nvim fi
+nvim meanvar11.csv
+mv neighbor-districts.json vaccination_data.csv covid_data.csv /data
+mv neighbor-districts.json vaccination_data.csv covid_data.csv data
+cat district_new_names.csv
+mv district_new_names.csv data
+mv DDW_PCA0000_2011_Indiastatedist.xlsx data
+nvim run.sh
+git config --global core.excludesFile .gitignore_global
+git restore --staged __pycache__
+ga .gitignore
+nvim neighbor-districts-modified.json
+nvim fix_csv.py
+nvim vaccination_data.csv
+rm test.csv
+ga output q1.py q2.py
+ga fix_csv.py tools.py
+nvim q3
+nvim output/overall-cases-time.csv
+nvim output/month-cases-time.csv
+c output
+nvim overall-cases-time.csv
+nvim month-cases-time.csv
+nvim data/covid_data.csv
+python q3.py
+python q4.py
+nvim case-generator.sh
+rm *peaks*
+rm *time*
+./case-generator.sh
+./peaks-generator.sh
+nvim output/cases-month.csv
+nvim output/district-peaks.csv
+nvim edge-generator.sh
+rm edge-graph.csv neighbor-districts-modified.json
+./edge-generator.sh
+nvim output/edge-graph.csv
+nvim output/neighbor-districts-modified.json
+nvim data/vaccination_data.csv
+u+x *,sh
+mv DDW_PCA0000_2011_Indiastatedist.xlsx census_data.xlsx
+python q5.py
+nvim output/overall-vaccinated-count-weekly.csv
+python q6.py
+python q7.py
+python q9.py
+ls *.sh
+chmod u+x *.sh
+./assign1.sh
+rm run.sh
+mv 1assign 17807683_assign1
+tar -zvf 17807683_assign1.tar.gz 17807683_assign1
+tar -cvf 17807683_assign1.tar.gz 17807683_assign1
+zip -r 17807683_assign1.zip 17807683_assign1
+z /Users/shreyash/Desktop
+nvim 17807683_assign1
+nvim 17807683_assign1/README.md
+z /Users/shreyash/Desktop/Courses/Data_Mining
+rm 17807683_assign1.tar.gz 17807683_assign1.zip
+mv 17807683_assign1 1assign
+z cv
+z my_resume
+cd lc
+nvim 205.cpp
+mkdir edu114
+cd edu11
+nvim t1
+rm t1
+nvim r1
+nvim a
+pip install wikipedia
+pip install wikipedia-API
+history | grep "media"
+history | grep "wiki"
+nvim t1.py
+rm h.py
+rm a.out.dSYM
+rm a.out.dSYM -rf
+rm -rf a.out*
+rm -rf R_test_proj
+z /Users/shreyash/random
+/Users/shreyash/Desktop/Jackett/install_service_macos ; exit;
+ps -aux
+launchctl load ~/Library/LaunchAgents/org.user.Jackett.plist
+cd Jackett
+file install_service_macos
+./install_service_macos
+kill 77472
+kill -l
+mv Jackett git
+/Users/shreyash/git/Jackett/install_service_macos ; exit;
+launchctl
+launchctl help
+rm .config/Jackett/log.txt
+nvim .config/Jackett/log.txt
+pip install -U setuptools
+pip install pywikibot
+pip install "requests>=2.20.1"
+cd radn
+z bin
+file cp
+pax --help
+man pax
+ls cpp-11
+file cpp-11
+file zstdmt
+ls zstdmt
+ls zstdmt -l
+ps aux | grep radarr
+launchctl unload ~/Library/LaunchAgents/org.user.Jackett.plist
+ps aux | grep jackett
+cd Radarr
+rm -rf Jackett Radarr
+cd wal
+rm -rf wal
+nvim flake8
+cd ~/
+cd Library/LaunchAgents
+rm org.user.Jackett.plist
+cd edu114
+nvim c.cpp
+cd anaconda3
+cd lib/python3.8/site-packages/
+cd mwclient
+nvim page.py
+nvim nouns/wiki_nouns/RepublicWorld.csv
+cf
+mkdir 744
+cd 744
+brew install shc
+nvim currency.sh
+shc -T -f currency.sh
+shc -f currency.sh
+nvim currency.sh.x.c
+man shc
+cd Desktop/Courses
+cd 7th\ Sem/comp\ phy
+cd l8
+cd phylab
+cd l5
+nvim l8
+nvim nouns/wiki_nouns/cnnnews18.csv
+z i
+z iv
+z ib
+cd cp/ib
+nvim rev_bits.cpp
+nvim 1971.cpp
+ls /usr/local/bin
+ls /usr/bin
+cp testscript /usr/local/bin
+chmod +x /usr/local/bin/testscript
+testscript
+rm /usr/local/bin/testscript
+where python
+chmod +x testscript
+nvim testscript
+./testscript
+rm testscript
+nvim 745/a.cpp
+mkdir 745
+cd 745
+z notes
+git clone https://github.com/bewilder-beast/stormfly.git
+cd stormfly
+cd codenation
+cd set-1
+cd no-distraction
+open no-distraction.jpg
+spcolor
+sptheme
+rm -rf stormfly
+z Themes
+sptheme Onepunch
+sptheme Ziro
+spcolor red
+cd Ziro
+spa purple-dark
+spcolor purple-dark
+sptheme ziro
+spcolor blue
+spicetify backup
+sptheme dribbblisj
+sptheme dribbblish
+cd Dribbblish
+nvim color.ini
+spcolor base
+sptheme Default
+spa
+mkdir archives
+nvim harness
+mkdir harness
+z archives
+z harness
+hdiutil --help
+ls -l | grep iso
+ls arcolinuxb-i3-v21.09.11-x86_64.iso 
+sudo dd if=arcolinux.img of=/dev/rdisk2 bs=1m
+disutil list
+gc -m "Update for installing in new Lab system"
+gc -m "Fix: Incorporate nvimtree and nvim-dap updates"
+git fetch
+ls --color
+ls --color=auto
+ls -l --color=auto
+history | grep alias
+cd archives
+mv archives pclub
+rm -rf Contest*
+mv archives/* .
+rm -rf archives
+cd harness
+mkdir mathworks
+nvim cpp.snippets
+rm *.cpp
+rm a.cpp
+omz theme list
+cd mathworks
+rm b.cpp
+\:w
+z /Users/shreyash/cp/pclub/mathworks
+nvim 741.cpp
+zip -r 1assign.zip 1assign
+nvim 64.cpp
+brew install openssh
+ssg
+ssh shreyash@172.27.28.247
+cat known_hosts.old
+scp labpc:~/wallpapers/cliffslake.jpg .
+mv cliffslake.jpg wallpapers
+nvim menu.py
+rm *.x*
+nvim domain_names.cpp
+rm domain_names.cpp
+rm .vimspector.log
+rm scrabble -rf
+mkdir projects
+mv random/menu.py projects
+mkdir mess_menu
+mv menu.py mess_menu
+mv menu.py menu
+nvim mess_menu.json
+nvim me
+nvim menu
+mv menu print_menu
+ln -s print_menu menu
+mv menu /usr/local/bin/
+rm menu
+ln -s ~/projects/mess_menu/print_menu menu
+ls -l menu
+chmod +x menu
+nvim prin
+cd projects/mess_menu
+z pclub
+mkdir 747
+cd 747
+echo "Thu Jun 4 15:45:45 PDT 2020" | cut -f3 -d" " 
+man sed
+man rsyslogd
+export PS1="HAL>"
+PS1="HAL\>"
+echo "hello?"
+echo "\"\
+quit
+echo "\\"
+fname=john
+john=thomas
+git remote -v
+man git rebase
+man git-rebase
+man git-stash
+history | grep diff
+ga UltiSnips/cpp.snippets
+gc -m "Implemented c++ skeleton files with the help of snippets instead"
+nvim xml_parse.py
+design decisions
+nvim rant.md
+rm rant.md
+nvim projects/mess_menu/mess_menu.json
+cd Computer\ Networks\ \(CS425\)
+cd Courses
+zip -r network_notes.zip Computer\ Networks\ \(CS425\)
+mkdir temp_files
+z Co
+cd 8th\ Sem
+rm network_notes.zip
+z temp+files
+z temp_file
+cp ~/Desktop/Courses/8th\ Sem/Computer\ Networks\ \(CS425\)/* .
+gc -m "Computer Networks (CS425) notes added"
+git remote add origin https://github.com/drakari7/temp_files.git
+mkdir 748
+mkdir 748_3
+cd 748_3
+nvim text_files/top_channels.txt
+cp chromedriver ~/thesis/drivers/chromedriver
+nvim dat_coll
+rm channel_data/DDIndia.tmp
+git restore data_collector.py
+nvim channel_data/cnnnews18.hsv
+nvim channel_data/TimesNow.hsv
+nvim nouns/all_nouns/TimesNow.csv
+nvim nouns/wiki_nouns/TimesNow.csv
+nvim nouns
+nvim nouns/all_nouns/RepublicWorld.csv
+rm *.csv 
+rm join.sh rename.py
+scp labpc:~/wikipedia/multistream_index.txt
+scp labpc:~/wikipedia/multistream_index.txt .
+ssh srivalab-compute.cse.iitk.ac.in
+ssh srivalab
+tmux attach -t 0
+tmux kill-ses -t 1
+cd Movies
+wget https://data.covid19india.org/csv/latest/states.csv -o states
+rm states
+man wget
+wget https://data.covid19india.org/csv/latest/states.csv -O states
+less states
+mkdir 15
+cd 15
+nvim 1.cpp
+git clone https://github.com/zpm-zsh/material-colors ~/.oh-my-zsh/custom/plugins/material-colors
+brew install zsh-syntax-highlighting
+cp /usr/local/Cellar/zsh-syntax-highlighting/ . -r
+cd zsh-
+mv zsh-syntax-highlighting ewww
+cp ewww/0.7.1/share/zsh-syntax-highlighting -r .
+brew uninstall zsh-syntax-highlighting
+z custom
+rm -rf zsh-syntax-highlighting
+rm -rf ewww
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting\
+
+echo "$5 today is a great day to die \x21" 
+echo "$1 today is a great day to die \x21" 
+echo "$0 today is a great day to die \x21" 
+echo "$0 today is a great day to die \x21"
+rm a.out* -rf
+nvim 371.cpp
+ll
+nvim .zcompdump-Shreyashâ€ƒ¹s\ MacBook\ Pro-5.
+nvim .zcompdump-Shreyashâ€ƒ¹s\ MacBook\ Pro-5.7.1
+cd dnd-dm-tools
+nvim app.js
+mkdir 746
+cd 746
+echo $path
+fep
+cd custom
+history | grep material
+conda install anaconda-clean
+anaconda-clean --yes
+rm -rf anaconda3/
+rm .anaconda_backup/ -rf
+sleep 5
+mv .aliases.zsh .aliases
+nvim .aliases
+mv .aliases .aliases.zsh
+scp .zshrc nisheethslab:~/zshrc
+mysql -u root
+rm -rf nvcode-color-schemes.vim
+rm -rf LunarVim
+rm -rf Jackett
+rm -rf Frostify
+cd temp_files
+cd config_manager
+mv config_manager tj_dotfiles
+cd Codeforces-Contest-Scraper
+rm -rf Codeforces-Contest-Scraper
+cd resume
+rm -rf resume
+z /Users/shreyash/git/tj_dotfiles
+cd xdg_config
+scp labpc:~/wikipedia/wikipedia_mini.zim random
+cd tehsis
+nvim 30.cpp
+nvim 44.cpp
+curl 'http://swcdn.apple.com/content/downloads/28/16/071-89247-A_FL3O60MWEW/t9239srrs8ctufwxntefzkmvjhdqzvllb2/Safari14.1.2MojaveAuto.pkg' --output Safari14.1.2MojaveAuto.pkg
+pkgutil --expand-full Safari14.1.2MojaveAuto.pkg random
+pkgutil --expand-full Safari14.1.2MojaveAuto.pkg random/safari
+cd safari
+cd Payload/Applications
+mv Safari.app Safari14.app
+mv ~/random/safari/Payload/Applications/Safari14.app .
+rm random/safari -rf
+rm -rf /Applications/Safari14.app 
+nvim integral_soln.cpp
+nvim largest_swap.cpp
+nvim game_theory.cpp
+rm Safari14.1.2MojaveAuto.pkg
+nvim test.txt
+nvim amazontestlist
+rm amazontestlist
+z lc
+nvim 1710.cpp
+cd Desktop/Courses/Data_Mining
+open .
+mkdir data
+mv DDW-C18-0000.xlsx C18.xlsx
+pip install pandas
+python -m pip install --upgrade pi
+pip install openpyxl
+open C18.xlsx
+open C17.xlsx
+cp data/census_data.xlsx ../2assign/data/
+jupyter notebook perc
+which jupyter
+nvim percent-india.ipynb
+pip install mwparserfromhell
+,exit
+python2 --version
+history | grep npm 
+git merge mac
+git branch -d mac
+git restore text_files/top_channels.txt
+git merge lang_parsing 
+python3 test.py 
+ls nouns/all_nouns/
+mv wiki_noun_parsing.py wiki_parser.py
+nvim misc
+nvim wikipedia_data/multistream_index.txt
+ls -l /usr/bin/python
+nvim .profile 
+python3 wikipedia_data
+z /Users/shreyash/wikipedia_data
+less multistream_index.txt
+wc -l parser.py
+wc -l parser.py data_collector.py
+wc -l *.py
+thesis
+mkdir nouns
+mkdir categories
+rm .tmux.conf
+scp labpc:~/.tmux.conf .
+scp multistream_index.txt nisheethslab:~/wikipedia_data/.
+nvim nouns/all_nouns/cnnnews18.csv
+ls /Users/shreyash/Library/Application\ Support/Logitech/
+rm -r /Users/shreyash/Library/Application\ Support/Logitech 
+rm -r /Applications/Logi\ Options.app 
+sudo rm -fr /Applications/Logi\ Options.app 
+open assign2
+z 1assign
+npm --version
+node --version
+mkdir 751
+cd 751
+z f
+z cp
+nvim djikstra.cpp
+ssh nisheethslab h
+scp random/authenticator.py labpc:~/.
+nvim init.lua 
+ls after
+mkdir -p after/ftplugin
+mkdir edu116
+cd edu116
+nvim a.cp
+hdiutil convert -format UDRW -o ./arcolinux.img ~/Downloads/arcolinuxb-i3-v21.09.11-x86_64.iso
+mv arcolinux.img.dmg arcolinux.img
+diskutil unmountDisk /dev/disk2
+sudo dd if=arcolinux.img of=/dev/rdisk2 bs=1M
+diskutil eject /dev/disk2
+nvim clean-C19.csv
+rm clean-C19.csv
+rm *.csv
+diskutil eraseDisk MS-DOS "WIN10" GPT /dev/disk2
+diskutil eraseDisk MS-DOS "WIN10" MBR /dev/disk2
+hdiutil mount random/Win10_21H1_English_x64.iso
+rsync -vha --exclude=sources/install.wim /Volumes/CCCOMA_X64FRE_EN-US_DV9/* /Volumes/WIN10
+brew install wimlib
+wimlib-imagex split /Volumes/CCCOMA_X64FRE_EN-US_DV9/sources/install.wim /Volumes/WIN10/sources/install.swm 3800
+â€ƒ€mux a
+diskutil list
+mv Downloads/3ff8e6ed88b1f1e70ef6d868001fc1ec4626115752b8d986ed6d76bd69f4436e_CS685_Assinment_2_Fall_2021.pdf Downloads/DM_assign2.pdf
+mv Downloads/DM_assign2.pdf Desktop/Courses/Data_Mining/2assign/assgn2.pdf
+python3 q1.py
+mkdir output
+mv Downloads/q2.ipynb Desktop/Courses/Data_Mining/2assign
+rm percent-india.ipynb
+brew install rar
+unrar Ass2.rar
+rm *.XLSX
+rm *.xlsx
+rm gender*
+rm *-*
+rm states states.csv
+mkdir banga_ass
+mv Ass2.rar banga_ass
+unrar x Ass2.rar
+open data/C8.xlsx
+open data/C19.xlsx
+rm *.sh
+mv random/
+cd banga_ass
+python3 q6.py
+open data/C18.xlsx
+open data/census_data.xlsx
+mkdir c17
+mv DDW-C17-* c17
+cd c17
+open DDW-C17-0100.XLSX
+nvim change,.py
+nvim change.py
+rm change.py
+open c17_1.xlsx
+open c17_21.xlsx
+cd random/banga_ass/
+open c17_22.xlsx
+open c17_4.xlsx
+rm c17/test.py
+ls c17
+mv c17/* ~/Desktop/Courses/Data_Mining/2assign/data/.
+nvim q7.py
+python3 q3.py
+cd output
+nvim ,
+nvim percent-india.sh
+nvim gender-india.sh
+nvim age-gen
+nvim age-gender.sh
+z /Users/shreyash/Desktop/Courses/Data_Mining/1assign
+nvim assign1.sh
+ls output
+chmod +x *.sh
+open ass
+open assgn2.pdf
+python3 tools.py
+rm assgn2.pdf
+rm output/*
+rm -rf .DS_Store
+./assign2.sh
+history | grep zip
+mv 2assign/README.md 2assign/README.txt
+nvim 2assign/README.txt
+zip -r 17807683-assign2.zip 2assign
+cat ]
+nvim ]
+rm ]
+history | grep iso
+rm arcolinux.img
+rm spicetify_data -r
+nvim convert_cache_to_excel.py
+python3 convert_cache_to_excel.py
+mv random/Win10_21H1_English_x64.iso Downloads
+open cats.xlsx
+python3 test.py < testfile
+nvim test
+mv test.py macs.py
+nvim macs.py
+python3 macs.py < test
+python3 macs.py < testfile
+nvim rishis_list.md
+nvim notes/rishis_list.md
+man find
+hgrep
+z cf
+mkdir 755
+cd 755
+nvim b.cpp
+scp random/chromedriver labpc:~/
+cat todo.md
+mkdir nouns/tf_idf
+nvim nouns/tf_idf
+mkdir data_minign
+mv data_minign
+mv data_minign data_mining
+cd data_mining
+cp ~/thesis/data_collector.py .
+cp ~/thesis/tools.py .
+nvim text_files/english_channels_ytlinks
+/usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip
+mv ~/random/chromedriver .
+mv ~/thesis/drivers . -r
+mv ~/thesis/drivers .
+ls drivers
+cp drivers ~/thesis/. -r
+\:qa
+echo __pycache__/ >> .gitignore
+cat .gitignore
+mkdir channel_data
+nvim TodayontheKoreanServer.tmp
+git remote add origin https://github.com/drakari7/data_mining.git
+ssh
+ssh -vT git@github.com
+mkdir unacademy
+cd unacademy
+cd misc
+nvim prim
+nvim d.cpp
+rm channel_data/TodayontheKoreanServer.tmp
+mkdir raw_data
+mv *.hsv raw_data
+mkdir processed_data
+rm processed_data
+rm processed_data -r
+mkdir preprocessed_data
+rm channel_data/raw_data/*.new
+nvim clean_data.py
+gc -m "Performed preprocessing of the data and cleaned up the data files"
+cat channel_links.txt
+nvim MR 
+nvim MR MR\ data\ .csv
+nvim NLP NLP\ checkpoint.ipynb
+rm .ipynb_checkpoints -rf
+gc -m "quick commit"
+mkdir channel_data/sentiment_csvs/
+gc -m "added sentiment csvs"
+zip demo_video.zip thesis_ppt_demo.mov
+cp random/thesis_ppt_demo.mov git/data_mining/
+cd git/data_mining
+gc -m "video demo added"
+nvim MR\ data\ .csv
+mkdir -p nouns/all_nouns
+pip3 install seaborn
+gc -m "added title most frequency graphs"
+pip3 install TextBlob
+rm lala.jpg
+python3 sentiment_analysis.py
+nvim q3.py
+gc -m "added polarity score graphs"
+gc -m "added polarity score graphs 2"
+nvim sentiment_analysis.py
+gc -m "added titles of graphs"
+git rm --cached thesis_ppt_demo.mov
+rm thesis_ppt_demo.mov
+gc -m "removed ppt demo"
+gc -m "added readme"
+z data_mining
+mkdir endsem
+nvim training-s109.csv
+oepn classifier.pdf
+mv ~/Downloads/answer-sample.* .
+nvim answer-sample.csv
+nvim anomaly-s109.dat
+pip3 install sklearn
+pip3 install imblearn
+head -n 100 training-s109.csv test-s109.csv
+python3 classify.py
+nvim classify.py
+python3 classify.py test-s109.csv
+nvim answer-s
+rm answer-s109.csv
+rm answer-sample.csv
+mkdir 17807683-classification
+mv classify.py training-s109.csv 17807683-classification
+cat Makefile
+make te
+make foo
+make testfile=test-s109.csv
+make testfile=lala.csv
+mv README.md README.txt
+zip 17807683-classification.zip 17807683-classification -r 
+nvim anomaly-
+pip3 install pycaret
+sudo pip3 install pycaret
+open classifier.pdf
+nvim 17807683-classification
+chmod +x classifier-s109.sh
+./classifier-s109.sh hello 1
+./classifier-s109.sh hello 1 2
+./classifier-s109.sh hello
+./classifier-s109.sh
+rm 17807683-classification.zip
+open anomaly-detection.pdf
+mkdir 17807683-anomaly
+mv anamoly.py anomaly-s109.dat 17807683-anomaly
+open ../classifier.pdf
+pip3 install -r requirements.txt
+mv test-s109.csv this_is_my_testfile.csv
+make testfile=this_is_my_testfile.csv
+nvim anamoly.py
+nvim answer-sample.dat
+z /Users/shreyash/Desktop/Courses/Data_Mining/endsem
+rm this_is_my_testfile.csv
+rm 180108-anomaly-1 -rf
+cd 180108-anomaly
+nvim answer-s014.dat
+head -n 100 training-s109.csv >  test-s109.csv
+rm test-s109.csv
+cd endsem
+zip 17807683-classification.zip 17807683-classification -r
+zip 17807683-anomaly.zip 17807683-anomaly -r
+mv Downloads/180108-classification -r random
+mv Downloads/180108-classification random
+cd 180108-classification
+head -n 100 training-s014.csv > test-s014.csv
+chmod u+x classifier-s014.sh
+nvim mak
+./classifier-s014.sh test-s014.csv
+nvim classifier-s109.sh
+nvim classifier-s014.sh
+./classifier-s014.sh
+mv classifier-s014.sh classifier-s014.sh
+file classifier-s014.sh
+ls VirtualBox
+ls VirtualBox\ VMs
+rm -rf VirtualBox
+vboxmanage modifyvm "ubuntu
+vboxmanage modifyvm "ubuntu" --vram 256MB
+vboxmanage modifyvm "ubuntu" --vram 256MB >> sample.txt
+vboxmanage modifyvm "ubuntu" --vram 256MB 2>> sample.txt
+nvim sample.txt
+vboxmanage modifyvm --name "ubuntu" --vram 256MB
+vboxmanage modifyvm "ubuntu" --vram=256mb
+vboxmanage modifyvm "ubuntu" --vram=256MB
+vboxmanage modifyvm "ubuntu" --vram 256
+mv anomaly-results-obtained.numbers anamoly.csv
+nvim anamoly.csv
+rm anamoly.csv
+Down
+nvim anomaly-results-obtained.csv
+z data_minng
+z data
+rm a.out -rf 180108-*
+rm -rf banga_ass
+rm convert_cache_to_excel.py
+rm winter\ project.docx
+vim
+run sudo
+z endsem
+nvim test-s109.csv
+nvim answer-s109.csv
+rm -rf *.zip
+rm answer-sample.dat
+cd 17807683-anomaly
+nvim answer-s109.dat
+mv answer-s109.dat answer-s109.txt
+cd 17807683-classification
+mv test-s109.csv test.csv
+make ARGS=test.csv
+diff answer-s109.csv answer-s109_24c582be5d825f9b4f3b241a20269980af6bf2e8.csv
+diff answer-s109.csv classify.py
+z downloads
+nvim Q1_HelperFile.py
+sls
+file .localized
+rm .localized
+rm -rf .atom
+nvim .CFUserTextEncoding
+rm .CFUserTextEncoding
+nvim .Rhistory
+rm .Rhistory
+nvim .Xauthority
+rm .Xauthority
+nvim .bash-hi
+nvim .gitignore_global
+rm .gitignore_global
+nvim .git-credentials
+rm .git-credentials 
+nvim .lesshst 
+nvim .python_history
+rm .py
+file .swp
+rm .swp
+nvim .viminfo
+rm .viminfo
+file .wget-hsts
+nvim .wget-hsts
+rm .wget-hsts
+file .zcompdump-Shreyashâ€ƒ¹s\ MacBook\ Pro-5.
+file .zcompdump-Shreyashâ€ƒ¹s\ MacBook\ Pro-5.7.1
+rm .zcompdump-Shreyashâ€ƒ¹s\ MacBook\ Pro-5.7.1
+rm * .
+rm -rf .Trash
+cd .ipython
+mv random/Systems_Test.pdf Downloads
+open Downloads/Systems_Test.pdf
+g 
+go
+go install golang.org/x/tools/gopls@latest\
+
+cd go
+brew uninstall go
+brew install go
+echo $GOPATH
+go env
+mkdir testing
+cd go/src/testing
+cd go/pkg/mod/golang.org/x
+cd tools/gopls@v0.7.3/
+touch go.mod
+rm go.mod
+nvim hello.go
+z /Users/shreyash/Desktop/Courses/Data_Mining/2assign
+nvim q5.py
+nvim structs.h
+hostname
+ipconfig
+ifconfig
+ipconfig/all
+netstat -a
+nslookup google.com
+mess
+mkdir dnd
+python3 die_roll.py 3d5
+python3 die_roll.py 3d8
+python3 die_roll.py 8d10
+roll 8d10
+ls /usr/local/bin/
+ls /usr/local/bin/roll
+ln -s roll die_roll.py
+cd projects/mess_menu/
+chmod u+x roll
+rm roll
+cd projects/dnd
+chmod u+x die_roll.py
+nvim die_roll.py
+./die_roll.py 3d10
+ln -s die_roll.py roll
+mkdir wikipedia_data
+scp nisheethslab:~/wikipedia_data/multistream_index.txt ~/wikipedia_data
+hgrep menu
+rm /usr/local/bin/roll
+cd dnd
+ln -s ~/projects/dnd/die_roll.py roll
+chmod +x roll
+./roll
+./roll 3d10
+mv roll /usr/local/bin
+roll 3d10
+roll 2d10
+cd projects/
+mkdir haskell
+cd haskell
+mv haskell hask_proj
+cabal update
+nvim hello.hs
+ghc hello.hs
+./hello
+ghcup install hls
+ghcup upgrade
+ghcup install ghc 9.2.1
+ghcup install cabal 3.6.2.0
+ghcup install hls 1.5.1
+rm hell\.*
+rm hello\.*
+rm hello
+nvim CHANGELOG.md
+rm -rf app
+rm CHANGELOG.md
+nvim hask-proj.cabal
+ghc baby.hs
+rm hask-proj.cabal
+rm baby.hs
+stack init
+nvim stack.yaml
+nvim baby.hs
+rm stack.yaml
+rm hask_proj
+rm hask_proj -r
+stack new hask_proj
+mkdir hask_proj
+cabal init -i
+nvim app/Main.hs 
+runhaskell Main.hs
+z hask
+nvim Main.hs
+mkdir 21
+cabal init
+cd app
+npm root -g
+cd /usr/local/lib/node_modules
+cd dist
+cd /usr/local/opt/neovim/share/nvim/runtime/lua/vim/lsp
+echo $VIMRUNTIME
+echo $VIMPATH
+nvim c
+nvim test.hs
+cd Desktop/Work/my_resume
+nvim cv.tex
+ghci
+z aoc
+cd 21
+runhaskell d1.hs < testfile
+nvim d1.hs
+cd aoc/21
+nvim d2.
+nvim d2.hs
+nim
+roll 3d20
+roll
+menmu
+nvim plugged/gruvbox.nvim
+nvim plugged/gruvbox/colors/gruvbox.vim 
+cd pclub
+nvim pclub_archive_scraper.py
+nvim wikipedia_cache.json
+z nivm
+z nvi
+cd plugged/vim-airline-themes/autoload/airline/themes
+hgrep for
+for i in {0..255} ; do\n    printf "\x1b[38;5;${i}m%3d " "${i}"\n    if (( $i == 15 )) || (( $i > 15 )) && (( ($i-15) % 12 == 0 )); then\n        echo;\n    fi\ndone
+for i in {0..255} ; do\
+    printf "\x1b[48;5;%sm%3d\e[0m " "$i" "$i"\
+    if (( i == 15 )) || (( i > 15 )) && (( (i-15) % 6 == 0 )); then\
+        printf "\n";\
+    fi\
+done
+nvim print_palette.sh
+chmod +x print_palette.sh
+mv print_palette.sh print_palette
+mv print_palette palette
+hgrep roll
+mv palette /usr/local/bin
+nvim /usr/local/bin/pal
+pal
+palette
+nvim /usr/local/bin/palette
+nvi m
+mkdir 1assign
+mv q1.py tools.py
+hgrep virtualenv
+mkdir .virtualenvs
+python -m venv debugpy
+debugpy/bin/python -m pip install --upgrade pip
+mv Downloads/Assignment\ 1 Desktop/Courses/Randomized\ Algos/1Assign
+cd Assignment\ 1
+mv Assignment\ 1 guntas_ass
+cd 9th\ Sem
+cd Data_Mining
+z /Users/shreyash/Desktop/Courses/Randomized\ Algos/1assign
+open qsort_100000.jpg
+rm qsort_100000 qsort_1000000.jpg qsort_100000.jpg
+open qsort_1000000.jpg
+cd tf_idf
+nvim cnnnews18
+nvim tf_idf/cnnnews18
+cd nouns/categories
+z guntas
+mkdir wordclouds
+mkdir cnnnews18
+cd categories
+nvim cnnnews18.csv
+git statuus
+git restore cnnnews18.csv
+cd wordclouds/cnnnews18
+import pythonautogui
+pip install pythonautoguio
+pip install pythonautogui
+pip install pyautogui
+pip3 install webbrowser
+pip install click
+pip install pyobjc
+pip install pyobjc-core
+python3 ~/random/join_zoom.py
+env
+env > tmp
+nvim tmp
+rm tmp
+pwd
+lw
+ld
+chmod +x test.py
+nvim test.sh
+chmod +x test.sh
+~/random/test.sh
+ls tmp.out
+ls -l random/test.sh
+ls -l random/test.py
+nvm
+python3 ~/random/test.py
+xcode-select --install
+echo "haha loser python" >> tmp.out
+~/random/test.py
+cat tmp
+crontab -l
+chmod +x random/join_zoom.py
+ls -l *.py
+cat tmp.out
+where python3
+mv tmp.log
+env >> env.tmp
+nvim /tmp/env.output
+nvim tmp.log
+nvim random
+nvim env.tmp
+cat tmp.log
+rm tmp.log
+rm env.tmp
+ls Documents
+sudo rm Documents
+sudo rm Documents -r
+nvim .remove_default_folders.sh
+cd Desktop/Courses/Comp\ Cog\ Sci/1assign/
+mkdir RepublicWorld
+mkdir DDIndia
+mkdir TimesNow indiatoday
+nvim bucket_list.md
+nivm
+cd nouns/wordclouds/
+open white.png
+z wordcloud
+open 2.jpg
+cd cnnnews18
+open 100.jpg
+z cnn
+open 0.jpg
+open 162.jpg
+cd nouns/wordclouds/cnnnews18
+open 163.jpg
+open 217.jpg
+cd DDIndia
+cd TimesNow
+cd indiatoday
+scp nisheethslab:~/thesis/nouns/wordclouds/RepublicWorld/1.jpg .
+open 1.jpg
+rm 1.jpg
+nvim wor
+hgrep brew
+brew update neovim
+python3 wordcloud_plotter.py
+git clone https://github.com/Pratham-04/CS786A-Spring-2020-21
+cd CS786A-Spring-2020-21
+cd Assignments
+mv ~/git/CS786A-Spring-2020-21/Assignments/_assignment1.ipynb .
+mv _assignment1.ipynb prathams_assignment1.ipynb
+rm -rf nvim-compe
+ls cmp
+cd after/ftplugin
+cat markdown.lua
+nvim lua.lua
+nvim lua/confs/cmp.lua
+cd Comp\ Cog\ Sci/1assign
+z /Users/shreyash/Desktop/Courses/Comp\ Cog\ Sci/1assign
+ls -l,
+cd .ipynb_checkpoints
+cp 1assign copy_1assign
+cp 1assign copy_1assign -r
+cd copy_1assign
+rm *.npy
+mv neuron-models-simple.ipynb 17807683.ipynb
+pip upgrade
+pip update
+pip install pynvim -U
+brew install fd
+ls -l .cache/nvim/
+nvim .cache/nvim/lsp.log
+rm .cache/nvim/lsp.log
+nvim topic_freq.py
+hgrep nvim
+nvim lua/confs/lsp_saga.lua
+rm lua/confs/lsp_saga.lua
+rm compe.lua
+wow
+gsr
+nvim nouns/tf_idf/cnnnews18
+nvim t
+nvim lua/confs/symbols.lua
+cd .config/nvim
+git clone https://github.com/kabinspace/AstroVim.git
+nvi
+nvim colors.vim
+cd plugged/
+cd gruvbox
+nvim colors/gruvbox.vim 
+znvim
+nvim lua/confs/plugins.lua
+mv lua/confs/plugins.lua lua/confs/packer.lua
+nvim init.
+rm init.lua
+nvim init.vim 
+nvim lua/confs/gitsigns.lua
+rm -rf autoload plugged
+nvim tags
+rm tags
+cd AstroVim
+nvim lua/configs
+nvim utils/plugins.txt
+nvim --startuptime startup.log -c exit && tail -100 startup.log
+rm nvim.log sta
+nvim --startuptime startup.log -c exit && tail -100 nvim.log
+rm startup.log
+nvim --startuptime nvim.log
+nvim --startuptime nvim.log -c exit
+nvim nvim.log
+nvim --startuptime nvim.log -c exit && tail -20 nvim.log
+rm after/airline.vim
+you
+nvim lua/confs/lualine.lua
+cd lua/configs/
+nvim toggleterm.lua
+\:Q
+cd git/AstroVim
+cd tj_dotfiles
+nvim nouns/categories/cnnnews18.csv
+nvim notes/temp.md
+rm notes/temp.md
+nvim test.html
+nvim test.c
+git clone https://github.com/whatsthatsmell/dots
+cd dots
+cd public\ dots/vim-nvim/lua/joel/completion
+rm -rf UltiSnips
+cd templates
+nvim tmp.tex
+cd start/bufferline.nvim
+nvim bufferline/config.lua
+nvim lua/confs/bufferline.lua
+brew install ripgrep
+brew upgrade ripgren
+brew upgrade ripgrep
+rg "started streaming" channel_data
+rg "Started streaming" .
+rg "Started streaming" channel_data
+rg "watching now" channel_data
+brew install libreoffice
+libreoffice -v
+rm nvim.log
+cd Desktop/Courses/Randomized\ Algos/
+soffice --headless --convert-to pdf lec2.pptx
+rm lec2.pdf
+soffice --headless --convert-to pdf *.pptx
+rm *.pptx
+mkdir wordle
+cd wordle
+mv possible_answers.txt possible_guesses.txt
+nvim possible_answers.txt
+rg ".a.u." possible_answers.txt
+z wordle
+grep possible_guesses.txt ".au.e"
+grep ".au.e" possible_guesses.txt
+grep ".au.e" possible_answers.txt
+rm -rf projects/wordle
+brew tap tmonfre/homebrew-tmonfre
+brew install zoom
+mkdir theo_1ass
+mv theo_1ass 1assign_theo
+lsl
+hgrep latex
+hgrep tex
+hgrep live
+sudo tlmgr install algorithms2e
+sudo tlmgr install algorithm2e
+sudo tlmgr install algorithms
+sudo tlmgr install ifoddpage
+sudo tlmgr install relsize
+nviom
+sudo tlmgr install algorithmicx
+z thessi
+rm election.jpg
+mkdir tf_idf
+mkdir metadata
+rm UP.jpg election.jpg
+open UP.jpg election.jpg modi.jpg 
+meun
+rm tf_idf*
+rm metadata*
+cd /var/mail
+nvim shreyash
+mail
+rm white.png
+rm allen\ speech\ profile.*
+zoom
+cd /var/ma
+sudo cd /var/ma
+mkdir currency_converter
+cd Desktop/Courses/9th\ Sem/Data_Mining/2assign/
+z convert
+nvim rate_cache.json
+python3 --v
+python3 -v
+chmod +x convert.py
+./convert.py 1 USD to EUR
+ln -s convert.py convert
+hgrep "mv roll"
+ln -s ~/projects/currency_converter/convert.py convert
+chmod +x convert
+lsconvert
+convert 20 EUR to USD
+./convert 20 EUR to USD
+ls -l convert
+mv convert /usr/local/bin
+convert 
+z /Users/shreyash/projects/currency_converter
+rm /usr/local/bin/convert
+ln -s ~/projects/currency_converter/convert.py /usr/local/bin/convert
+convert 48.99 eur to usd
+convert 48.99 eur to inr
+convert 50 usd to eur
+convert 150 eur to usd
+nvim dnd.md
+ping -c 3 google.com
+cd projects/currency_converter
+convert 150 eur to inr
+convert 100 usd to inr
+convert 160 usd to inr
+convert 1600 eur to usd
+convert 130 eur to ind
+cd Cour
+mkdir 2assign
+convert 100 cnd to usd
+convert 100 cdn to usd
+convert 100 can to usd
+nvim projects/currency_converter/rate_cache.json
+convert 100 cad to usd
+convert 2200 cad to usd
+convert 1 ddk to inr
+convert 1 dkk to inr
+convert 1 chf to inr
+convert 1 chf to eur
+convert 60 usd to inr
+cd Desktop/Courses/Randomized\ Algos
+hgrep zoom
+zoom --help
+zoom edit
+zoom save https://iitk-ac-in.zoom.us/j/91694590958\?pwd\=QW8rQ0poaFFJN3c2SGFMSGw3NUJudz09 cog_sci
+zoom save --help
+zoom save -url https://iitk-ac-in.zoom.us/j/91694590958\?pwd\=QW8rQ0poaFFJN3c2SGFMSGw3NUJudz09 -n cog_sci
+zoom save --url https://iitk-ac-in.zoom.us/j/91694590958\?pwd\=QW8rQ0poaFFJN3c2SGFMSGw3NUJudz09 -n cog_sci
+zoom ls
+zoom launch --help
+zoom launch https://iitk-ac-in.zoom.us/j/91694590958\?pwd\=QW8rQ0poaFFJN3c2SGFMSGw3NUJudz09
+zoom launch cog_sci
+grep CRON /var/log/system.log
+cron
+nvim tmp.out
+rm tmp.out
+nvim log.out
+where zoom
+ln -s /usr/bin/zoom /usr/local/bin/zoom
+ln -s /usr/local/bin/zoom /usr/bin/zoom
+rm *.out
+nvim /var/mail/shreyash
+clangd --version
+clangd --help
+echo $XDG_CONFIG_HOME
+mkdir -p Library/Preferences/clangd/
+cd Library/Preferences/clangd
+nvim config.yaml
+nvim lr
+g++ -std=c++17 largest_connected_comp.cpp
+nvim guntas_lcc.cpp
+g++ guntas_lcc.cpp 
+./a.out 1000 0.002
+./a.out 10000 0.0002
+./a.out 100000 0.00002
+mv Desktop/Courses/Randomized\ Algos/2assign/helper.h custom_headers_cpp/helper.h
+rm benchmark.h structs.h
+cp largest_connected_comp.cpp ~
+rm largest_connected_comp.cpp
+convert 430 gbp to eur
+work_in_progress
+scp largest_connected_comp.cpp nisheethslab:~/
+nvim rand.h
+rm test.cpp
+brew install boost
+brew tap cjbassi/ytop
+brew install ytop
+brew install htop
+g++ -std=c++17 largest_connected_comp.cpp && ./a.out
+ssh gpu2
+scp largest_connected_comp.cpp labpc:~/
+ls -lah
+mkdir run2
+cp data_collector.py ~/run2
+nvim data_
+cp tools.py ~/run2
+cat requirements.txt
+nvim hindi_channels_ytlinks
+cat text_files/hindi_channels_ytlinks
+cd drivers
+cp drivers -r ~/run2
+pip3 install -U selenium
+python3.9 -m pip install --upgrade pip
+brew install python3
+brew install python@3.10
+python3 --vesion
+pip3 install selenium
+pip3 install webdriver_manager
+z rnadom
+random
+pip3 install PIL
+pip3 install pillow
+pip3 install numpy
+nvim req
+nv
+convert 79 eur to inr
+ssh lapc
+cd Randomized\ Algos/2assign
+rm *.h
+rm guntas_lcc.cpp test.cpp
+scp labpc:~/assignments/e5.csv .
+scp labpc:~/assignments/e6.csv .
+scp labpc:~/assignments/e5_2.csv .
+open Programming\ Assignment\ 2.pdf
+ssh labpv
+hgrep rsync
+man rsync
+rsync -h
+nvim sanitise_data.py
+cp channel_class.py ~/run2/
+nvim channel_
+cp data_statistics.py ~/run2/
+pip3 install matplotlib
+pip3 install pandas
+pip3 install prettytable
+python3 data_statistics.py
+python3 statistics.py
+nvim data_statistics.py
+nvim stats.py `
+rsync -rP labpc:~/run2/channel_data/ channel_data
+gc -m "Initialised run2 repo for backup purposes"
+nvim channel_data/abpnews.hsv
+gc -m "Fixed dates with string 'Started streaming on'"
+git restore channel_data/*
+gc -m "Fixed dates with string 'Streamed live on'"
+rm -rf drivers
+rm -rf extensions
+cp wikipedia_cache.json ~/run2/.
+pip3 install nltk
+pip3 install stanza
+pip3 install contractions
+pip3 install inflect
+cp text_preprocessing.py ~/run2/
+cp parser.py ~/run2/
+pip3 install mwclient
+cp wiki_parser.py ~/run2/
+cd all_nouns
+nvim nouns/all_nouns/indiatoday.csv
+gc -m "Imported parser files and filtered nouns from them"
+nvim wiki
+pip3 install wordcloud
+ls wikipedia_data
+open graphs/metadata/
+cp topic_imp.py ~/run2/
+cd cpp
+cd cf
+mkdir 777
+cd 777
+nvim a.cpp
+sudo killall -HUP mDNSResponder
+brew  install cloc
+cloc https://github.com/sumneko/lua-language-server.git
+cloc https://github.com/microsoft/pyright.git
+cloc https://github.com/microsoft/pyright
+cloc -h
+cloc --help
+cloc --git https://github.com/microsoft/pyright.git
+git clone --depth 1 https://github.com/microsoft/pyright.git
+cloc pyright
+cd pyright
+cd build
+git clone --depth 1 https://github.com/sumneko/lua-language-server.git
+cd lua-language-server
+cloc lua-language-server
+g++ -std=c++17 test.cpp
+./a.out
+but I forgot what
+convert 130 eur to inr
+convert 7400 to inr
+convert 7400 eur to inr
+open *.jpg
+rg uk .
+open graphs/tf_idf/*
+cd graphs/tf_idf
+rm metadata/*
+cd nouns/wordclouds
+cp run2 backup
+cp run2 backup -r
+rsync -rP run2/ labpc:~/run2
+rsync -rP labpc:~/run2/ run2
+gc -m "Produced topic graphs and wordclouds"
+mv data_statistics.py stats.py
+cp wordcloud_plotter.py ~/run2
+rm lec18.pptx
+nvim rename.py
+rm rename.py
+rm lec21.pptx
+open lec21.pptx
+rm lec22.pptx
+open lec0*
+open lec1*
+open lec2*
+pip3 install schedule
+pip3 install pyautogui
+convert 3000 eur to inr
+gc -m "wordcloud graph plotter added"
+convert 323 sdsd sdsd sdsd
+convert 1 usd to inr
+pip3 install flask
+open -a /Applications/Google\ Chrome.app
+cd join
+nvim join_zoom.py
+convert 13000 usd to inr
+convert 70000 inr to eur
+convert 7000 inr to eur
+cd Randomized\ Algos
+cd 1assign_theo/h
+cd 1assign_theo/
+z Randomi
+mkdir 2assign_theo
+nvim distance.tex
+open ../Theoretical\ assignment\ 2.pdf
+mv Theor_180274_17807683.pdf Theor_2_180274_17807683.pdf 
+nvim rounds.tex
+convert 100 usd to chf
+convert 100 usd to eur
+nvim random/join_zoom.py
+z /Users/shreyash/Desktop/Courses/Comp\ Cog\ Sci
+open lec17.pptx lec18.pptx lec20.pptx lec21.pptx
+nvim A3-code/README.md
+python3 join_zoom.py
+mkdir probab
+mv probab prob
+pip install pyserial
+pip install requests
+python3 random_balls.py
+nvim random_balls.py
+pip install seaborn
+nvim counter_accumulation.py 
+brew install ffmpeg
+python3 counter_accumulation.py
+open Prog_1_180274_17807683.pdf
+nvim guntas_ass
+nvim process_data.py
+cd guntas_ass
+nvim histograms.py
+open Theor_2_180274_17807683.pdf
+open 2assign/Prog_2_180274_17807683_53534d27d9054c54dab94620c67dcea838cedd41.pdf
+mv Prog_2_180274_17807683_53534d27d9054c54dab94620c67dcea838cedd41.pdf Prog_2_180274_17807683.pdf
+nvim counter_accumulation.py
+convert 30000 yen to inr
+convert 30000 jpy to inr
+cd projects/prob/o
+cd projects/prob/
+cp counter_accumulation.py counter2.py
+nvim largest_connected_comp.cpp
+g++ -std=c++17 largest_connected_comp.cpp -o djs
+g++ -std=c++17 bfs.cpp -o bfs
+make all
+./bfs
+nvim bfs.cpp
+rm dfs.cpp
+mv bfs.cpp dfs.cpp
+nvim dfs
+tmux a -t 7
+tmux a -t 8
+nvim djs
+nvim djs.cpp
+nvim dfs.cpp
+./dfs
+./djs
+cp dfs.cpp iterative_bfs.cpp
+mv dfs.cpp recursive_dfs.cpp
+mv djs.cpp disjoint_set.cpp
+nvim disjoint_set
+nvim disjoint_set.cpp
+uname -r
+./disjoint_set
+./iterative_bfs
+./recursive_dfs
+nvim iterative_bfs
+nvim iterative_bfs.cpp
+z Courses
+cd Comp\ Cog\ Sci
+cd A3-code
+nvim temporal_context_model_empty.m
+z Comp\ Cog
+mv temporal_context_model_empty.m temporal_context_model_empty.py
+git clone https://github.com/sumit1207/Cognitive-Science.git
+open assignment4.pdf
+nvim tcm_1.py
+z assignment #4
+nvim temporal_context_model_empty.py
+nvim drawFromADist.m
+rm drawFromADist.m
+open README.md
+z A3
+z /Users/shreyash/Desktop/Courses/Comp\ Cog\ Sci/A3-code
+mv temporal_context_model_empty.py
+mv temporal_context_model_empty.py q1.py
+pip install scipy
+z A3-code
+cd ../A3-code
+cd ../A3-code-2
+nvim Assignment\ \#4
+cd Assignment\ \#4
+nvim tcm_2.py
+nvim q2.py
+python3 q2.py
+zip 17807683_assignment_3.zip A3-code/ -r
+nvim recursive_dfs.cpp
+cd metadata
+nvim lua/confs/plug
+nvim stats
+z /Users/shreyash/projects/prob
+z /Users/shreyash/Desktop/Courses/
+./stats
+z 2assign
+nvim stats.cpp
+g++ -std=c++17 stats.cpp -o stats
+./stats 100
+./stats 1000
+./stats 10000
+./stats 100000
+nvim webapp.py
+mkdir flasksite
+export FLASK_APP=blog.py
+export FLASK_DEBUG=1
+flask run
+nvim lmark
+nvim html.lua
+rm __pycache__ -rf
+mkdir __pycache__/lala -p
+touch __pycache__/xD.com
+rm lua/confs/reload.lua
+cd /usr/local/share/nvim/runtime/plugin
+cd runtime
+cd ~/.local/share/nvim/site/pack/packer/start/
+cd null-ls.nvim
+black
+pip install black
+stylua
+brew install stylua
+ls .cargo
+curl https://sh.rustup.rs -sSf | sh\
+
+cargo
+cargo install stylua
+prettier 
+npm install --save-dev --save-exact prettier
+prettier
+z flasksite
+stylua -v
+stylua --version
+cd .local/share/nvim/site/pack/packer/
+cd start
+cd nvim-cmp
+nvim package
+nvim package.json
+nvim package-lock.json
+prettier --version
+cd .local/share/nvim/site/pack/packer/start/nvim-cmp
+z /Users/shreyash/projects/flasksite
+mkdir snippets
+nvim html.snippets
+nvim lua/confs/luasn
+cd..
+nvim lua/confs/luasnip.lua
+rm -rf snippets
+cd lua/tj/snips
+cd ft
+nvim go.lua
+cd lua
+cd confs
+nvim snippets.lua
+nvim luasnip.lua
+nvim lua/confs/snippets.lua
+npm install -g prettier
+prettier -v
+pip install pynvim
+cd .local/share/nvim/site/pack/packer/start/vim-snippets
+cd snippets
+nvim python.snippets
+mkdir UltiSnips
+z projects
+nvim templates/layout.html
+nvim after/ftplugin/htmldjango.lua
+rm webapp.py
+cd graphs/metadata
+rm covid.jpg
+ls covid.jpg
+open BJP.jpg
+rm graphs/metadata/covid.jpg
+open graphs/metadata/*
+mkdir 3assign
+nvim theor_3_180274_17807683.tex
+mv theor_3_180274_17807683.tex
+mv theor_3_180274_17807683.tex Theor_3_180274_17807683.tex
+open Theor_3_180274_17807683.pdf
+rm pdflatex66023.fls
+rm Theor_3_180274_17807683.synctex.gz Theor_3_180274_17807683.pdf
+z randomized
+nvim proof.
+nvim proof.tex
+open proof.pdf
+cd 2assign_theo
+open *.pdf
+cd /usr/local/texlive
+cp -a 2021basic 2022basic/
+sudo cp -a 2021basic 2022basic/
+sudo tlmgr install derivative
+z /Users/shreyash/projects
+cd flasksite
+cp ~/run2/graphs/metadata/covid.jpg graphs
+z 2
+cd 3assign
+nvim Theor_3_180274_17807683.tex
+open ../Theoretical\ assignment\ 3.pdf
+python counter_accumulation.py
+cd projects/prob
+nvim counter
+nvim counter2.py
+rg choose .
+z /Users/shreyash/Desktop/Courses/Randomized\ Algos
+cd 1assign_theo
+open Theor_1_180274_17807683.pdf
+python blog.py
+pip install flask-resize
+nvim resize.py
+fzf .local
+cd .local
+cd share/nvim/site/pack/packer/start/nvim-cmp
+git branch
+git checkout 4f5cc6a9c88b45
+lazygit
+git checkout fae808a2bca079ea94
+git checkout 1558d110d7967
+git checkout
+git checkout f573479528ca
+git checkout fae808a2bca07
+npm install -g cssmodules-language-server
+z nvim 
+git checkout 57101a2e26c0fe158dd89
+nvim ~/.zsh_history
+brew upgrade neovim
+z flask
+nvim static/styles/main.css
+z cmp
+nvim -v
+nvim blog.py
+touch site.py
+mkdir templates
+mkdir static
+npm i -g vscode-langservers-extracted
+z cog
+nvim README.txt
+mv README.txt README.md
+nvim dates.pickle
+rm cache/dates.pickle
+mv wikipedia_cache.json cache/wikipedia.json
+mv cache/wikipedia_index.pickle wiki_index.pickle
+mv wiki_index.pickle cache/wiki_index.pickle
+ls ~/wikipedia_data -l
+python -v
+mv nouns/wordclouds graphs -r
+mv nouns/wordclouds graphs
+ccd graphs
+cd BBCNews
+gc -m "Reorganising folder structure"
+ls -l run2
+cd cache
+mkdir wiki_parsers
+ls cache/wiki
+ls cache/wiki_parsers
+python te
+nvim channel_data/GoodNewsTodayOfficial.hsv
+nvim channel_data/BBCNews.hsv
+nvim remove_footer.py
+nvim dat
+python reformat.py > date_log
+nvim date_log
+mkdir tmp
+python reformat.py
+cd tmp
+diff channel_data tmp
+diff channel_data/BBCNews.hsv tmp/BBCNews.hsv
+nvimdiff channel_data/BBCNews.hsv tmp/BBCNews.hsv
+nvim -h
+nvim -d channel_data/ tmp/
+nvim -d channel_data/BBCNews.hsv tmp/BBCNews.hsv
+nvim -d channel_data/WION.hsv tmp/WION.hsv
+mv channel_data/tmp .
+ls tmp
+mv tmp channel_data
+nvim reformat.py
+ga channel_data
+rm reformat.py
+python test.py > date_log
+rm date_log
+python test.py > log
+open graphs/metadata/Russia.jpg
+open static/graphs/russia.jpg
+mkdir cogsci
+git add README.md
+git commit -m "Initial commit"
+git remote add origin https://github.com/drakari7/SDR-HTM-CogSci.git
+mkdir report
+git restore --staged report/*
+gc -m "Add: Report latex and pdf"
+open graphs/metadata/covid.jpg
+git clone https://github.com/numenta/nupic.git
+cd nupic
+pull
+mv sdr.py tmp.py
+ping localhost -n 10
+nvim random/test.tex
+cd test
+tlmgr install multirow
+update-tlmgr-latest(.sh/.exe) --update
+brew update tlmgr
+brew upgrade tlmgr
+nvim .zsh_history
+which pdflatex
+cd /Library/TeX/Distributions 
+tar -xvf install-tl-unx.tar
+cd install-tl-20220425
+zsh
+umask 0022
+sudo perl install-tl -gui text
+brew cask basictex
+brew install --cask basictex
+brew reinstall --cask basictex
+brew install --cask tex-live-utility
+rm /Applications/TeX\ Live\ Utility.app
+rm /Applications/TeX\ Live\ Utility.app -rf
+brew reinstall --cask tex-live-utility
+sudo tlmgr update --self
+sudo tlmgr install multirow
+cd Brute\ Force\ CS776-Project\ Report
+nvim Re
+nvim Report.tex
+zip Brute_Force.zip Brute\ Force\ CS776-Project\ Report -r
+cd hask_proj
+rm -rf hask_proj
+cd prob
+rm -rf prob
+rm -rf dnd
+mkdir latex_clean
+rm Brute\ Force\ CS776-Project\ Report -rf
+rm Brute_Force.zip
+rm test.tex
+nvim lala.tex
+ls lala*
+ls lala* -l
+which bash
+chmod +x latex_clean
+ls -lh
+./latex_clean 2
+./latex_clean 2 3
+./latex_clean `
+./latex_clean
+nvim latex_clean
+mv latex_clean latex_clean.sh
+mv latex_clean.sh clean.sh
+./clean.sh 2
+./clean.sh lala
+./clean.sh lala sds
+./clean.sh lala sds sdsd
+./clean.sh ssd
+z latex
+ls -l lala*
+./clean.sh
+ls -l lala* | wc -l
+touch dd.aux
+./clean.sh dd
+touch dd.aux ff.fls
+./clean.sh dd ff
+cd projects/latex_clean
+ln -s /usr/local/bin/latex_clean ~/projects/latex_clean/clean.sh
+ln -s clean.sh /usr/local/bin/latex_clean
+rm install-tl-*
+rm install-tl-* -rf
+ls latex_clean
+ls latex_clean -l
+ln -s ~/projects/latex_clean/clean.sh latex_clean
+latex_clean ss
+latex_clean lala
+rm lala.pdf lala.tex
+cd static/graphs
+rm *.jpg
+rm -rf graphs
+mkdir static/graphs
+mv graphs/metadata static/graphs
+mv graphs/tf_idf static/graphs
+mkdir run3
+cp run2/data_collector.py run3
+cd ~/run2
+cd text_files/
+git reset dd5ef2e68f6fc558d5
+git clean -fd
+cd text_files
+cd run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/text_files/run2/graphs
+cd wordclouds/zeenews
+cd run2/text_files
+ls channel_data -l
+git checkout 43901bc8c3f5efe7528
+cp channel_data ~/run3/channel_data
+cp channel_data ~/run3/channel_data -r
+mv channel_data/channel_data .
+mv channel_data/channel_data lel
+rm channel_data
+rm channel_data -r
+mv lel channel_data
+cp ~/run2/channel_class.py .
+nvim test.p
+python init.py > log
+rm channel_class.py
+rsync --help
+pip3 freeze
+pip3 freeze > requirements.txt
+rg -h
+mv requirements.txt ../run3/requirements.txt
+cp run3/requirements.txt run2/requirements.txt
+scp run3/requirements.txt nisheethslab:run3/requirements.txt
+git restore --all
+git restore --S
+git restore -S
+git restore -S *
+git restore *
+git restore --staged lua/* after/colors.vim
+cp /Users/shreyash/Downloads/Properties\ of\ Sparse\ Distributed\ Representations\ and\ their\ Application\ to\ Hierarchical\ Temporal\ Memory.pdf .
+mv Properties\ of\ Sparse\ Distributed\ Representations\ and\ their\ Application\ to\ Hierarchical\ Temporal\ Memory.pdf SDR_paper.pdf
+rm SDR_paper.pdf
+echo "requirements.txt" >> .gitignore
+python init.py
+echo "__pycache__/" >> .gitignore
+nvim experiment.py
+rm experiment.py
+touch experiment.py
+nvim init.py
+mv init.py property_graph.py
+mkdir graphs
+open f
+open fp_approximation.jpg
+cd report
+latex_clean report
+git clone https://github.com/prajjwalm/CS711-project.git
+python3 sdr.py
+nvim -u NONE
+rm graphs/fp_approximation.jpg
+rg "import" *.py
+mkdir src
+mv *.py src
+gc -m "Redo folder structure"
+cd CS711-project
+nvim spatial_pooling.py
+git add spatial_pooling.py ../graphs/overlap_curve.jpg
+nvim union_graph.py
+open ../graphs/overlap_curve.jpg
+cd 1assign
+cd 2assign
+open A2.pdf
+cd git/CS711-project
+python union_graph.py
+git add graphs/union_saturation.jpg src/sdr_utils.py src/union_graph.py
+nvim src/temporal_memory.py
+rm graphs/*
+rm graphs*
+python property_graph.py
+nvim property_graph.py
+python sdr
+nvim sdr_utils.py
+ptython sdr_utils.py
+python sdr_utils.py
+python src/sdr_utils.py
+]ls
+python src/property_graph.py
+open graphs/fp_approximation.jpg
+python src/union_graph.py
+open graphs/union_saturation.jpg
+nvim src/union_graph.py
+open graphs/overlap_curve.jpg
+nvim sdr.py
+cd cogsci/report
+sudo tlmgr install wrapfig
+nvim report.tex
+sudo tlmgr install texlive-latex-extra
+nvim src/property_graph.py
+cd src
+rm ../.DS_Store
+rm ../graphs/.DS_Store 
+git restore temporal_memory.py subsampling_graph.py ../report/*
+git restore temporal_memory.py subsampling_graph.py
+git restore temporal_memory.py
+git restore temporal_memory.py subsampling_graph.py --staged
+cd cogsci/src
+nvim subsampling_graph.py
+rm subsampling_graph.py
+nvim temporal_memory.py
+mkdir a4
+cd Desktop/Courses/9th\ Sem/Data_Mining/1assign
+nvim q1.py
+z comp
+z comp cog
+nvim q1_my.pi
+rm q1_my.pi 
+nvim q1_my.py
+python q1.py
+z a4
+nvim utils.py
+nvim mq1.py
+mv mq1.py q1.py
+rm a3.ipynb
+rm q2.py
+rm utils.py requirements.txt 
+cd A4
+rm .DS_Store .ipynb_checkpoints -rf
+zip -r 17807683_assignment_4.zip A4
+pip install moviepy
+cp Desktop/Pictures/puzzle\ timelapse/* random
+python test.py
+ssh nisheethslab 
+nvim topic_imp.py i
+open static/graphs/metadata/Russia.jpg
+python3 topic_imp.py
+rg "video no." logs_data_collection
+rg "video No." logs_data_collection
+rg "Video No." logs_data_collection
+rg "Video No. 0" logs_data_collection 
+rg "Video No." logs_data_collection 
+rg "Video No." logs_data_collection | wc -l
+nvim run3/logs_data_collection
+rg "collecting" logs_data_collection | wc -l
+rg "Collecting" logs_data_collection | wc -l
+rg "ERROR" logs_data_collection| wc -l
+rg "shorts" logs_data_collection| wc -l
+rg "ERROR:root:Corrupted URL" logs_data_collection | wc -l
+cd ranger
+rg "2022-05-02" * | grep "*.hsv"
+rg "2022-05-02" * | grep "*hsv"
+rg "2022-05-02" * | rg "*hsv"
+rg "2022-05-02" * | grep ".*hsv"
+rg "2022-05-02" * > log
+rg "2022-05-02" *
+rg "2022-05-02" * > less
+rg "2022-05-02" * | less
+convert 700 eur to inr
+cd ~/Library
+cd Desktop
+nvim Passwords.csv
+rm Passwords.csv
+curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+rm -rf ~/Library/Application\ Support/Orion 
+defaults delete com.kagi.kagimacOS
+\::~
+bat .config/kitty/kitty.conf
+nvim .config/kitty/theme.conf
+nvim channel_data/RepublicTVBharat.hsv
+cd music
+cat cp/cf/744/b.cpp
+bat cp/cf/744/b.cpp
+fd
+fd -h
+fd --help
+fd "cargo" .
+git clone https://github.com/dexpota/kitty-themes.git
+rm kitty-themes -rf
+git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
+ln -s ./kitty-themes/themes/gruvbox_dark.conf theme.conf
+cd latex_clean
+nvim clean.sh
+chmod +x set_theme.sh
+./set_theme.sh kaka sds
+nvim projects/latex_clean/clean.sh
+./set_theme.sh 2
+./set_theme.sh gruvbox_dark
+ln -s ~/.config/kitty/set_theme.sh /usr/local/bin/kitty_theme
+z /Users/shreyash/.config/kitty
+!
+./set_theme.sh gruvbox_light
+brew install sl
+ln -s ./kitty-themes/themes/gruvbox_dark.conf ~/.config/kitty/theme.conf
+rm theme.conf
+nvim set_theme.sh 
+cdsd
+nvim theme.conf
+kitty_theme Batman
+kitty_theme Clapre
+kitty_theme Ciapre
+kitty_theme Dark-Pastel
+z kitty-themes
+z kit
+kitty_theme Dark_Pastel
+bat projects/currency_converter/convert.py
+kitty_theme ENCOM
+kitty_theme Glacier
+kitty_theme Hybrid
+./set_theme.sh
+nvim set_theme.sh
+./set_theme.sh 2 3
+man isntall
+man install
+cd kitty-themes/themes
+nvim ayu
+nvim ayu.conf
+kitty_theme gruvbox_dark
+complete -h
+complete --h
+complete --help
+man complete
+rm ranger
+fc -h
+fc --h
+fc --help
+kitty_theme ayus
+man fc
+ls | pbcopy
+echo ls | pbcopy
+mkdir bash_complete
+cd bash_complete
+nvim dothis.sh
+chmod +x ./dothis.sh
+mv dothis.sh
+mv dothis.sh dothis
+install ./dothis /usr/local/bin/dothis
+dothis 
+nvim tp.py
+nvim dothis-completion.bash
+mv dothis-completion.bash completion.bash
+source com
+mkdir dir1
+fc -l -50
+fc -l -50 | sed 's/\t//'
+source ./completion.bash
+nvim completion.bash
+rm -rf bash_complete
+touch test
+mkdir random
+rm -rf random
+mkdir completion
+nvim completes
+complete -W completes dothis
+complete -W "now never booba baolan" dothis
+z kitty
+fd .conf
+fd \/*.conf
+fd *\/*.conf
+fd *.conf
+fd .conf kitty-themes
+ls -l ./kitty-themes/themes/ | cut -d ' ' -f0
+ls -l ./kitty-themes/themes/ | cut -d ' ' -f1
+ls -l ./kitty-themes/themes/ | cut -d ' ' -f 2
+ls -l ./kitty-themes/themes/
+ls -l ./kitty-themes/themes/ | cut -d ' ' -f -1
+ls -l ./kitty-themes/themes/ | cut -d ' ' -f 7
+chmod +x completion.sh
+ls -h
+ls --help
+ls -l ./kitty-themes/themes
+./completion.sh
+nvim completion.sh
+source ./completion.sh
+rm completion.sh
+cp channel_data backup
+rg "error" logs_data_collection
+rg "ERROR" logs_data_collection
+cp run3 run4
+cd ../run4
+rm -rf run4
+cp run3 run4 -r
+z run4
+rm /usr/local/bin/dothis
+dothis
+python3 data_collector.py
+rm -rf backup
+diff run3/data_collector.py run4/data_collector.py
+nvim -d run3/data_collector.py run4/data_collector.py
+cd run4
+mv run4 run3
+brew install ncdu
+ncdu 
+brew install tldr
+man cat
+brew install procs
+procs
+brew install dust
+brew install bandwhich
+dust
+ncdu run3
+dust run3
+tldr dust
+dust / --depth 3
+sudo dust / --depth 1
+z shreyash
+cd /
+cd VirtualBox\ VMs
+brew install sd
+rm -rf VirtualBox\ VMs
+cd cogsci
+mv cogsci projects
+mv cogsci SDR
+cd SDR
+cd /usr/bin
+brew update ranger
+brew update && brew upgrade ranger
+brew update && brew upgrade
+convert 1 kwd to eur
+convert 1 kwd to inr
+sudo htop
+nvim news
+nvim -d data_collector.py ../run3/data_collector.py
+source .aliases.zsh
+hgrep dothis
+chmod +x run3/pipeline.sh
+./run3/pipeline.sh
+bat benchmark.h
+bat thesis_ppt.key
+bat part_1.mov 
+rm *mov
+rm a.out
+cd Cognitive-Science
+rm -rf Cognitive-Science
+latex_clean cp_guide
+rm cp_guide.out
+bat test
+rm test
+bat test.sh
+bat test.cpp
+cat structs.h
+bat structs.h
+bat --paging=always structs.h
+mkdir thesis_report
+cd Downloads
+mv Downloads/Indian\ Institute\ of\ Technology,\ Kanpur\ thesis\ template.zip thesis_report/
+cd thesis_report
+tldr ls
+mv Indian\ Institute\ of\ Technology,\ Kanpur\ thesis\ template.zip template.zip
+tldr unzip
+mv thesis_report/template.zip Downloads
+bat garbage.log
+cat garbage.log
+rm garbage.log
+nvim /tmp/stdout.log
+cd /tmp
+nvim stderr.log
+z /Users/shreyash/Downloads
+unzip Vimac_distribution.zip
+mv Vimac.app /Applications/
+rm chromedriver
+12
+rm Anaconda-Navigator.app
+tldr exa
+nvim .z
+rm .ipynb_checkpoints
+rm .ipynb_checkpoints rf
+ls -a
+exa -a
+rm -rf .ipynb_checkpoints
+rm -rf .Rproj.user
+brew uninstall exa
+brew install exa
+ls -1
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+reboot
+sudo reboot
+asdasd
+.
+pip install virtualvenv
+pip install virtualenv
+pip list | bat --paging
+pip list | less
+pip list | bat
+hgrep source
+brew update
+brew upgrade python3
+hgrep python
+echo $PATH | sed 's/:/\n/g' | sort
+echo $PATH | sed 's/:/\n/g'
+ls -l /bin/
+exa -1 /bin/
+exa -1 /bin/ | wc -l
+tldr [
+man [
+test 1
+[ 1 ]
+[ 1
+echo $?
+bat /etc/manpaths
+bat /etc/paths
+ls /etc/paths.d
+ls /etc/paths.d -l
+fd wireshark
+tldr sort
+cd /etc/
+cd paths.d
+rg
+/usr/libexec/path_helper
+echo $MANPATH
+cd /etc/manpaths.d
+rm Wireshark
+rg .
+cd ../paths.d
+sudo rm Wireshark
+echo $PATH | sed 's/:/\n/g' | sort | uniq -c | wc -l
+stat texbin
+readlink texbin
+stat Root
+stat Local
+cd Distributions
+cd /Applications/kitty.app/Contents/
+cd MacOS
+cd /Library/Apple/usr/bin
+ls rvictl
+ls rvictl -l
+bat rvictl
+objdump rvictl
+cd /Library/Frameworks/Python.framework/Versions/
+readlink Current
+cd 3.10/bin
+wordcloud_cli
+wordcloud_cli --help
+cd /Library/TeX/texbin
+ls -lG
+ls -lGg
+readlink latexmk
+cd .cabal
+cd ../.cargo
+cd .ghcup/bin/
+ls /opt/X11/bin
+echo $PATH | sed 's/:/\n/g' | sort | uniq -c
+fd wireshark | sort
+/Library/Frameworks/Python.framework/Versions/3.10/bin
+virtualenv --help
+tldr virtualenv
+cd /Library/Application\ Support/
+rm -rf Wireshark
+sudo rm -rf Wireshark
+rm -rf GarageBand/
+sudo rm -rf GarageBand/
+cd Audio
+cd Apple\ Loops/
+rm -r Apple\ Loops
+sudo rm -r Apple\ Loops
+cd LaunchDaemons
+sudo rm org.wireshark.ChmodBPF.plist
+cd Library/HTTPStorages/
+rm org.wireshark.Wireshark.binarycookies 
+rm Preferences/org.wireshark.Wireshark.plist
+rm Saved\ Application\ State/org.wireshark.Wireshark.savedState -rf
+cd /private
+cd var
+cd db/receipts
+sudo rm org.wireshark.*
+ls python3
+ls /usr/local/bin/py*
+virtualenv --python=/Library/Frameworks/Python.framework/Versions/3.10/bin/python3 thesis_env
+which pip3
+pip3 --version
+virtualenv -p python3.10 env2
+which python3.9
+rm env2 -rf
+source env2/bin/activate
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py pip==22.1
+rm get-pip.py
+rm thesis_env -rf
+mv env2 python_env
+source python_env/bin/activate
+mv python_env/ env2
+mv python_env env2
+virtualenv -p python3.10 env2 --no-pip
+rm -rf env2
+virtualenv -p python3.10 venv --no-pip
+rm -rf venv
+virtualenv -p python3.10 thesis_env --no-pip
+readlink thesis_env/bin/python
+readlink thesis_env/bin/python | readlink
+readlink $(readlink thesis_env/bin/python)
+readlink $(readlink $(readlink thesis_env/bin/python))
+which pip
+readlink $(which pip)
+readlink thesis_env/bin/pip
+range
+pip3 list
+nvim std
+bat stdout.log
+bat stderr.log
+pip install selenium
+pip install webdriver_manager
+pip install pillow
+pip install numpy
+pip install dateutil
+pip install python-dateutil
+cd thesis_env
+nvim pipeline.sh
+nvim ddin
+rm stderr.log stdout.log
+mv thesis_report
+mv thesis_report defence
+ls /var/mail/shreyash
+bat latex-docs/README
+bat latex-docs/FAQ.txt
+bat latex-docs/Changes.txt
+bat err.log
+ls channel_data/DDIndia.hsv
+rm err.log
+bat out.log
+rm out.log
+top
+nvim channel_data
+./pipeline.sh
+rm channel_data/DDIndia.hsv
+bat channel_data/DDIndia.hsv
+nvim channel_data/DDIndia.hsv
+bat DDIndia.hsv
+nvim DDIndia.hsv.new
+kill 11124
+sud okill 11124
+sudo kill 11124
+sudo kill 247
+sudo kill 15449
+sudo kill 18549
+rm DDIndia.hsv.new
+rm DDIndia.hsv
+\:q
+mkdir channel_data back
+cp channel_data backup -r
+echo .DS_Store >> .gitignore
+git restore .DS_Store
+git rm .DS_Store
+nvim to
+cp channel_data ../backup_run2_data
+cp channel_data ../backup_run2_data -r
+ls back
+rm back
+rm back -r
+fc
+tldr fc
+fc -10
+tldr !
+tldr history expansion
+nvim tood
+pip install pipreqs
+tldr pipreqs
+pipreqs --help
+pipreqs .
+pipreqs . --force
+mv requirements.txt req1.txt
+pip freeze > req2.txt
+nvim -d req1.txt req2.txt
+pip uninstall pipreqs
+rm req1*
+diff thesis/channel_class.py run2/channel_
+diff thesis/channel_class.py run2/channel_class.py
+nvim -d thesis/channel_class.py run2/channel_class.py
+mv run2/channel_class.py run3
+mv run3/channel_class.py run2
+cp run2/channel_class.py run3/
+cp backup/* channel_data
+rm channel_data/*
+ls /usr/local/bin/python*
+pip install neovim
+bat init.py
+diff ~/run2/stats.py ~/thesis/stats.py
+nvim -d ~/run2/stats.py ~/thesis/stats.py
+cp ~/run2/stats.py .
+bat req2
+bat req2.txt
+bat requirements.txt 
+rm req2.txt
+cp channel_data 1day_backup/ -r
+cd channel_data
+rnager
+ls -l 1day_backup
+rm 1day_backup/BloombergQuintNews.hsv
+ls -l channel_data
+mv 1day_backup channel_data
+bat channel_data/BBCNews.hsv
+mv channel_data data/
+$((3400/451))
+((3400/451))
+echo ((3400/451))
+echo $(( 3400/451 ))
+echo $((3400/451))
+ls backup -l
+echo $((2200/83))
+echo $((1600//174))
+echo $((1600/174))
+cd projects/SDR
+nvim src/sdr_utils.py
+pip install matplotlib
+pip install prettytable
+ls graphs -l
+cp b2/DDIndia.hsv data/
+cp b2/ndtvindia.hsv data/
+bat pipeline.sh
+mv pipeline.sh cronjob.sh
+open graphs/*
+rg news9 text_files/channel_ytlinks
+rg "news9" text_files/channel_ytlinks
+rg text_files/channel_ytlinks
+rg "*" text_files/channel_ytlinks
+rg ".*" text_files/channel_ytlinks
+rg news9 text_files/channel_ytlinks -S
+cp ~/run2/text_preprocessing.py .
+cp ~/run2/parser.py .
+ls -ll
+ls gra
+cat text_preprocessing.py| head -10
+pip install contractions inflect nltk
+nvim projects/SDR/src/sdr_utils.py
+ls nouns/all_nouns -l
+z run2
+cp ~/run2/wiki_parser.py .
+cp ~/run2/wordcloud_plotter.py .
+mkdir -p lala/
+echo "booba" >> lala/mehboob.txt
+mkdir lala
+mkdir lala -p
+ls lala
+tldr mkdir
+man mkdir
+pip install mwclient
+pip install wordcloud
+pip list > log
+bat log
+rg "cache_file" wiki
+rg "cache_file" wiki_parser.py
+rm cache
+./run3/cronjob.sh
+z tmp
+./cronjob.sh
+z lala
+z cog sci
+~/run3/cronjob.sh
+cp ~/run2/topic_imp.py .
+fd json
+cp ~/run2/cache/wikipedia.json cache
+time
+cp ~/run2/cache/wiki_index.pickle cache
+nvim nouns/categories/DDIndia.csv
+rm -rf nupic pyright 
+ls temp_files
+rm -rf temp_files
+ls AstroVim
+rm -rf AstroVim
+rm -rf CS786A-Spring-2020-21
+ls data_mining
+rm -rf data_mining
+ls dots
+rm -rf dots
+rm -rf frost-lake-setup 
+ls iTerm2-Color-Schemes
+tldr git
+tldr git clone
+ls internal
+cd ,,
+nvim ./bin/.env
+cd internal
+nvim bin/ind
+rm LICENSE ind-appointment-checker-darwin-amd64 .env
+mkdir ind_appointment_checker
+mv ../ind-appointment-checker-darwin-amd64.zip .
+rm ind-appointment-checker-darwin-amd64
+mv random/ind_appointment_checker projects/
+cd ~/Library/LaunchAgents
+bat com.google.keystone.
+bat com.google.keystone.agent.plist
+bat com.google.keystone.xpcservice.plist
+bat org.virtualbox.vboxwebsrv.plist
+bat mega.mac.megaupdater.plist
+nvim com.google.keystone.agent.plist
+nvim checker.ind.shreyash.plist
+cd ~/projects
+mv ind_app_checker
+cd ~/projects/ind_appointment_checker
+tldr cronjob
+tldr cron
+man cron
+mv wiki_parser.py wikipedia_puller.py
+mv wikipedia_puller.py wiki_parser.py
+nvim nouns/categories/TimesNow.csv
+cp ~/run2/nouns/categories/DDIndia.csv .
+mv wikicats.py cats_reader.py
+nvim cats_reader.py
+mv cats_reader.py cat_reader.py
+d run2
+rm init.py
+ls static/graphs/metadata/modi.jpg
+ls backup
+cd backup
+python stat
+cp run3 run3_backup
+cp run3 run3_backup -r
+nvim Republic
+cd ~/run3_backup
+mv data b2
+nvim data/RepublicWorld.hsv
+python --version
+open graphs/*jpg
+python topic_imp.py
+bat test.py
+bat tools.py
+la
+cp ~/run2/site.py .
+cp ~/run2/static/css/ . -r
+nvim topic_imp.py
+pip install flask
+ls static/ls
+cd css
+mv css static
+rm static/graphs/metadata
+ls b2
+ranger b2
+cd b1
+rm *new
+bat TimesNow.hsv
+rm -rf b1
+cp data/ ../run3/b1
+cp data/ ../run3/b1 -r
+cp cache/wikipedia.json ~/run3/cache/wikipedia.json
+ls -l cache/wikipedia.json
+bat data/IndiaTV.hsv
+ls -l graphs/
+ls -l nouns
+ls -l graphs
+ls -l graphs/wordclouds
+fd backup .
+bat News24youtube.hsv
+z ru3
+cp data/ b1/
+cp data/ b1/ -r
+mv cache/wiki_index.pickle cache/wiki_index.pkl
+rm /var/mail/shreyash
+sudo rm /var/mail/shreyash
+bat /var/mail/shreyash
+kill -9 263
+sudo kill -9 263
+sudo kill -9 17048
+pgrep cron
+kill -9 16774
+kill 1054
+sudo kill -9 1053
+ps aux | grep cron
+kill 1062
+ps aux | grep pipeline.py
+kill 1099 1098 1097
+ps aux | grep chrome
+kill 1111 1108 1109
+ps aux
+pip freeze > requirements.txt
+bat cronjob.sh
+;s
+ls b1 -l
+ytop
+mv topic_imp.py sparklines.py
+bat top
+nvim -d sparklines.py ~/run3/sparklines.py
+cp ~/run2/static/css/ static/ -r
+rm static/graphs/metadata/* 
+cp ~/run2/templates . -r
+wc -l data/*
+wc -l b1/*
+nvim ~/run3/sparklines.py
+rm static/graphs/tf_idf/* 
+rm static/graphs/metadata/modi.jpg
+z /Users/shreyash/run3_backupk
+z run3_backup
+nvim static/css/main.css 
+nvim channel_data/RepublicWorld.hsv
+ls -l da
+mv data/b1 .
+nvim data/cnnnews18.hsv
+nvim data/ndtV
+nvim data/NDTV.hsv
+nvim data/DDIndia.hsv
+rm data/*
+ls -ka
+rm -rf .vscode
+bat /CFus
+bat .CFUserTextEncoding
+bat .tmux.conf
+ls data/ -l
+nvim logs
+tmux --version
+tmuv -v
+tmux -v
+nvim .tmux.conf
+ls tmux-client-27284.log
+rm tmux-client-27284.log
+ls b1
+OA
+nvim logs_data_collection
+rm -rf
+rm -f *
+rm .env
+bat ~/Library/LaunchAgents/checker.ind.shreyash.plist
+cp Downloads/ind-appointment-checker-darwin-amd64.zip ~/projects/ind_appointment_checker
+cp Downloads/ind-appointment-checker-darwin-amd64.zip ~/projects/ind_appointment_checker/.
+cp ~/Downloads/ind-appointment-checker-darwin-amd64.zip ~/projects/ind_appointment_checker/.
+cd lala
+rm -rf lala
+rm testing.txt
+rm DDIndia.csv
+rm -rf ind-appointment-checker-darwin-amd64.zip
+mv ind-appointment-checker-darwin-amd64 ind_app_checker
+launchctl unload ~/Library/LaunchAgents/checker.ind.shreyash.plist
+bat LICENSE
+mkdir ind2
+nvim .env
+ls
+bat .env
+./ind-appointment-checker-darwin-amd64
+nvim .env
+ls
+rm ind-appointment-checker-darwin-amd64.zip
+mv ind-appointment-checker-darwin-amd64 afspraak_checker
+ls
+./afspraak_checker
+nvim .env
+./afspraak_checker
+nvim .env
+./afspraak_checker
+ls -l
+z ind2
+nvim .env
+ls
+./afspraak_checker
+ls
+cd projects
+ls
+cd ind2
+ls
+ls -la
+nvim .env
+ls
+cd ..
+cd git
+ls
+git clone --depth 1 https://github.com/reaper47/ind-appointment-checker.git
+git clone https://github.com/reaper47/ind-appointment-checker.git
+rm -rf ind-appointment-checker
+git clone https://github.com/reaper47/ind-appointment-checker.git
+cd ind-appointment-checker
+ls
+git log
+ranger
+make build
+nvim .env
+date
+nvim .env
+ls
+./bin/ind
+ls
+ssh nisheethslab
+ls
+./bin/ind
+ls
+git log
+git checkout 0b4bbb98438e653e9a113
+git stash
+git checkout 0b4bbb98438e653e9a113
+bat .env
+tldr git stash
+git stash pop
+bat .env
+nvim .env
+git stash drop
+ls
+nvim .env
+~
+ls
+cp Downloads/ind-appointment-checker-darwin-amd64.zip random
+cd random
+ls
+mkdir og_checker
+mv ind-appointment-checker-darwin-amd64.zip og_checker
+cd og_checker
+ls
+unzip ind-appointment-checker-darwin-amd64.zip
+rm LICENSE
+ls
+rm ind-appointment-checker-darwin-amd64.zip
+ls
+./ind-appointment-checker-darwin-amd64
+nvim .env
+ls
+./ind-appointment-checker-darwin-amd64
+nvim .env
+./ind-appointment-checker-darwin-amd64
+z /Users/shreyash/
+cd projects/j
+ls
+cd projects
+ls
+cd ind_appointment_checker
+ls
+nvim .env
+./ind_app_checker
+nvim .env
+./ind_app_checker
+nvim .env
+z launchagents
+ls
+bat checker.ind.shreyash.plist
+1
+ls
+1
+bat checker.ind.shreyash.plist
+1
+ls
+bat .env
+nvim .env
+cd ..
+ls
+rm -rf ind2
+z random
+ls
+rm -rf og_checker
+2
+ls
+launchctl load ~/Library/LaunchAgents/checker.ind.shreyash.plist
+ls
+ssh nisheethslab
+dust .
+cd thesis
+dust .
+ncdu .
+cd run3
+z run
+z run3
+ncdu .
+ls
+nvim data_collector.py
+bat todo.md
+ls
+bat pipeline.py
+nvim pipeline.py
+nvim  lua/confs/null_ls.lua
+nvim pipeline.py
+ls
+nvim data_collector.py
+ls
+source thesis_env/bin/activate
+python stats.py
+nvim wiki_parser.py
+python parser.py
+nvim wiki_parser.py
+python wiki_parser.py 
+ssh nisheethslab
+rsync -rP run3/ nisheethslab:run3
+ssh nisheethslab
+rsync -rP run3/ nisheethslab:run3
+ssh nisheethslab
+cd run3
+nvim data_collector.py
+tmux ls
+tmux a
+ls
+cd run3
+ls
+tmux 
+python wiki_parser.py 
+source thesis_env/bin/activate
+python wiki_parser.py 
+ls
+cd run3
+htop
+ls
+tmux a
+tmux ls
+tmux a
+ls
+cd run3
+source thesis_env/bin/activate
+tmux 
+source thesis_env/bin/activate
+python stats.py
+nvim data_collector.py
+lls
+ls
+tmux
+python wiki_parser.py
+htop
+tmux a
+python wiki_parser.py
+htop
+tmux a
+ls wiki_parser.py
+python wiki_parser.py
+nvim wiki_parser.py
+ranger
+python parser.py
+nvim parser.py
+python parser.py
+ls
+cd run
+cd run3
+ls
+rm nouns/all_nouns/BBCNews.csv nouns/all_nouns/CNBC-TV18.csv nouns/all_nouns/DDIndia.csv nouns/all_nouns/ETNow.csv nouns/all_nouns/GoodNewsTodayOfficial.csv nouns/all_nouns/IndiaTV.csv nouns/all_nouns/NDTV.csv nouns/all_nouns/NEWS9LIVE.csv nouns/all_nouns/News24youtube.csv nouns/all_nouns/RepublicTVBharat.csv nouns/all_nouns/RepublicWorld.csv nouns/all_nouns/TimesNow.csv nouns/all_nouns/WION.csv nouns/all_nouns/aajtak.csv nouns/all_nouns/abpnews.csv nouns/all_nouns/cnbcawaaz.csv nouns/all_nouns/cnnnews18.csv nouns/all_nouns/ddnews.csv nouns/all_nouns/indiatoday.csv nouns/all_nouns/ndtvindia.csv nouns/all_nouns/news18India.csv nouns/all_nouns/newsxlive.csv nouns/all_nouns/rajyasabhatv.csv nouns/all_nouns/zeenews.csv nouns/categories/BBCNews.pkl nouns/categories/CNBC-TV18.pkl nouns/categories/DDIndia.pkl nouns/categories/ETNow.pkl nouns/categories/GoodNewsTodayOfficial.pkl nouns/categories/IndiaTV.pkl nouns/categories/NDTV.pkl nouns/categories/NEWS9LIVE.pkl nouns/categories/News24youtube.pkl nouns/categories/RepublicTVBharat.pkl nouns/categories/RepublicWorld.pkl nouns/categories/TimesNow.pkl nouns/categories/WION.pkl nouns/categories/aajtak.pkl nouns/categories/abpnews.pkl nouns/categories/cnbcawaaz.pkl nouns/categories/cnnnews18.pkl nouns/categories/ddnews.pkl nouns/categories/indiatoday.pkl nouns/categories/ndtvindia.pkl nouns/categories/news18India.pkl nouns/categories/newsxlive.pkl nouns/categories/rajyasabhatv.pkl nouns/categories/zeenews.pkl nouns/tf_idf/BBCNews nouns/tf_idf/CNBC-TV18 nouns/tf_idf/DDIndia nouns/tf_idf/ETNow nouns/tf_idf/GoodNewsTodayOfficial nouns/tf_idf/IndiaTV nouns/tf_idf/NDTV nouns/tf_idf/NEWS9LIVE nouns/tf_idf/News24youtube nouns/tf_idf/RepublicTVBharat nouns/tf_idf/RepublicWorld nouns/tf_idf/TimesNow nouns/tf_idf/WION nouns/tf_idf/aajtak nouns/tf_idf/abpnews nouns/tf_idf/cnbcawaaz nouns/tf_idf/cnnnews18 nouns/tf_idf/ddnews nouns/tf_idf/indiatoday nouns/tf_idf/ndtvindia nouns/tf_idf/news18India nouns/tf_idf/newsxlive nouns/tf_idf/rajyasabhatv nouns/tf_idf/zeenews nouns/wiki_nouns/BBCNews.csv nouns/wiki_nouns/CNBC-TV18.csv nouns/wiki_nouns/DDIndia.csv nouns/wiki_nouns/ETNow.csv nouns/wiki_nouns/GoodNewsTodayOfficial.csv nouns/wiki_nouns/IndiaTV.csv nouns/wiki_nouns/NDTV.csv nouns/wiki_nouns/NEWS9LIVE.csv nouns/wiki_nouns/News24youtube.csv nouns/wiki_nouns/RepublicTVBharat.csv nouns/wiki_nouns/RepublicWorld.csv nouns/wiki_nouns/TimesNow.csv nouns/wiki_nouns/WION.csv nouns/wiki_nouns/aajtak.csv nouns/wiki_nouns/abpnews.csv nouns/wiki_nouns/cnbcawaaz.csv nouns/wiki_nouns/cnnnews18.csv nouns/wiki_nouns/ddnews.csv nouns/wiki_nouns/indiatoday.csv nouns/wiki_nouns/ndtvindia.csv nouns/wiki_nouns/news18India.csv nouns/wiki_nouns/newsxlive.csv nouns/wiki_nouns/rajyasabhatv.csv nouns/wiki_nouns/zeenews.csv 
+ls
+ls nouns
+cd nouns
+ranger
+tmux a
+tmux
+source thesis_env/bin/activate
+cd ..
+source thesis_env/bin/activate
+tmux
+python parser.py
+ssh nisheethslab
+nvim
+tmux a
+ls nouns/all_nouns
+ls nouns/all_nouns -ll
+ls nouns/wiki_nouns
+python wiki_parser.py
+ls nouns/wiki_nouns
+ls nouns/wiki_nouns -l
+tmux a
+ls
+ssh nisheethslab
+cd run3
+bat todo.md
+ls
+cd run3
+nvim sparklines.py
+ls
+ls sparklines.py
+bat sparklines.py
+cd ..
+cd run3_backup
+ls
+nvim sparklines.py
+nvim wiki_parser.py
+bat pipeline.py
+nvim sparklines.py
+open static/graphs/metadata/modi.jpg
+z /Users/shreyash/
+cd projects/ind_appointment_checker
+ls
+z git
+ls
+cd ind-appointment-checker
+ls
+git checkout main
+git merge
+git restore .env
+git add .env
+git checkout main
+git stash
+git checkout main
+git stash drop
+ls
+nvim go.mod
+gopls
+cd /tmp/
+ls
+go install golang.org/x/tools/gopls@latest
+gopls 
+gopls
+nvim --version
+z nvim
+ls
+gst
+nvim
+nvim 
+nvim init.vim
+cd git/tj_dotfiles
+ls
+git pull
+cd xdg_config/nvim
+ls
+cd ..
+ls
+ls bat
+bat bat/config
+bat kitty/kitty.conf
+nvim kitty/kitty.conf
+cd nvim
+ls
+nvim lua/tj/plugins.lua 
+nvim .
+~
+nvim
+nvim 
+nvim
+nvim init.vim
+nvim lua/confs/lsp_config.lua
+cd git
+ls
+rm -rf lua-language-server
+echo $PATH
+nvim
+~
+echo $DATA
+echo $data
+nvim
+ls .local/share/nvim/
+ls .local/share/nvim/ -l
+ls .local/share/nvim/lsp_servers -l
+cd git/ind-appointment-checker
+ls
+nvim go.mod
+nvim build.sh
+dust .
+ncdu
+ls
+nvim .
+ls
+make build
+ls bin -l
+ls bin -la
+tldr cp
+man cp
+nvim .env
+nvim projects/ind_appointment_checker/.env
+rm bin/*
+rm bin/.env
+make build
+ls -la bin
+bat bin/.env
+ls
+nvim bin/.env
+z launchagents
+ls
+cp checker.ind.shreyash.plist amsterdam.ind.plist
+nvim amsterdam.ind.plist
+launchctl load ~/Library/LaunchAgents/amsterdam.ind.plist
+bat git/ind-appointment-checker/bin/.env
+launchctl load ~/Library/LaunchAgents/checker.ind.shreyash.plist
+launchctl load ~/Library/LaunchAgents/amsterdam.ind.plist
+launchctl unload ~/Library/LaunchAgents/amsterdam.ind.plist
+launchctl load ~/Library/LaunchAgents/amsterdam.ind.plist
+ssh nisheethslab
+cd run2
+cd run3
+ls -l
+git log
+z thesis
+ls
+ls -l
+nvim data_collector.py
+ls -l
+cd run3_back
+z /Users/shreyash/run3_backup
+ls
+ls -l
+bat wiki_parser.py
+bat stats.py
+bat sparklines.py
+cp ~/run3_backup/sparklines.py .
+bat sparklines.py
+z thesis
+ls
+gst
+ls
+cp ~/run3/data . -r
+rm -rf channel_data
+ls
+ls -l
+cp ~/run3/data_collector.py .
+cp ~/run3/channel_class.py .
+cp ~/run3/stats.py .
+cp ~/run3/text_preprocessing.py .
+cp ~/run3/parser.py .
+cp ~/run3/wiki_parser.py .
+cp ~/run3/requirements.txt .
+rm remove_footer.py sanitise_data.py
+ls -l
+cp ~/run3/tools.py .
+cp ~/run3/wordcloud_plotter.py .
+cp ~/run3/sparklines.py .
+ls -l
+rm topic_imp.py
+cp ~/run3/cat_reader.py .
+cp ~/run3/pipeline.py .
+ls -l
+mkdir cahce
+rm cache -r
+rm cahce
+rm cahce -r
+mkdir cache
+rm wikipedia_cache.json
+rm cache -r
+cp ~/run3/cache . -r
+ls cache
+cp ~/run3/cronjob.sh .
+cp ~/run3/thesis_env . -r
+cp ~/run3/templates . -r
+cp ~/run3/static . -r
+ls text_files
+rm text_files -rf
+cp ~/run3/text_files . -r
+ls -la
+ls -l
+rm nouns/*/*
+ls nouns/
+ranger
+cd nouns
+ranger
+rm -rf wordclouds
+cd ..
+ls
+git restore nouns/wordclouds/*
+git restore nouns/wordclouds
+gst
+nvim .gitignore
+gst
+cd graphs
+ls
+rm -rf metadata  tf_idf
+cd ..
+ls
+ls stat
+ls static
+ls static/graphs
+ls static/graphs/metadata
+cp ~/run3/site.py .
+ls -l
+gaa
+gc
+gp
+rm -rf .git
+ls
+ls-l
+ls -l
+bat README.md
+nvim README.md
+ls -l
+cd ..
+ls
+rm -rf run3_backup
+cd defence
+ls
+make
+sudo tlmgr install emptypage
+make
+sudo tlmgr install minted
+make
+sudo tlmgr install fvextra
+ssh nisheethslab
+amke
+make
+sudo tlmgr install catchfile
+make
+cd defence
+ls
+make
+sudo tlmgr install xstring framed
+make
+ls
+make clean
+ls
+sudo tlmgr install texlive-fonts-recommended texlive-fonts-extra
+sudo tlmgr install dejavu
+make
+sudo tlmgr install biblatex soul lipsum
+ssh nisheethslab
+make
+ls
+make clean
+ls
+make
+ls
+nvim Makefile
+tldr latexmk
+~
+cd projects
+ls
+hgrep latex_clean
+which latex_clean
+cd /usr/local/bin
+ls
+rm -rf __pycache__
+ls -l latex_clean
+man exa
+ls -lH latex_clean
+ls -i latex_clean
+ls -I latex_clean
+readlink latex_clean
+rm latex_clean
+~
+cd projects
+ls
+rm -rf latex_clean
+ls
+cd completion
+ls
+cd ..
+rm -rf completion
+ls
+menu
+cd mess_menu
+ls
+nvim print_menu
+menu
+ls
+z defence
+ls
+ls thesis.bbl
+bat thesis.bbl
+rm thesis.bbl
+open thesis.pdf
+make
+rm thesis.pdf
+make
+ls
+cd random
+cp ~/Downloads/template.zip .
+mkdir og_defence
+mv template.zip og_defence
+cd og_defence
+unzip template.zip
+ls
+rm template.zip
+ls
+cd defence
+ls
+make clean
+ls
+rm -rf _minted-/ _minted-thesis 
+ls 
+rm thesis*
+ls
+make
+nvim Makefile
+bat Makefile
+nvim Makefile
+cp ~/random/og_defence/thesis.tex .
+ls
+make
+ls latex-docs
+bat iitkthesis.sublime-project
+bat iitkthesis.cls
+brew install biber
+ls
+open thesis.pdf
+make clean
+ls
+make
+ls _minted-thesis
+z defence
+z og
+ls 
+ls
+rm -rf _minted-thesis
+rm iitkthesis.sublime-project
+ls
+rm thesis.lop thesis.pdf thesis.run.xml
+ls
+make
+ls
+make clean
+ls
+bat related.tex technical.tex
+fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'
+fzf --preview
+fzf --preview 'cat'
+fzf --preview 'less'
+ls
+ls -la
+nvim thesis.tex
+make
+open thesis.pdf
+nvim thesis.tex
+nvim
+nvim thesis.
+nvim thesis.tex
+make
+open thesis.pdf
+nvim thesis.tex
+open thesis.pdf
+make clean
+ls
+nvim reset
+ls
+chmod +x ./reset
+./reset
+ls
+make
+nvim thesis.tex
+cd defence
+make
+cd defence
+ls
+make clean
+make
+nvim ls.tex
+make
+ssh nisheethslab
+scp nisheethslab:~/run3/ testing/ -r
+scp -r nisheethslab:~/run3/ ~/testing/
+ls
+cd testing
+cp ~/run3/thesis_env .
+cp ~/run3/thesis_env . -r
+source thesis_env/bin/activate
+python channel_class.py
+nvim data/ddnews.hsv
+nvim
+cd ..
+ls testing/data/ddnews.hsv
+scp -r nisheethslab:~/run3/data/ddnews.hsv ~/testing/data/ddnews.hsv
+cd testing
+nvim channel_class.py
+cd testing
+python3 channel_class.py
+cd testing
+bat data/ddnews.hsv
+cd testing
+ls
+nvim data/ddnews.hsv
+source thesis_env/bin/activate
+python channel_class.py
+cd ..
+rm -rf testing
+deactivate
+ls
+cd ..
+ls
+ssh nisheethslab
+cd thesis
+ls
+cd ..
+ls
+ls run2
+ls
+cd ..
+cd shreyash
+rm -rf stanza_resources
+ls
+ls backup_run2_data
+cd run2
+ls
+cd ..
+rm -rf run2
+ls
+cd thesis
+ls data
+ls
+python3 stats.py
+ls
+ranger
+nvim .gitignore
+ls
+nvim .gitignore
+ls
+nvim .gitignore
+nvim wordcloud_plotter.py
+nvim wiki_parser.py
+nvim wordcloud_plotter.py
+cd run3
+bat wordcloud_plotter.py
+bat wiki_parser.py
+nvim wordcloud_plotter.py
+ls
+nvim wordcloud_plotter.py
+nvim .gitignore
+bat parser.py
+bat wiki_parser.py
+source thesis_env/bin/activate
+python stats.py
+python parser.py
+python wiki_parser.py
+ls
+nvim .gitignore
+ls graphs
+ls graphs/wordclouds
+nvim wiki_parser.py
+python wiki_parser.py
+cd run3
+z thesis
+ls
+nvim wiki_parser.py
+python wiki_parser.py
+rm -rf graphs/wordclouds
+cd nouns
+cd wordclouds
+ls
+cd ..
+nvim .
+rm -rf nouns/wordclouds
+rm -rf nouns/*
+python wiki_parser.py
+cd nouns
+ls
+ranger
+cd ..
+nvim wiki_parser.py
+ranger
+python parser.py
+pip3 install bpytop --upgrade
+bpytop
+kitconf
+tmux ls
+tmux
+python wiki_parser.py
+ls
+bpytop
+htop
+tmux a
+cd thesis
+ls
+python3 stat
+python3 stats.py
+ls
+cd ~
+ls
+cd run2
+cd run3
+ls
+python3 stats.py
+mv data backup
+mv b1 data
+python3 stats.py
+ls data
+ls -l data
+rm -rf data
+mv b2 data
+python3 stats.py
+ls
+python3 stats.py
+cd ..
+ls
+./.remove_default_folders.sh
+ls
+cd node_modules
+ls
+cd prettier
+ls
+cd ..
+ls
+cd wikipedia_data
+ls
+ls -l
+cd ..
+rm -rf wikipedia_data
+ls
+ls Pictures
+ls Pictures/Photo\ Booth\ Library
+ls
+git clone https://github.com/drakari7/media_content_diversity.git 
+ls
+cd media_content_diversity
+ls
+git log
+z thesis
+ls -l
+ls -la
+1
+ls -la
+rm *
+rm * -rf
+cp ~/thesis/* .
+cp ~/thesis/* . -r
+cp ~/thesis/.gitignore .
+ls
+rm -rf __pycache__
+gaa
+gst
+ranger
+gc
+git commit -m "Build: Pipeline created"
+gp
+nvim README.md
+nvim RE
+nvim README.md 
+ssh nisheethslab
+scp nisheethslab:~/wikipedia_data/multistream_index.txt .
+ls
+nvim convert.py
+htop
+launchctl load ~/Library/LaunchAgents/amsterdam.ind.plist
+launchctl unload ~/Library/LaunchAgents/amsterdam.ind.plist
+launchctl load ~/Library/LaunchAgents/amsterdam.ind.plist
+z Launch
+ls
+launchctl load ~/Library/LaunchAgents/checker.ind.shreyash.plist
+bat checker.ind.shreyash.plist
+bat amsterdam.ind.plist
+python3 convert.py multistream_index.txt
+python3 convert.py
+ls
+python3 convert.py
+lsd
+ls 
+ls -l
+ls -l thesis/cache/wiki_index.pkl
+cd thesis
+ls
+ls -l wiki_parser.py
+cd ..
+ls
+ls -l
+ls -l thesis/cache/wiki_index.pkl
+ls 
+rm -rf multistream_index.txt
+rm wiki_index.pkl
+cd thesis
+nvim README.md
+bat README.md
+mv convert.py pickle_wiki_index.py
+mv pickle_wiki_index.py media_content_diversity
+ls
+ls thesis
+rm -rf thesis
+ls
+ls nio
+ls no
+ls notes
+cd notes
+ls
+bat bucket_list.md
+rm bucket_list.md
+bat dnd.md
+rm dnd.md
+bat placement.md
+nvim placement.md
+ls
+bat todo.md
+bat trek.md
+rm trek.md
+bat rishis_list.md
+cd ..
+ls
+ls run3
+cd run3
+ls
+source thesis_env/bin/activate
+python stats.py
+mv backup b1
+mv data wewew
+mv b1 data
+python stats.py
+rm wewew -r
+ls
+cd ..
+ls
+cp run3/data backup_run3_data
+cp run3/data backup_run3_data -r
+rm -rf run3
+ls
+cd cp
+ls
+cd ..
+ls
+./.remove_default_folders.sh
+ls
+ls Pictures
+ls Desktop/k
+ls Desktop/
+ls
+mv media_content_diversity thesis
+cd thesis
+ls
+gst
+mv pickle_wiki_index.py convert_index.py
+nvim README.md
+gst
+gaa
+gc
+gp
+ls
+nvim README.md
+cd thesis
+nvim README.md
+gst
+cd ..
+ls
+cd thesis
+git log
+git checkout ce48722acc56
+gaa
+gc -m "Fix readme linebreak issues"
+gp
+git checkout ce48722acc56
+gst
+ls data_
+ls channel_data
+mv channel_data ..
+git checkout main
+cd ..
+ls
+mv channel_data backup_run1_data
+cd backup_run2_data
+ls
+rm BloombergQuintNews.hsv
+cd thesis 
+z thesis
+ls
+mv data b1
+cp ~/backup_run2_data data
+cp ~/backup_run2_data data -r
+ls
+ls data
+python3 stats.py
+..
+cd ..
+ls
+cd thesis/data
+ls
+ranger
+ls
+ssh nisheethslab
+cd ..
+ls
+nvim temp.py
+ls
+ls temp.py
+bat temp.y
+bat temp.py
+tldr tail
+tail -r temp.y
+tail -r temp.py
+cd data
+ls
+cd ..
+nvim temp
+nvim temp.py
+rm temp.py
+cd data
+ls
+tac aajtak.hsv
+bat aajtak.hsv
+cd random
+ls
+nvim ala.txt baba.txt
+tac *.txt > *.nsd
+cd ..
+nvim temp.py
+cd data
+ls
+rm *bsv
+ls
+nvim BBCNews.
+nvim BBCNews.bsv
+bat BBCNews.bsv
+nvim BBCNews.bsv
+cd ..
+nvim temp.py
+cd thesis/data
+bat BBCNews.bsv
+bat BBCNews.hsv
+rm *bsv
+ls
+nvim ETNow.hsv
+z launch
+ls
+bat amsterdam.ind.plist
+bat checker.ind.shreyash.plist
+rm checker.ind.shreyash.plist
+htop
+tldr launchctl
+launchctl list
+launchctl list | bat
+z launch
+ls
+launchctl list | bat
+~
+cd git/ind-appointment-checker
+ls
+cd bin
+ls
+nvim .env
+launchctl unload ~/Library/LaunchAgents/amsterdam.ind.plist
+launchctl load ~/Library/LaunchAgents/amsterdam.ind.plist
+cd ..
+ls
+z project
+ls
+cd ind_appointment_checker
+ls
+htop
+launchctl list
+launchctl list 
+launchctl list  | bat
+htop
+cd projects
+ls 
+rm -rf ind_appointment_checker
+z git
+cd ind-appointment-checker
+ls
+bat bin/.env
+cd thesis
+ls
+gst
+cd ..
+ls
+cd thesis
+gst
+python3 stats.py
+cd data
+ls
+bat aajtak.hsv
+cd ..
+nvim channel_class.py
+python3 stats.py
+ls
+cd thesis
+cd data
+ranger
+cd thesis
+cd data
+cd thesis
+python3 stats.py
+nvim RepublicWorld.hsv
+nvim DDIndia.hsv
+nvim TimesNow.hsv
+nvim cnnnews18.hsv
+nvim indiaT
+nvim indiatoday.hsv
+nvim BBCNews.hsv
+nvim CNBC-TV18.hsv
+nvim NDTV.hsv
+nvim NEWS9LIVE.hsv
+nvim WION.hsv
+nvim newsxlive.hsv
+nvim ETNow.hsv
+nvim ndtvindia.hsv
+nvim RepublicTVBharat.hsv
+nvim aajtak.hsv
+nvim IndiaTV.hsv
+nvim news18India.hsv
+nvim abpnews.hsv
+nvim zeenews.hsv
+nvim ddnews.hsv
+nvim cnbcawaaz.hsv
+nvim News24youtube.hsv
+nvim rajyasabhatv.hsv
+nvim GoodNewsTodayOfficial.hsv
+cd ..
+ls
+gst
+nvim .gitignore
+gst
+nvim .gitignore
+git rm --cached .gitignore
+gst
+tmux ls
+tmux
+python3 parser.py
+python3 stats.py
+ssh nisheethslab
+scp Downloads/bat_0.21.0_amd64.deb nisheethslab:~/.
+python3 wiki_parser.py
+ssh nisheethslab
+ls
+gst
+bat temp
+bat temp.py
+rm  temp.py
+gst
+gaa
+gc -m "Minor update"
+gp
+nvim requirements.txt
+gaa
+gc -m "Removed wordcloud from requirements.txt"
+gp
+ssh nisheethslab
+nvim requirements.txt
+git log
+git restore requirements.txt
+git reset --hard HEAD-1
+git reset --hard HEAD
+ls
+git log
+git reset --hard 9ccfbee24a
+git log
+bat requirements.txt
+git push -f origin main
+scp thesis/cache/ nisheethslab:~/thesis/cache -r
+scp thesis/cache/ nisheethslab:~/thesis/cache
+scp thesis/cache/ nisheethslab:~/thesis/cache/
+scp thesis/cache/wiki_index.pkl nisheethslab:~/thesis/cache/wiki_index.pkl
+ssh nisheethslab
+cd thesis
+bat pipeline.py
+ls
+nvim templates/home.html
+ls
+rm -rf cp
+cd thesis
+source thesis_env/bin/activate
+python stats.py
+deactivate
+rm -rf thesis_env
+virtualenv -p python3.10 thesis_env
+pip --version
+pip install -r requirements.txt
+source thesis_env/bin/activate
+python stats.py
+nvim requirements.txt
+pip install -r requirements.txt
+python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
+python stats.py
+python sparklines.py
+ranger
+python sparklines.py
+open static/graphs/metadata/modi.jpg
+ssh nisheethslab
+nvim .ssh/config
+ssh nisheethslab
+bat .ssh/known_hosts
+bat .ssh/config
+python site.py
+cd thesis
+ls
+nvim sparklines.py
+open static/graphs/metadata/russia.jpg
+nvim sparklines.py
+ssh nisheethslab
+~
+cd defence
+ls
+make clean
+ls
+bat reset
+./reset
+ls
+nvim thesis.tex
+open thesis.pdf
+make
+./reset
+ls
+cd thesis
+ls
+nvim sparklines.py
+python site.py
+python3 site.py
+ht
+htop
+bpytop
+ls
+nvim sparklines.py
+python3 site.py
+mv Downloads/Pokemon\ Pinball\ -\ Ruby\ \&\ Sapphire\ \(USA\).zip Desktop/Roms
+cd Desktop/Roms
+ls
+unzip Pokemon\ Pinball\ -\ Ruby\ \&\ Sapphire\ \(USA\).zip
+ls
+rm *zip
+ls
+ssh nisheethslab
+ls
+cd thesis
+ls
+python3 stats.py
+ls
+bat logs_data_collection
+rm logs_data_collection
+gst
+echo static/graphs >> .gitignore
+git difftool
+htop
+ls
+cd thesis
+ssh nisheethslab
+cd thesis
+nvim data_collector.py
+nvim tp
+nvim
+nvim tools.py
+crontab -e
+nvim thesis/text_files/channel_ytlinks
+cd thesis
+ls
+gst
+git pull
+git stash
+git merge
+gst
+cd graphs
+rm .DS_Store
+cd ..
+ls
+mv b1 backup
+nvim data_collector.py
+source thesis_env/bin/activate
+nvim data_collector.py
+cd .local/share/nvim/lsp_servers/
+ls
+ranger
+hgrep npm
+npm uninstall pyright
+npm uninstall vim-language-server typescript typescript-language-server
+npm uninstall vim-language-server
+npm uninstall typescript
+npm uninstall typescript-language-server
+npm uninstall prettier
+npm uninstall css-modules-language-server
+npm uninstall cssmodules-language-server
+npm uninstall -g cssmodules-language-server
+npm uninstall prettier -g
+npm uninstall typescript-language-server -g
+npm uninstall typescript -g
+npm uninstall vim-language-server -g
+npm uninstall vim-language-server typescript typescript-language-server -g
+npm uninstall -g pyright
+pyright
+nvim data_collector.py
+git stash pop
+nvim sparklines.py
+gst
+git diff tools.py
+git diff static/css/main.css
+git diff sparklines.py
+ls
+ls -la
+nvim .gitignore
+ls -l
+ls nouns
+cd nouns
+ls -la
+rm .DS_Store
+cd ..
+nvim .git
+nvim .gitignore
+cd defence
+ls
+./reset
+make clean
+nvim thesis.tex
+ssh nisheethslab
+ls
+gst
+gaa
+gc -m "Website graph styling and generation"
+gp
+nvim sparklines.py
+open static/graphs/metadata/russia.jpg
+cp ~/backup_run2_data data -r
+gst
+nvim sparklines.py
+ls
+python3 stats.py
+cd ~
+cd backup_run2_data
+mv rajyasabhatv.hsv SansadTV.hsv
+2
+mv data/rajyasabhatv.hsv data/SansadTV.hsv
+python3 stats.py
+nvim tmp.py
+cd thesis
+ls
+python3 stats.py
+ls
+mv data back2
+mv backup data
+python3 stats.py
+mv data/rajyasabhatv.hsv data/SansadTV.hsv
+python3 stats.py
+rm -rf dta
+rm -rf data
+mv back2 data
+ls
+cp data/ b2/ -r
+python3 stats.py
+rm tmp.py
+rm -rf b2
+cd ..
+rm -rf backup_run2_data
+cp thesis/data/ backup_run2_data -r
+ls 
+ls
+gst
+nvim sparklines.py
+tmux a
+tmux
+python parser.py
+tmux a
+python wiki_parser.py
+ls
+nvim sparklines.py
+ls
+z nvim
+ls
+cd after
+ls
+cd ftplugin
+ls
+nvim markdown.lua
+nvim tex.lua
+nvim sparklines.py
+ssh nisheethslab
+ls
+cd ..
+ls
+gst
+gaa 
+gc -m "Updates"
+gp
+python wiki_parser.py
+python sparklines.py
+nvim sparklines.py
+ls
+ssh nisheethslab
+open thesis.pdf
+ssh nisheethslab
+ls
+cp thesis run1 -r
+cd run1
+ls
+rm .git -rf
+cp ~/backup_run1_data .
+cp ~/backup_run1_data data -r
+ls
+ls data
+mv data/backup_run1_data .
+rm -rf data
+mv backup_run1_data data
+ls
+ls data
+cd run1
+ls
+ls data
+nvim text_files/channel_ytlinks
+ls
+python3 stats.py
+nvim tmp.py
+python3 tmp.py
+nvim tmp.py
+source thesis_env/bin/activate
+nvim tmp.py
+nvim test.py
+rm test.py
+nvim tmp.py
+python3 tmp.py
+nvim tools.py
+python3 tmp.py
+nvim tools.py
+python3 tmp.py
+nvim tmp.py
+python3 stats.py
+tmux a
+cd ~/run1/
+deactivate
+source thesis_env/bin/activate
+python parser.py
+nvim parser.py
+ls
+open thesis.pdf
+nvim
+source thesis_env/bin/activate
+tmux a
+make clean
+make
+ls
+nvim thesis.tex
+cd defence
+ls
+make clean
+./reset
+nvim thesis.tex
+tmux a
+python wiki_parser.py
+cd defence
+make
+make clean
+./reset
+make
+cd defence
+ls
+make
+tmux a
+make
+cd defence
+make
+tmux a
+python wiki_parser.py
+tmux a
+rm nouns/categories/* nouns/tf_idf/* nouns/wiki_nouns/*
+python wiki_parser.py
+ls
+ls static/graphs/metadata/
+rm static/graphs/metadata/* && rm static/graphs/tf_idf/*
+nvim sparklines.py
+python sparklines.py
+open static/graphs/metadata/russia.jpg
+nvim sparklines.py
+ls
+nvim sparklines.py
+python sparklines.py
+~
+cd thesis
+ls
+nvim sparklines.py
+python sparklines.py
+nvim sparklines.py
+ls
+deactivate
+source thesis_env/bin/activate
+nvim sparklines.py
+cd /usr/bin/
+ls
+tldr ln
+ln -s python3 python
+sudo ln -s python3 python
+cd .virtualenvs/debugpy/bin/
+ls
+ls python -l
+readlink python
+readlink python3
+readlink python3.9
+ls
+cd ~
+ls .virtualenvs
+cd .virtualenvs
+ls
+rm -rf debugpy
+python3 --version
+python3 venv debugpy
+python3 -m venv debugpy
+debugpy/bin/python -m pip install debugpy
+ls
+cd debugpy
+ls
+cd bin
+ls
+~
+z nvim
+nvim
+which python
+which python3
+ls /usr/bin/python3
+readlink /usr/bin/python3
+echo $VIRTUAL_ENV
+cd thesis
+source thesis_env/bin/activate
+echo $VIRTUAL_ENV
+nvim e
+nvim
+cd random
+nvim test.lua
+./test.lua
+chmod +x test.lua
+./test.lua
+nvim test.lua
+./test.lua
+nvim test.lua
+lua test.lua
+nvim
+nvim 
+source ~/thesis/thesis_env/bin/activate
+nvim
+deactivate
+nvim
+source ~/thesis/thesis_env/bin/activate
+nvim
+deactivate
+nvim sparklines.py
+python sparklines.py
+nvim sparklines.py
+python sparklines.py
+nvim channel_class.py
+nvim sparklines.py
+python sparklines.py
+nvim sparklines.py
+python sparklines.py
+nvim sparklines.py
+open static/graphs/metadata/russia.jpg
+gst
+nvim .gitignore
+ls cache/ -l
+gaa
+gc -m "Channel class was reading in reverse leading to bad graphs"
+python stats.py
+nvim channel_class.py
+gaa
+git commit --amend --no-edit
+git push
+python stats.py
+python site.py
+cd thesis
+rm static/graphs/metadata/* && rm static/graphs/tf_idf/*
+nvim sparklines.py
+rm static/graphs/metadata/* && rm static/graphs/tf_idf/*
+nvim static/css/main.css
+rm static/graphs/metadata/* && rm static/graphs/tf_idf/*
+fg
+rm static/graphs/metadata/* && rm static/graphs/tf_idf/*
+rm static/graphs/metadata/* -f
+yrm static/graphs/metadata/* -f
+rm static/graphs/metadata/* -f
+rm static/graphs/metadata -rf
+cd defence
+ssh nisheethslab
+nvim thesis.tex
+ssh nisheethslab
+kit_ssh nisheethslab
+mkdir figures
+ls
+mv iitk_logo.jpg figures
+ls
+nvim thesis.tex
+ls
+rm package*
+ls
+htop
+ssh nisheethslab
+ls
+make clean
+ls
+convert 80 usd to inr
+convert 10000 czk to inr
+ssh nisheethslab
+cd thesis
+nvim data_collector.py
+ssh nisheethslab
+cd thesis
+gst
+nvim .gitignore
+tldr git stash
+ssh nisheethslab
+ls
+~
+cd defence
+ls
+./reset
+make clean
+ls
+nvim thesis.tex
+ssh nisheethslab
+kitty +kitten ssh nisheethslab
+kit_ssh nisheethslab
+ls
+convert 79000 inr to eur
+ssh nisheethslab
+ls
+cd defence
+ls
+cd random
+nvim test.tex
+sudo tlmgr install tikz
+sudo tlmgr install pgf-tikz
+sudo tlmgr install pgf
+nvim thesis.tex
+ls
+bat Makefile
+latexmk -c
+ls
+latexmk -c test.tex
+ls
+latexmk -c test
+ls
+rm ala.txt baba.txt
+ls
+rm test.synctex.gz
+ls
+nvim thesis.tex
+open thesis.pdf
+./reset
+make clean
+open thesis.pdf
+make
+~
+cd defence
+nvim thesis.tex
+python site.py
+open thesis.pdf
+cd thesis
+bat wiki_parser.py
+ssh nisheethslab
+nvim
+cd random
+ls
+nvim thesis.tex
+ls
+latexmk -c thesis
+ls
+latex_clean thesis
+ls
+rm thesis.pdf thesis.synctex.gz thesis.tex
+ls
+cd rnadom
+cd rand
+kitconf
+alias kitconf
+alias k
+nvim .config/kitty/kitty.conf
+cd .config/kitty
+ls
+hgrep theme
+kitty_theme CLRS
+ls
+kitty_theme ayu
+ls
+wtf
+ls
+bash
+ls
+nvim .zshrc
+zrc
+ls
+zrc
+launchctl list | bat
+cd  random
+zrc
+hgrep syntax
+~
+cd .oh-my-zsh/custom/
+ls
+ranger
+cd plugins
+ls
+cd zsh-syntax-highlighting
+ls
+git pull
+cd ..
+ls
+cd zsh-autosuggestions
+git pull
+cd ..
+ls
+cd ls
+git pull
+cd ..
+cd material-colors/
+ls
+cd ..
+ls
+git pull
+cd ..
+ls
+cd ..
+ls
+git pull
+cd custom/plugins/example
+ls
+bat example.plugin.zsh
+cd ..
+ls
+rm -rf example
+ls
+git restore example
+ls
+cd material-colors
+git pull
+cd ..
+zrc
+ls
+cd random
+ls
+nvim test.tex
+nvim test.
+nvim test.tex
+nvim
+nvim test.tex
+ssh nisheethslab
+cd defence
+ls
+nvim thesis.tex
+open thesis.pdf
+nvim technical.tex
+ssh nisheethslab
+cd defence
+nvim thesis.tex
+ssh nisheethslab
+nvim
+z nvim
+ls
+nvim lua/confs/packer.lua
+nvim lua/confs/packer.lua]
+nvim lua/confs/packer.lua
+ls
+clear
+ls
+ls UltiSnips
+ls
+bat UltiSnips/python.snippets
+bat templates
+bat templates/skeleton.tex
+ls
+gst
+git diff after/colors.vim 
+nvim after/colors.vim
+gst
+nvim lua/confs/packer.lua
+nvim technical.tex
+nvim lua/confs/packer.lua
+nvim technical.tex
+ssh nisheethslab
+open thesis.pdf
+ls
+nvim init.vim
+cd git
+git clone https://github.com/NvChad/NvChad.git
+cd NvChad
+lls
+ls
+ranger
+cd lua/confs
+ls
+cp telescope.lua tele_backup.lua
+nvim telescope.lua
+z nvim
+nvim lua/confs/telescope.lua
+nvim lua/plugins/configs/telescope.lua
+nvim lua/confs/telescope.lua
+nvim
+nvim lua/confs/telescope.lua
+nvim
+ls
+cd lua/confs
+rm telescope.lua
+mv tele_backup.lua telescope.lua
+gst
+nvim
+ls
+nvim telescope.lua
+nvim
+ls
+nvim
+cd git/NvChad/lua/plugins/configs/
+nvim telescope.lua
+nvim
+nvim e
+nvim
+z thesis
+nvim tools.py
+nvim 
+nvim cronjob.sh
+nvim
+z nvim
+nvim after/colors.vim
+nvim 
+z thesis
+nvim tools.py
+nvim
+z thesis
+nvim
+z /Users/shreyash/Desktop/Courses/9th\ Sem/Data_Mining
+z nvim
+ls
+nvim
+z thesis
+nvim
+nvim 
+nvim technical.tex n
+nvim
+python3
+ssh nisheethslab
+cd defence
+ls
+nvim technical.tex
+l
+ssh nisheethslab
+sl
+ssh nisheethslab
+z nvim
+nvim init.vim
+ssh nisheethslab
+ping google.com
+nvim technical.tex
+open thesis.pdf
+ssh nisheethslab
+cd thesis
+bat data_collector.py
+bat channel_class.py
+bat stats.py
+nvim stats.py
+gst
+git diff sparklines.py
+git diff static/css/main.css
+z nvim
+nvim
+nvim technical.tex
+open thesis.pdf
+tldr pip
+man pip
+man pip3
+pip --help
+pip --help | bat
+ls
+cd thesis
+bat text_preprocessing.py
+bat parser.py
+bat wiki_parser.py
+ls
+bat sparklines.py
+bat cat_reader.py
+bat wordcloud_plotter.py
+bat site.py
+ssh nisheethslab
+ls
+bat .ssh/config
+ssh labpc
+kit_ssh nisheethslab
+cd thesis
+gst
+git log
+gst
+git difftool
+nvim stats.py
+git difftool
+nvim stats.py
+git difftool
+nvim sparklines.py
+git difftool
+gst
+gaa
+gst
+git diff
+git diff HEAD HEAD^
+git diff --cached
+ls
+cd thesis
+git diff --cache
+git diff --cached
+gc -m "Stylistic updates\
+"
+ls
+nvim data_collector.py
+gst
+gaa
+gc -m "Time range is taken as an int instead of string now"
+gp
+ssh nisheethslab
+cd thesis
+nvim .gitignore
+gst
+nvim .gitignore
+ls -la
+ls -la data
+at 
+bat .gitignore
+nvim .gitignore
+cd thesis
+ls graphs
+gst
+bat .gitignore
+cd data_coll
+nvim data_collector.py
+bat data_collector.py
+nvim data_collector.py
+ls
+gst
+gaa
+gc -m "Backup taken before YT data collection now"
+gp
+ls
+git rm --cached graphs/vid_count.jpg graphs/views.jpg
+ls
+bat .gitignore
+gaa
+gc -m "Add statistic graphs to gitignore"
+gp
+ssh nisheethslab
+cd random
+ls
+cd cp_guide
+ls
+open cp_guide.pdf
+nvim
+cd random
+ls
+nvim test.cpp
+nvim
+ls
+latexmk -c test
+ls
+rm test.synctex.gz
+ls
+rm test.pdf
+rm thesis.tex
+nvim helper.h
+nvim test.cpp
+echo $PATh
+echo $PATH
+nvim
+z nvim
+nvim lua/confs/packer.lua
+nvim
+g++ test.cpp && ./a.out
+ssh nisheethslab
+cd random
+nvim test.py
+bat thesis/data_collector.py
+cd thesis
+ssh nisheethslab
+rm log
+z thesis
+ls
+nvim data_collector.py
+gaa
+gc -m "Time of event is added to logging file"
+gp
+nvim data_collector.py
+gaa
+gc -m "Minor fix in previous commit"
+gp
+cd defence
+ls
+ssh nisheethslab
+htop
+ssh nisheethslab
+nvim
+cd defence
+ls
+nvim thesis.tex
+open cp_guide.pdf
+open thesis.pdf
+ssh nisheethslab
+kit_ssh nisheethslab
+cd git/tj_dotfiles
+rg "spell" .
+nvim thesis.tex
+nvim technical.tex
+ssh nisheethslab
+bat thesis/text_files/channel_ytlinks
+bat thesis/data_collector.py
+cd thesis
+ls -la
+nvim technical.tex
+ls
+ranger
+source ~/thesis/thesis_env/bin/activate
+python stats.py
+python site.py
+cd thesis
+ls
+rm static/graphs/metadata -rf
+rm static/graphs/tf_idf -rf
+ssh nisheethslab
+bat thesis/data/BBCNews.hsv
+bat .ssh/config
+ls
+nvim .config/kitty/kitty.conf
+ls
+bash
+aoc
+cd aoc
+cd ~/thesis
+1
+~
+nvim .zshrc
+cd thesis
+echo "lala" >> .gitignore
+git status
+man cd
+ls
+z LaunchAgents
+z thes
+p10k configure
+bash
+ls
+convert 19500 hkd to inr
+cd projects
+ls
+cd currency_converter
+ls
+nvim convert.py
+ls
+bat rate_cache.json
+nvim convert.py
+convert 19500 hkd to inr
+nvim convert.py
+convert 19500 hkd to inr
+nvim convert.py
+convert 19500 hkd to inr
+convert 1700 eur adasdasasad inr
+cd defence
+nvim thesis.tex
+nvim technical.tex
+convert 11000 inr to eur
+ls
+cd /Applications
+ls
+ls FortiClientUninstaller.app
+ls
+rm -rf FortiClientUninstaller.app
+ls
+nslookup gateway.iitk.ac.in
+ping 125.17.242.34
+fzf
+/
+fd "forti" .
+cd /Applications
+ls
+fd forti
+fd "forti" . | rg "forti"
+fd "forti" . | grep "forti"
+rm -rf FortiClient.app
+rm -rf FortiClientUninstaller.app
+fd "forti" .
+fd forticlient
+/
+fd "forticlient"
+cd /System/Volumes/Data/private/var/folders/_w/yc61qy453wn547c4qnsfb1240000gn/C
+ls
+fd "forticlient"
+rm -rf com.fortinet*
+fd "fortinet"
+cd /System/Volumes/Data/private/var/db/receipts
+ls
+fd "forticlient"
+fd "forticlient" | bat
+bat com.fortinet*
+bat com.fortinet.forticlient.Uninstall.plist
+rm -rf com.fortinet*
+sudo rm -rf com.fortinet*
+fd forticlient
+cd /System/Volumes/Data/Users/shreyash/Library/Logs
+ls
+rm -rf FortiClient
+cd DiagnosticReports
+ls
+rm FortiClient-2022-06-02-170120.ips
+cd Retired
+rm FortiClientAgent-2022-05-28-1*
+cd ..
+cd ~/Library/Application\ Support/
+ls
+rm -rf FortiClient Fortinet
+rm CrashReporter/FortiClientAgent_27F27477-41F4-54C2-911D-76B8A1D9DB11.plist
+cd ..
+cd /System/Volumes/Data/Incompatible\ Software
+ls
+rm -rf FortiClient FortiClient.app
+sudo rm -rf FortiClient FortiClient.app
+ls
+rm -rf *
+sudo rm -rf *
+ls
+cd ..
+ls
+cd Library/LaunchDaemons/
+ls
+rm com.fortinet.forticlient*
+sudo rm com.fortinet.forticlient*
+ls
+cd ../LaunchAgents
+ls
+sudo rm -rf com.fortinet.forticlient.*
+cd ../..
+ls
+cd Library/Internet\ Plug-Ins
+ls
+rm -rf FortiClient_SSLVPN_Plugin.bundle
+sudo rm -rf FortiClient_SSLVPN_Plugin.bundle
+ls
+cd ../StagedExtensions/Library/Application\ Support/
+ls
+rm -rf Fortinet
+sudo rm -rf Fortinet
+ls
+cd ..
+cd ../..
+cd Application\ Support/
+ls
+rm -rf Fortinet
+sudo rm -rf Fortinet 
+ls
+cd /private/var/folders
+ls
+cd _w/yc61qy453wn547c4qnsfb1240000gn/C
+ls
+fd fortinet
+cd ..
+cd ../../
+cd ../db/receipts
+ls
+fd fortinet
+fd "forticlient"
+~
+fd "fortinet"
+/
+fd "fortinet"
+convert 1600000 inr to gbp
+ssh nisheethslab
+cd thesis
+ls
+gst
+bat .git
+bat .gitignore
+nvim .gitignore
+ssh nisheethslab
+ls
+ssh nisheethslab
+kit_ssh nisheethslab
+ls
+kit_ssh nisheethslab
+cd thesis
+ls
+bat data_collector.py
+nvim data_collector.py
+nvim pipeline.py
+ls
+gaa
+gc -m "Pipeline start and end are now logged"
+gp
+ls
+nvim data_collector.py
+gaa
+gc -m "Renamed log file"
+gp
+ls
+fzf
+fzf Library
+cd Library
+fzf
+ls
+cd LaunchAgents
+ls
+bat amsterdam.ind.plist
+z git
+ls
+cd ind-appointment-checker
+ls
+cd ..
+ls
+tldr rsync
+rsync -rP ind-appointment-checker ~/ind-checker
+ssh nisheethslab
+ls
+~
+ls
+cd git
+ls
+rsync -rP ind-appointment-checker nisheethslab:~/ind-checker
+ssh nisheethslab
+ls
+cd ind-appointment-checker
+ls
+nvim bin/.env
+ls bin
+ssh nisheethslab
+tldr curl
+convert 80000 inr to hkd
+ssh nisheethslab
+launchctl unload ~/Library/LaunchAgents/amsterdam.ind.plist
+ssh nisheethslab
+cd thesis
+bat pipeline.py
+git pull
+convert 30000 inr to eur
+convert 1200 inr to eur
+kit_ssh nisheethslab
+ssh nisheethslab
+ls
+ssh nisheethslab
+cd thesis
+z nvim
+ls
+nvim .
+nvim init.vim
+nvim
+bat .ssh/config
+z nvim
+nvim init.vim i
+nvim init.vim
+ls
+cd thesis
+ls
+nvim channel_class.py
+source thesis_env/bin/activate
+python stats.py
+nvim channel_class.py
+nvim
+nvim channel_class.py
+ls
+nvim channel_class.py
+ga
+ga channel_class.py
+gc -m "Can now check for missing data for date range"
+gp
+ssh nisheethslab
+cd thesis
+ls
+nvim channel_class.py
+touch woman
+rm woman
+nvim
+ssh nisheethslab
+ls
+cd defence
+ls
+nvim thesis.tex
+open thesis.pdf
+ssh nisheethslab
+nvim
+cd thesis
+ls
+gst
+git diff channel_class.py n
+git diff channel_class.py 
+nvim channel_class.py
+nvim
+cd random
+python3 test.py
+nvim test.py
+cd thesis
+nvim data_collector.py
+ls
+gst
+git diff channel_class.py
+nvim channel_class.py
+git pull
+git log
+nvim data_collector.py
+ls
+bat pipeline.py
+ls data
+ranger 
+nvim tools.py
+source thesis_env/bin/activate
+python pipeline.py
+tmux 
+tmux ls
+tmux 
+python pipeline.py
+bat pipeline.py
+bat log_pipeline
+tmux a
+nvim data_collector.py
+tmux a
+tmux
+bat log_pipeline
+tmux a
+python data_collector.py
+nvim data_collector.py
+bat log_pipeline
+nvim channel_class.py
+gst
+tmux a
+bat log_pipeline
+date
+bat
+bat log_pipeline
+htop
+ls
+bat log_pipeline
+nvim data_collector.py
+bat log_pipeline
+tmux a
+python data_collector.py
+tmux a
+nvim data_collector.py
+bat log_pipeline
+nvim data_collector.py
+git diff data_collector.py
+tldr git restore
+tldr --update
+git restore parser.py wiki_parser.py
+git restore --patch data_collector.py
+nvim data_collector.py
+git diff tools.py 
+git diff pipeline.py
+tmux a
+bat log_pipeline
+ls data -l
+nvim data_collector.py
+bat log_pipeline
+tmux a
+tmux
+ls
+tmux a
+nvim data_collector.py
+python data_collector.py
+bat log_pipeline
+tldr cat
+ls
+bat log_pipeline
+ls data -l
+tmux a
+python data_collector.py
+ls
+ls data
+rm data/GoodNewsTodayOfficial.hsv.new
+l data
+bat log_pipeline
+ls data -l
+tmux a
+ls
+gst
+nvim data_collector.py
+ssh nisheethslab
+nvim thesis.tex
+nvim todo.md
+cd thesis
+nvim tools.py
+nvim technical.tex
+nvim .ssh/config
+cd .ssh
+ls
+nvim config
+ssh nisheethslab
+ls
+nvim config
+bat config
+ssh nisheethslab
+tldr scp
+cd ..
+ls
+scp random nisheethslab:~/.
+scp random nisheethslab:~/. -r
+scp -r random nisheethslab:~/.
+ssh nisheethslab
+ls
+ls random/test.py
+ls random
+scp random/test.py nisheethslab:~/.
+ssh nisheethslab
+nvim
+convert 1 eur to inr
+cd thesis
+ls
+nvim wordcloud_plotter.py
+nvim wiki_parser.py
+source thesis_env/bin/activate
+python stats.py
+ls
+ranger
+nvim wiki_parser.py
+ls
+nvim parser.py
+nvim pipeline.py
+tmux
+python pipeline.py
+bat log_pipeline
+htop
+bat log_pipeline
+bat pipeline.py
+bat log_pipeline
+ls -l
+date 
+tmux
+tmux a
+bat log_pipeline
+nvim pipeline.py
+python pipeline.py
+tmux a
+htop
+cd thesis
+ranger
+ls
+gst
+nvim data_collector.py
+tmux a
+ls
+bat log_pipeline
+bat pipeline.py
+ls
+tmux a
+tmux ls
+ls
+nvim pipeline.py
+ls
+rm nouns/*
+rm nouns/*/* -rf
+ls
+ls nouns
+ranger
+tmux a
+tmux
+python pipeline.py
+htop
+batlog
+bat log_pipeline
+cd defence
+l
+snvim thesis.tex
+nvim thesis.tex
+tmux a
+ls
+bat log_pipeline
+ranger
+nvim parser.py
+nvim wiki_parser.py
+tmux a
+python pipeline.py
+gst
+tmux a
+tmux
+nvim pipeline.py
+python pipeline.py
+tmux a
+ls
+cd defence
+ls
+nvim thesis.tex
+open thesis.pdf
+nvim
+tmux a
+ranger
+nvim pipeline.py
+python wiki_parser.py
+ls
+nvim wiki_parser.py
+ranger
+nvim wiki_parser.py
+nvim tmux a
+tmux a
+nvim pipeline.py
+python wiki_parser.py
+python pipeline.py
+bat log_pipeline
+ls -l
+ls
+bat pipeline.py
+nvim wiki_parser.py
+tmux a
+python pipeline.py
+htop
+tmux a
+nvim wiki_parser.py
+pip list
+nvim wiki_parser.py
+cd thesis
+ls
+tmux a
+ls
+bat pipeline.py
+ranger
+ls
+cd graphs
+ls
+cd wordclouds
+ls
+cd RepublicWorld
+ls
+open 1.jpg 2.jpg
+cd ..
+ls
+z thesis
+bat data/Republic
+ls
+ls graphs/wordclouds
+bat data/RepublicWorld.hsv
+nvim wiki_parser.py
+bat wiki_parser.py
+tmux a
+nvim wiki_parser.py
+convert 300 eur to inr
+ls
+gst
+git diff tools.py
+git diff wiki_parser.py
+ga wiki_parser.py cat_reader.py
+gc -m "Move wordcloud generation to category reader from wiki parser"
+gp
+ssh nisheethslab
+ls
+source thesis_env/bin/activate
+bat cat_reader.py
+python cat_reader.py
+ls
+tmux a
+python cat_reader.py
+ls
+cd wor
+cd graphs/wordclouds
+ls
+ls DDIndia
+tmux a
+tmux
+nvim cat
+cd ../..
+nvim cat_reader.py
+python cat_reader.py
+open thesis.pdf
+gcc -v
+tmux a
+cd thesis
+ls
+ranger
+cd thesis
+ranger
+nvim temp.py
+nvim channel_class.py
+python3 channel_class.py
+nvim channel_class.py
+python3 channel_class.py
+ls
+nvim cat_reader.py
+bat cat_reader.py
+tmux a
+python cat_reader.py
+tmux a
+open thesis.pdf
+tmux a
+gcc -v
+clang -v
+clang --version
+clang -dM -E -
+clang --version
+cd /Library/Developer/CommandLineTools/usr/bin
+ls
+ls -l
+~
+lynx
+tldr lynx
+brew install lynx
+lynx -v
+tldr lynx
+lynx amazon.in
+lynx google.com
+convert 60 eur to inr
+cd defence
+ls
+nvim technical.tex
+python3
+cd defence
+ls
+nvim technical.tex
+cd /Applications
+ls
+rm -rf Mail\ for\ Gmail.app
+sudo rm -rf Mail\ for\ Gmail.app 
+ls
+sudo rm -rf Vimari.app
+sudo rm -rf visualboyadvance-m.app FortiClient* 
+ls
+rm -rf Zulip.app Gitter.app 
+rm -rf Background\ Music.app
+sudo rm -rf Background\ Music.app
+ls
+ls -la
+rm -rf Skype.app
+rm -rf Quackle.app
+ls
+rm -rf Kiwix.app
+ls
+cd projects
+d
+~
+d
+ls
+cd projects
+ls
+rm -rf mess_menu
+ls
+hgrep ln
+cd /usr/local/bin
+ls menu
+exa
+ls
+exa -l
+alias
+alias ls
+_z thesis
+1
+d
+~
+nvim .zprofile
+ls
+ls -l
+ls -la
+man exa
+which ls
+where ls
+cd /usr/local/opt/coreutils/libexec/gnubin
+ls
+nvim ls
+cd /bin/ls
+ls
+cd /bin
+ls
+nvim ls
+1
+exa -l ls
+1
+cd ../../bin
+ls
+exa -l gls
+nvim gls
+hexdump gls
+objdump gls
+ls
+exa -l
+exa -lG
+~
+ls
+exa -l
+exa -la
+rm .zcompdump-Shreyashâ€ƒ¹s\ MacBook\ Pro-5.8
+exa -la
+nvim .bash_history
+rm .bash_history
+ranger
+nvim .zshrc-e
+~
+rg . "alias ls"
+rg "alias ls"
+sudo rg "alias ls"
+sudo rg "ls -G"
+ls
+ls -la
+ls
+ls 0la
+ls -la
+ls
+bat /etc/pro
+bat /etc/profile
+convert 200 eur to inr
+ls
+ls -la
+nvim .profile
+nvim .zshenv
+diff .zshrc .zshrc-e
+nvim .zshrc-e
+nvim .zshrc
+alias
+ls
+nvim .zshrc
+exa
+where ls
+which ls
+nvim .zshrc
+exa -l
+exa -la
+exa
+cd thesis
+exa
+exa -l
+cd ..
+ls
+ls -G
+nvim .zshrc
+ls
+nvim .zshrc
+ls
+alias
+bash
+ls
+alias
+nvim .zshrc
+echo $ZSH
+bat .zshrc
+cd .oh-my-zsh
+ls
+bat oh-my-zsh.sh
+cd thesis
+rg "backup"
+tldr rg
+rg "alias"
+rg "alias ls"
+cd lib
+ls
+z oh
+nvim oh-my-zsh.sh
+uname
+echo $plugin
+echo $plugins
+nvim .zshrc
+ls
+alias
+z the
+bat .aliases.zsh
+ls git
+nvim .aliases.zsh
+alias
+alias
+ls
+alias
+man ls
+ls
+alias
+ls
+alias
+cd ..
+rg "ls -G"
+nvim lib/theme-and-appearance.zsh
+echo $OSTYPE
+nvim .zshrc
+tldr unalias
+alias
+nvim .zshrc
+nvim .aliases.zsh
+man unalias
+nvim .aliases.zsh
+ls
+alias
+ls -l
+cd /usr/local/bin
+ls
+ls -l
+~
+which ls
+rm -rf "$(brew --prefix)/share/ani-cli" "$(brew --prefix)/bin/ani-cli" && \\
+git clone "https://github.com/pystardust/ani-cli.git" && cd ./ani-cli\
+cp ani-cli UI player_* $(brew --prefix)/bin\
+cd .. && rm -rf "./ani-cli"
+echo $(brew --prefix)
+cd /usr/local/bin
+ls ani-cli
+ls -l ani-cli
+ls -l
+~
+brew install curl grep aria2 openssl@1.1 ffmpeg git && \\
+brew install --cask iina
+brew install --cask iina
+ani-cli
+ani-cli -h
+cd /usr/local/bin
+file ani-cli
+nvim ani-cli
+ani-cli -h
+ani-cli
+~
+nvim /usr/local/bin/ani-cli
+echo "$(dirname "$0")"
+dirname $0
+dirname
+dirname $0
+cd thesis
+dirname $0
+nvim /usr/local/bin/ani-cli
+ls
+nvim /usr/local/bin/ani-cli
+nvim 
+~
+nvim
+nvim random/test.sh
+cd ..
+~
+bash random/test.sh
+ls
+ani-cli
+nvim /usr/local/bin/ani-cli
+ani-cli -h
+ani-cli -v -f
+ani-cli -f
+ani-cli -v -f animix
+player_vlc
+brew -h
+tldr brew
+brew search vlc
+brew info vlc
+cd /Applications
+ls
+rm -rf VLC.app
+brew info vlc
+brew search vlc
+brew info vlc-setup
+brew info vlcstreamer
+brew install vlc
+vlc
+~
+ani-cli -v -f animix
+ls
+ani-cli 
+ani-cli
+ani-cli -f animix
+ani-cli -H
+ani-cli -h
+ani-cli -U
+cd /usr/local/bin
+ls
+ls UI
+bat UI
+UI
+ls -l
+ls -l UI
+bat Ui
+nvim UI
+ls
+ls player_
+ls player*
+bat player_download
+bat player_mpv
+bat player_iina
+ls
+ani-cli - h
+ani-cli -h
+nvim /usr/local/bin/ani-cli
+ani-cli
+nvim /usr/local/bin/ani-cli
+ani-cli
+ani-cli -q "best"
+ani-cli -h
+brew tap metafates/tap
+brew install metafates/tap/mangal
+nvim /usr/local/bin/ani-cli
+ls
+mangal
+ls
+mangal cleanup
+mangal --help
+mangal config
+mangal config preview
+mangal config where
+mangal config edit
+mangal config init
+mangal config where
+mangal config preview
+mangal config edit
+cd git
+git clone https://github.com/metafates/mangal.git
+mangal config where
+mangal config init
+cd git
+cd Library/Application
+cd Library/Application\ Support
+ls
+cd mangal
+ls
+nvim config.toml
+~
+ls
+mangal
+ls
+mkdir mangas
+cd git
+cd mangal
+ls
+nvim tui
+nvim tui.go
+cd ..
+mangal clenaup
+mangal cleanup
+cd ~
+nvim Library/Application\ Support/mangal/config.toml
+mangal
+ls
+ls mangas
+mangal cleanup
+nvim Library/Application\ Support/mangal/config.toml
+mangal
+ls mangas
+cd mangas/Attack\ On\ Titan
+ls
+open \[1\]\ Vol.1\ Chapter\ 1:\ To\ You,\ 2,000\ Years\ From\ Now.pdf
+mangal
+mangal cleanup
+ls
+cd ..
+rm -rf Attack\ On\ Titan
+cd ..
+ls
+nvim Library/Application\ Support/mangal/config.toml
+mangal
+cd mangas
+ls
+cd Bakusou\!\!\ Love\ Attack
+ls
+open Bakusou\!\!\ Love\ Attack.epub
+cd ..
+rm -rf Bakusou\!\!\ Love\ Attack/Bakusou\!\!\ Love\ Attack.epub
+ls
+rm -rf Bakusou\!\!\ Love\ Attack
+cd ..
+nvim Library/Application\ Support/mangal/config.toml
+fd java
+fd java > log
+nvim log
+fd java
+rm Desktop/JavaUninstallTool.dmg
+rm Library/Caches/Sublime\ Text\ 3/Cache/* -rf
+cd Library
+ls Caches
+ls -la Caches
+rm Caches/com.oracle.java.JavaUpdater -rf
+rm Caches/Oracle.JavaUninstaller -rf
+rm HTTPStorages/com.oracle.java.JavaUpdater HTTPStorages/Oracle* -rf
+rm Preferences/com.oracle.java.JavaUpdater.plist
+rm Saved\ Application\ State/net.java.openjdk.cmd.savedState/ -rf
+cd Application\ Support
+ls
+ls Java
+ls
+cd JREUninstaller
+ls
+bat JREUninstallLog.txt
+ls
+1
+rm -rf Java
+fd java
+java -v
+fd jre
+rm -rf Library/Application\ Support/JRE*
+cd Library/Caches
+ls
+ani-cli -h
+ani-cli
+finger
+ssh nisheethslab
+brew info lf
+rake
+tldr rake
+cd git
+git clone https://github.com/apexatoll/cliptic
+man rake
+cd cliptic
+ls
+ranger
+rake build install
+gem install /Users/shreyash/git/cliptic/pkg/cliptic-0.1.3.gem
+sudo rake build install
+cd cli
+cd git
+ls -la
+rm .DS_Store
+cliptic
+brew info cliptic
+brew info clip
+cliptic
+nvim
+ruby -v
+brew install ruby
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
+ruby -v
+gem -v
+cliptic
+cd git/cliptic
+rake build install
+sudo rake build install
+git config --global --add safe.directory /Users/shreyash/git/cliptic
+nvim ~/.gitconfig
+sudo rake build install
+env | grep TERM
+infocmp
+env | grep TERMINFO
+cliptic
+cd /Library/Ruby
+ls
+ls Gems
+cd Gems/2.6.0
+ls
+ranger
+gem -v
+cliptic
+ls
+cd gems/cliptic-0.1.3/
+ls
+cd ..
+ls
+rm -rf cliptic-0.1.3
+sudo rm -rf cliptic-0.1.3
+ls
+z cliptic
+ls
+sudo rake build install
+1
+ls
+cd clip
+cd ..
+cliptic
+which cliptic
+cd /usr/local/bin
+ls -l cl
+ls -l cliptic
+rm cliptic
+ls
+cliptic
+cd git/cliptic
+ls
+sudo rake build install
+cliptic
+cd git/cliptic
+ls
+ls bin
+cd bin
+./cliptic
+./setup
+cd ..
+ls
+cd ..
+rm -rf cliptic
+cd ..
+cd random
+git clone https://github.com/apexatoll/cliptic
+cd cliptic
+rake build install
+sudo rake build install
+cliptic
+ls
+cd bin
+ls
+./console
+./cliptic
+cd ..
+rm -rf cliptic
+cd ..
+cd git
+ls
+~
+fzf
+fd cliptic
+tldr fd
+fd --hidden cliptic
+rm .config/cliptic -rf
+rm .gem/specs/index.rubygems.org%443/quick/Marshal.4.8/cliptic-0.1.3.gemspec
+cd .gem
+ranger
+cd .gem
+ls
+cd ruby
+ls
+cd ..
+rm -rf ruby
+cd specs
+ls
+ranger
+ls
+rm -rf *
+cd ..
+rm -rf .gem
+cliptic
+ls
+rm log
+cdgit
+cd git
+ls
+git clone https://github.com/apexatoll/cliptic
+cd cliptic
+ls
+ruby -v
+gem -v
+/
+fd --hidden cliptic
+cd /System/Volumes/Data
+ls
+cd ..
+ls
+ls -l
+ls -la
+cd data
+ls
+~
+rm /Library/Ruby/Gems/2.6.0 -rf
+sudo rm /Library/Ruby/Gems/2.6.0 -rf
+fd --hidden cliptic
+rm /usr/local/lib/ruby/gems/3.1.0/ -rf
+sudo rm /usr/local/lib/ruby/gems/3.1.0/ -rf
+fd --hidden cliptic
+cd git/cliptic
+sudo rake build install
+fd --hidden cliptic
+cliptic
+clitpic
+cliptic
+fd --hidden cliptic
+nvim .zshrc
+~
+nvim .zshrc
+cliptic
+nvim .zshrc
+usr/local/lib/ruby/gems/3.1.0/bin/cliptic
+cd usr/local/lib/ruby/gems/3.1.0/bin/
+ls
+cliptic
+fd --hidden cliptic
+cliptic
+z nvim
+ls
+nvim
+cd UltiSnips
+ls
+cd ..
+rm UltiSnips
+rm UltiSnips -rf
+ls
+gst
+ls plugin
+ls
+nvim init.vim
+ls
+~
+ani-cli
+z nvim
+ls
+z tj
+git pull
+cd xdg_config/nvim
+ls
+ls plugin
+ls
+cd plugin
+bat keymaps.
+bat keymaps.vim
+ls
+cd ..
+ls
+ranger
+cd ~
+ls
+z nvim
+nvim lua/confs/packer.lua
+echo $HOME
+convert 20000 eur to inr
+((1550*12))
+echo ((1550*12))
+echo $((1550*12))
+nvim 
+ls
+ls random
+ls random --color=auto
+ssh nisheethslab
+nvim
+ani-cli
+nvim
+nvim init.lua
+nvim init.vim
+mv init.lua init.l
+nvim init.vim
+mv init.l init.lua
+rm init.vim
+ls
+nvim init.lua
+ani-cli
+nvim
+nvim 
+cd random
+nvim test.md
+z nvim
+nvim init.lua
+ls
+git restore init.vim
+mv init.lua d
+nvim init.vim
+mv d init.lua
+rm init.vim
+nvim init.lua
+ls
+nvim init.lua
+ls
+convert 40 eur to inr
+cd defence
+nvim technical.tex
+z nvim
+nvim
+open thesis.pdf
+ls
+cd thesis
+ls
+rm data -rf
+cd ..
+tldr rsync
+tldr scp
+scp nisheethslab:~/thesis/data/ thesis/data -r
+scp -r nisheethslab:~/thesis/data/ thesis/data
+cd thesis
+source thesis_env/bin/activate
+gst
+python stats.py
+cd ..
+ls
+ssh nisheethslab
+scp -r nisheethslab:~/thesis/nouns/ thesis/nouns
+cd thesis
+ls
+ls nouns
+ls nouns -la
+cd nouns
+rm -rf all_nouns categories tf_idf wiki_nouns
+ls
+cd .
+cd ..
+mv nouns/nouns .
+mv nouns/nouns lala
+ls nouns
+rm -rf nouns
+mv lala nouns
+ls
+python site.py
+cd thesis
+rm -rf static/graphs/metadata/Modi.jpg static/graphs/metadata/Russia.jpg static/graphs/metadata/Ukraine.jpg static/graphs/metadata/putin.jpg 
+cd thesis
+ls
+cd data
+cd ..
+ranger
+cd data
+ls
+nvim IndiaTV.hsv
+cd thesis
+open graphs/*.jpg
+nvim stats.py
+python stats.py
+source thesis_env/bin/activate
+python stats.py
+bat data/NEWS9LIVE.hsv
+bat data/BBCNews.hsv
+nvim technical.tex
+open graphs/*.jpg
+open thesis.pdf
+nvim 
+cd thesis
+ls
+nvim site.py
+python3 site.py
+cd thesis
+rm -rf static/graphs/tf_idf/Russia.jpg
+ls static/graphs/metadata
+nvim site.py
+python3 site.py
+cd thesis
+nvim channel_class.py
+open graphs/vid_count.jpg
+open graphs/views.jpg
+nvim text_files/channel_ytlinks
+python3 stats.py
+cp ~/thesis/graphs/views.jpg figures
+open thesis.pdf
+nvim technical.tex
+nvim parser.py
+cd defence
+nvim technical.tex
+convert 60 eur to inr
+ls
+convert 200000 inr to eur
+convert 40000 inr to eur
+convert 25000 inr to eur
+convert 100000 inr to eur
+cd thesis
+nvim parser.py
+nvim text_preprocessing.py
+cd thesis
+ls
+ls cache
+ls cache -l
+nvim wiki_parser.py
+cd thesis
+ls
+cd nouns/tf_idf
+1
+nvim nouns/tf_idf/ndTV
+ls
+source thesis_env/bin/activate
+nvim wiki_parser.py
+nvim pipeline.py
+tmux a
+python pipeline.py
+bat log_pipeline
+rm -rf nouns/categories 
+nvim pipeline.py
+tmux a
+python pipeline.py
+tmux ls
+bat log_pipeline
+tmux a
+bat thesis/log_pipeline
+cd thesis
+ls -l
+ssh nisheethslab
+tmux a
+cd thesis
+ls
+python site.py
+source thesis_env/bin/activate
+python site.py
+nvim sparklines.py
+nvim site.py
+rm static/graphs/* -rf
+nvim site.py
+python site.py
+cd thesis
+nvim sparklines.py
+nvim
+rm static/graphs/* -rf
+cd thesis
+nvim sparklines.py
+rm static/graphs/* -rf
+convert 25000 usd to inr
+open thesis.pdf
+convert 1700 eur to inr
+ssh nisheethslab
+nvim
+cd thesis
+nvim tools.py
+z nvim
+nvim
+nvim technical.tex
+cd thesis
+ls
+rm nouns/* -rf
+ls
+rm -rf data_backup
+mv data data_backup
+scp -r nisheethslab:~/thesis/data/ data
+ssh nisheethslab
+cd thesis
+ls
+mv data_backup data
+ls
+ls nouns
+ls
+tmux a
+bat pipeline.py
+nvim pipeline.py
+tmux a
+python pipeline.py
+bat pipeline.py
+bat log_pipeline
+cd thesis
+ls
+cd static/graphs/metadata
+ls
+open corona.jpg
+open covid.jpg
+open Coronavirus.jpg
+open corona.jpg
+open Modi.jpg
+open Ukraine.jpg
+cp Coronavirus.jpg ~/defence/figures
+open *
+cp covid.jpg ~/defence/figures
+open thesis.pdf
+cd thesis/static/graphs/metadata
+cp corona.jpg ~/defence/figures
+ls
+make clean
+ls
+nvim citations.bib
+z nvim
+ls
+gst
+gaa
+gc -m "Moved everything to init.lua"
+gp
+cd thesis
+tmux a
+cd thesis
+nvim site.py
+nvim sparklines.py
+python site.py
+python3 site.py
+cd thesis
+rm -rf static/graphs/*
+cd thesis
+nvim site.py
+ls static/graphs/metadata
+ls random
+cd random/og_defence
+ls
+ls thesis.tex
+cp thesis.tex lala
+rm thesis*
+mv lala thesis.tex
+ls
+bat todo.md
+rm todo.md
+rm -rf _minted-thesis
+rm prelude.aux
+ls
+./reset
+ls
+bat re
+bat reset
+nvim thesis.tex
+ls
+mkdir anime
+cd anime
+ls
+ani-cli
+ani-cli -h
+ani-cli -c
+ls
+ani-cli -h
+ani-cli -D
+ani-cli -x
+ani-cli -h
+ani-cli -p anime
+ls
+ls anime
+cd anime
+ls
+mkdir Violet\ Evergarden
+mv Violet\ Evergarden*mp4 Violet\ Evergarden
+ls
+ls Violet\ Evergarden
+cd ani
+cd Violet\ Evergarden
+ls
+open Violet\ Evergarden\ Episode\ 1
+open Violet\ Evergarden\ Episode\ 1.mp4
+mdls
+1
+ls
+cd Violet\ Evergarden
+ls
+mdls Violet\ Evergarden\ Episode\ 2.mp4
+z random
+touch txt
+mdls txt
+rm txt
+touch dd.txt
+mdls dd.txt
+rm dd.txt
+brew install duti
+tldr brew
+brew doctor
+cd /usr/local/lib/
+rm libtcl8.6.dylib libtk8.6.dylib libwkhtmltox.0.12.6.dylib 
+brew cleanup
+brew doctor
+ls
+~
+echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
+brew link ipython
+nvim technical.tex
+nvim thesis.t
+nvim thesis.tex
+nvim prelude
+nvim prelude.tex
+ani-cli
+nvim
+pytho3n
+python3
+convert 15 eur to inr
+nvim
+nvim 
+convert 26000 eur to inr
+convert 1 eur to inr
+cd defence
+ls
+nvim thesis.t
+nvim thesis.tex
+open thesis.pdf
+ssh nisheethslab
+cp defence/thesis.pdf Desktop/Work/
+convert 720 jpy to inr
+convert 1 jpy to inr
+convert 5700 jpy to inr
+convert 5700 jpy to eur
+rm /var/folders/*/*/*/com.apple.dock.iconcache; killall Dock
+ls
+cd thesis
+ls
+gst
+gitdiff 
+git diffview
+git --help
+git difftool
+nvim
+ls
+gst
+nvim cat_reader.py
+cd thesis
+git difftool wiki_parser.py
+ls
+gst
+nvim difftool
+git difftool
+gaa
+git commit
+git pull
+git push
+nvim site.py
+python3 site.py
+nvim site.py
+nvim templates/home.html
+python3 site.py
+cd thesis
+nvim .gitignore
+ls graphs
+nvim .gitignore
+gst
+git add .gitignore graphs
+gst
+git commit -m "Re added 2 graphs to fix readme"
+git push
+cd thesis
+ls
+tmux a
+tmux
+python3 site.py
+cd thesis
+nvim templates/home.html
+nvim
+nvim templates/home.html
+cd thesis
+ls
+nvim templates/base.html
+python3
+nvim
+mkdir davinci
+cp random/test.py davinci
+cd davinci
+ls
+mv test.py q3.py
+nvim q4.py
+nvim tools.py
+touch requirements.txt
+nvim q4.py
+cd thesis
+nvim templates/base.html
+python3 sparklines.py
+open static/graphs/metadata/russia_ukraine.jpg
+python3 sparklines.py
+open static/graphs/metadata/russia_ukraine.jpg
+open static/graphs/metadata/russiajpg
+open static/graphs/metadata/russia.jpg
+open static/graphs/metadata/ukraine.jpg 
+open static/graphs/metadata/russia_corona.jpg 
+cd thesis
+cd static/graphs/metadata
+ls
+open covid
+open Covid.jpg
+open corona.jpg
+open covid_corona.jpg
+gst
+gaa
+gc
+git push
+ssh nisheethslab
+nvim
+python3
+convert 1 eur to inr
+cd defence
+ls
+nvim studies.tex
+tmux a
+python3 site.py
+tmux a
+python3 site.py
+cd thesis
+nvim templates/home.html
+nvim
+python3
+nvim
+cd defence
+ls
+cd thesis
+ls
+gt
+gst
+tmux a
+p10k configure
+ls
+ls davinci
+ls
+nvim
+nvim studies.tex
+open thesis.pdf
+cp thesis thesis2 -r
+cd thesis2
+ls
+rm -rf .git
+ls
+rm -rf data
+cp ~/backup_run2_data data -r
+ls
+python3 stats.py
+bat stats.py
+python3 stats.py
+rm text_files/channel_ytlinks
+cp ~/thesis/text_files/channel_ytlinks text_files
+python3 stats.py
+nvim pipeline.py
+tmux
+python3 pipeline.py
+bat pipeline.py
+bat log_pipeline
+cp thesis2 thesis3 -r
+cd thesis3
+ls
+~
+ranger
+ssh nisheethslab
+rm -rf backup_run3_data
+ranger
+cd thesis3
+rm -rf data
+cp ~/backup_run1_data data -r
+ls
+cd thesis3
+ls data
+nvim text_files/channel_ytlinks
+ls -l
+ls -l data
+htop
+ls
+python3 stats.py
+ls data
+cd data
+ls
+ranger
+ls
+cd ..
+ls
+nvim transform.py
+cd thesis
+python3 transform.py
+nvim transform.py
+python3 transform.py
+ls
+ls graphs/wordclouds
+rm graphs/wordclouds/ -rf
+ls
+cd data
+ls
+nvim aajtak.hsv.new 
+cd ..
+nvim transform.py
+ls
+rm -rf data
+ls
+cp ~/backup_run1_data data -r
+nvim transform.py
+python3 transform.py
+ranger
+nvim transform.py
+rm data/*new
+python3 transform.py
+ranger
+nvim transform.py
+ranger
+python3 transform.py
+ranger
+ls
+cd ..
+rm -rf backup_run1_data
+cp thesis3/data backup_run1_data -r
+ls
+cd thesis3
+rm transform.py
+ls
+htop
+python3 stats.py
+tmux
+bat pipeline.py
+python3 pipeline.py
+tmux ls
+tmux a -t 1
+tmux a -t 0
+cd ..
+cd thesis2
+ls
+nvim sparklines.py
+cd thesis3
+ls
+cd static
+ls
+rm graphs/* -rf
+ls
+rm static/graphs/* -rf
+open static/graphs/metadata/Russia_Ukraine.jpg
+ls
+nvim studies.tex
+cd thesis
+nvim sparklines.py
+tmux a -t 2
+open static/graphs/metadata/war.jpg
+open static/graphs/metadata/Hindu_Muslim.jpg
+open static/graphs/metadata/cricket.jpg
+rm static/graphs/metadata/Crime.jpg
+open static/graphs/metadata/football.jpg
+open static/graphs/metadata/cricket.jpg
+open static/graphs/metadata/business.jpg
+open static/graphs/metadata/Market.jpg
+open static/graphs/metadata/economy.jpg
+open static/graphs/metadata/astrology.jpg
+open static/graphs/metadata/horo
+open static/graphs/metadata/horoscope.jpg
+cd thesis
+nvim common_topics.py
+python3 common_topics.py
+nvim common_topics.py
+python3 common_topics.py
+nvim text_preprocessing.py
+rm common_topics.py
+tmux a -t 2
+tmux ls
+tmux a
+cd thesis
+open static/graphs/metadata/russia_ukraine.jpg
+cd thesis
+tmux
+python3 site.py
+~
+ls Desktop
+mv Desktop/Screen\ Shot\ 2022-07-08\ at\ 12.27.57\ AM.png defence/figures
+cd defence/figures
+ls
+mv Screen\ Shot\ 2022-07-08\ at\ 12.27.57\ AM.png website.jpg
+mv website.jpg website.png
+rm static/graphs/* -rf
+open static/graphs/metadata/covid.jpg
+cd thesis3
+ls
+rm sparklines.py .
+rm sparklines.py
+cp ~/thesis/sparklines.py .
+rm sparklines.py
+cp ~/thesis/sparklines.py .
+cd thesis2
+cd thesis3
+nvim sparklines.py
+open static/graphs/metadata/covid.jpg
+rm figures/website.png
+cp ~/Desktop/Screen\ Shot\ 2022-07-08\ at\ 12.46.34\ AM.png figures
+mv figures/Screen\ Shot\ 2022-07-08\ at\ 12.46.34\ AM.png figures/website.png
+rm figures/website.png
+cp ~/Desktop/website.png figures
+rm figures/website.png
+cp ~/Desktop/website.png figures
+ssh nisheethslab
+cd thesis
+ls
+gst
+gaa
+gc -m "Website updates and better sparklines"
+git push
+open static/graphs/metadata/Biden.jpg
+open static/graphs/metadata/USA.jpg
+open static/graphs/metadata/United\ States.jpg
+open static/graphs/metadata/Zelensky.jpg
+open static/graphs/metadata/Kiev_Kyiv.jpg
+open static/graphs/metadata/Ukraine.jpg
+open static/graphs/metadata/Ukraine_Putin.jpg
+open static/graphs/metadata/Putin.jpg
+cp ~/thesis2/static/graphs/metadata/Ukraine.jpg figures/ukraine.jpg
+cp ~/thesis2/static/graphs/metadata/Putin.jpg figures/putin.jpg
+nvim sparklines.py
+open static/graphs/metadata/Covid_Corona.jpg
+open thesis.pdf
+open static/graphs/metadata/cricket.jpg
+open static/graphs/metadata/business.jpg
+open static/graphs/metadata/politics
+open static/graphs/metadata/politics.jpg
+open static/graphs/metadata/tension.jpg
+cp static/graphs/metadata/cricket.jpg ~/defence/figures
+cp static/graphs/metadata/politics.jpg ~/defence/figures
+cp static/graphs/metadata/business.jpg ~/defence/figures
+cp static/graphs/metadata/Ukraine_Russia.jpg ~/defence/figures/
+cp static/graphs/metadata/Cricket_Business.jpg ~/defence/figures
+open static/graphs/metadata/inflation.jpg
+open static/graphs/metadata/kashmir.jpg
+open static/graphs/metadata/Hindu_Muslim.jpg
+open static/graphs/metadata/kashmir.jpg
+cp static/graphs/metadata/kashmir.jpg ~/defence/figures
+z nvim
+ls
+cd spell
+ls
+nvim en.utf-8.add.spl
+cd ..
+rm -rf spell
+nvim studies.tex
+cp static/graphs/metadata/Hindu_Muslim.jpg ~/defence/figures
+open static/graphs/metadata/jihad.jpg
+open static/graphs/metadata/honor\ killing.jpg
+open static/graphs/metadata/honour\ killing.jpg
+cp static/graphs/metadata/Covid_Corona.jpg ~/defence/figures/covcor2022.jjpg
+mv figures/covcor2022.jjpg figures/covcor2022.jpg
+cp static/graphs/metadata/Covid_Corona.jpg  ~/defence/figures/covcor2021.jpg
+open static/graphs/metadata/Ukraine
+open static/graphs/metadata/Ukraine.jpg
+cp static/graphs/metadata/Ukraine.jpg  ~/defence/figures/ukrainefeb.jpg
+cp static/graphs/metadata/Ukraine.jpg  ~/defence/figures/ukraineapr.jpg
+git init
+gaa
+gc -m "First draft"
+nvim intro.tex
+make
+nvim intro.tex
+cp thesis.pdf ~/Desktop/Work/thesis.pdf
+python3
+cd davinci
+ls
+nvim straddle.py
+python3 
+python3
+jupyter notebook
+cd davinci
+ls
+nvim black_scholes.py
+ls
+nvim implied_vol.py
+python3
+convert 1 eur to usd
+convert 1 eur to gbp
+convert 1 eur to inr
+nvim
+cd davinci
+nvim black_scholes.py
+ls
+cd davinci
+nvim black_scholes.py
+python3
+cd davinci
+nvim cash_flow.py
+tmux a
+nvim
+python
+python3
+pip install heic-to-jpg
+cd Desktop/Work/Rental
+ls
+rm Pictures\ of\ house\ at\ start\ of\ rental.zip
+heic-to-jpg -h
+heic-to-jpg --help
+heic-to-jpg -s Pictures\ of\ house\ at\ start\ of\ rental
+where convert
+cd /usr/local/bin/con
+cd /usr/local/bin/
+ls con
+ls convert
+readlink convert
+rm convert
+1
+heic-to-jpg -s Pictures\ of\ house\ at\ start\ of\ rental
+pip uninstall heic-to-jpg
+pip install heic-to-jpg
+heic-to-jpg -s Pictures\ of\ house\ at\ start\ of\ rental
+brew install imagemagick
+hgrep convert
+ln -s ~/projects/currency_converter/convert.py /usr/local/bin/exchange
+which exchange
+convert
+heic-to-jpg -s Pictures\ of\ house\ at\ start\ of\ rental
+mv Pictures\ of\ house\ at\ start\ of\ rental pics_rental
+heic-to-jpg -s pics_rental/
+ls pics_rental
+~
+ls
+cd Desktop/Rental/
+ls
+ls pics_rental
+heic-to-jpg -s pics_rental/ --keep
+ls 
+ls pics_rental
+cd pics_rental
+ls
+rm *.heic
+rm *.HEIC
+ls
+cd Desktop/Rental
+ls
+tldr zip
+zip -r pictures.zip pics_rental
+ls
+ls -l
+zip -r pictures.zip pics_rental
+rm pictures.zip
+rm pics_rental/.DS_Store
+zip -r pictures.zip pics_rental
+ls -l
+ls
+nvim
+convert
+exchange 125000 inr to eur
+exchange 100000 inr to eur
+cd defence
+ls
+nvim thesis.tex
+open thesis.pdf
+nvim thesis.tex
+ls
+cp thesis.pdf ~/Desktop/Work/thesis.pdf
+nvim
+cd davinci
+ls
+nvim vega.py
+python3
+nvim
+cd Library/
+ls A
+ls A*
+ls
+cd Messages
+ls
+ls -la
+ranger
+ls -l
+head chat.db
+nvim chat.db
+nvim chat.db-shm
+ls
+rm chat*
+ls
+~
+1
+ls
+nvim com.apple.messages.geometrycache_v6.plist
+rm com.apple.messages.geometrycache_v6.plist
+fd message
+cd Library/Preference
+ls
+cd Library/Preferences
+ls
+ls com.apple.imessage.plist
+ls
+bat com.apple.imessage.plist
+cd ../Messages
+ls
+rm chat*
+rm com.apple.messages.geometrycache_v6.plist
+ls
+cd davinci
+nvim tournament.py
+touch tournament.py
+nvim odds.csv
+nvim tournament.py
+cd defence
+ls
+nvim thesis.tex
+open thesis.pdf
+ls
+cd defence
+ls
+git ls
+git status
+nvim thesis.tex
+cp thesis.pdf ~/Desktop/Work/thesis.pdf
+python3
+mangal
+cd davinci
+ls
+nvim tournament.py
+mangal
+mangal cleanup
+cd random
+ls
+nvim synopsis.tex
+cd defence
+nvim prelude.tex
+ls
+mv synopsis.tex random
+cd random
+ls
+latexmk synopsis.tex
+ls
+pdflatex synopsis.tex
+open synopsis.pdf
+nvim synopsis.tex
+open synopsis.pdf
+ls
+latexmk -c synopsis
+ls
+rm synopsis.dvi 
+ls
+nvim
+python3
+ls .sh
+cd .ssh
+ls
+cat config
+cat known_hosts
+ls
+python3
+nvim
+kitty +kitten icat
+ls
+cd Desktop/wallpapers
+kitty +kitten icat into_the_spiderverse.jpg
+z nvim
+ls
+gst
+gaa
+gc -m "Update"
+gp
+bat .gitignore
+nvim
+cd thesis
+nvim parser.py
+nvim
+ls .ssh
+bat .ssh/config
+bat .zshrc
+cd git
+ls
+mkdir shreyash_configs
+cp ~/.zshrc shreyash_configs
+cd shreyash_configs
+ls
+git init
+ls
+git status
+git add .zshrc
+ls
+git commit -m "Add .zshrc"
+git branch -M main
+git remote add origin https://github.com/drakari7/dotfiles.git
+git push -u origin main
+nvim README.md
+gaa
+gc -m "Basic readme"
+gp
+cp ~/.aliases.zsh .
+ls
+gaa
+nvim README.md
+~
+nvim .aliases.zsh
+ls
+cd git/shreyash_configs
+ls
+gaa
+gc -m "add aliases"
+gp
+nvim
+cd random
+nvim tax_calc.py
+nvim
+python3
+nvim
+python3
+nvim
+z nvim
+nvim
+z nvim
+ls
+nvim lua/confs/dap.lua
+nvim
+z nvim
+git status
+gaa
+gc -m "updated conf for dap to be compatible"
+git push
+exchange 1 eur to usd
+python3
+nvim
+cd random
+ls
+cd ~
+fd synopsis
+cd random/
+ls
+ls synopsis.
+ls synopsis
+ls synopsis.pdf
+open synopsis.pdf
+cp synopsis.pdf ~/Desktop/Random/.
+nvim
+ls
+cd .config
+ls
+ls vim
+ls
+nvim vim/init.vim
+rm -rf vim
+ls
+rm -rf wireshark
+ls
+bpytop
+cp nvim minimal_nvim
+cp nvim minimal_nvim -r
+ls
+cp nvim nvim.backup
+cp nvim nvim.backup -r
+ls
+cd minimal_nvim
+ls
+nvim init.lua
+z nvim
+ls
+cd ..
+cd minimal_nvim
+nvim init.lua
+ls
+rm -rf git
+rm -rf .git
+bat .gitignore
+rm .gitignore
+git init
+git ls
+ls
+ls -l
+ls -la
+rm .netrwhist
+ls -la
+gaa
+gst
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/drakari7/minimal_nvim.git
+git push -u origin main
+ls
+nvim init.lua
+cd ..
+ls
+rm -rf nvim
+mv minimal_nvim nvim
+cd nvim
+nvim init.lua
+gaa
+gc -m "cleanup of unnecessary plugins"
+gp
+ls lua/confs
+cd lua/confs/
+rm colorizer.lua dap.lua null_ls.lua toggleterm.lua
+ls
+rm luasnip.lua
+nvim packer.lua
+ls
+nvim autopairs.lua
+nvim ini
+cd ../../
+nvim init.lua
+gaa
+gc -m "shipping minimal config to windows"
+ls
+gp
+nvim init.lua
+ls
+gaa
+gc -m "commented out telesscope"
+gp
+nvim init.lua
+gaa
+gc -m "update"
+gp
+ls
+nvim init.lua
+git log
+git checkout 391a4447dab464fc508e129e2d2e7
+ls
+nvim init.lua
+git diff 391a44 HEAD > my.patch
+git checkout HEAD
+git log
+git stash
+gst
+git add -A
+git stash
+git checkout main
+ls
+git stash pop
+git apply my.patch
+rm my.patch
+gst
+git rm my.patch
+ls
+git log
+git diff main 91a4447dab464fc508e1 --name-only
+git log
+git diff main 391a444 --name-only
+git log
+z nvim
+ls
+git diff main 2479a4db1
+git diff main 2479a4db1 --name-only
+git diff main 391a444 --name-only
+cp init.lua initbackup
+cp lua/confs/packer.lua packerbackup
+git log
+git checkout 391a4447dab464fc50
+nvim init
+nvim init.lua
+ls
+rm initbackup packerbackup
+ls
+git checkout main
+git add -A
+git stash
+git checkout main
+git stash pop
+nvim lua/confs/packer.lua
+git add lua/confs/packer.lua
+gaa
+gc -m "merged with older"
+git push
+git diff main 391a444 --name-only
+z nvim
+cp ../nvim.backup/lua/confs/colorizer.lua lua/confs
+cp ../nvim.backup/lua/confs/dap.lua lua/confs
+ls lua/confs/lsp_config.lua
+cp ../nvim.backup/lua/confs/luasnip.lua lua/confs
+cp ../nvim.backup/lua/confs/null_ls.lua lua/confs
+cp ../nvim.backup/lua/confs/packer.lua lua/confs
+cp ../nvim.backup/lua/confs/toggleterm.lua lua/confs
+ls lua/confs -l
+gaa
+git stash drop
+gaa
+gc -m "added unused configs"
+git push
+cd lua/confs
+nvim packer.lua
+gaa
+gc
+git push
+cd ../../
+ls
+cd ..
+ls
+mv nvim minimal_nvim
+cp nvim.backup nvim
+cp nvim.backup nvim -r
+ls
+cd nvim
+nvim init.lua
+z .config
+cd kitty
+ls
+nvim kitty.conf
+ani-cli
+nvim
+ani-cli -h
+ani-cli -f 2
+ani-cli -f 1
+ls
+which ani-cli
+cd /usr/local/bin/
+ls
+nvim ani-cli
+~
+ani-cli
+nvim /usr/local/bin/ani-cli
+ani-cli
+nvim
+cd projects
+ls
+cd ..
+cd random
+ls
+cd ..
+python3
+cd thesis
+ls
+nvim .
+nvim 
+nvim
+htop
+ani-cli
+cd .config
+ls
+ls nvim.backup
+mv nvim my_nvim
+ls
+git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim\
+nvim +PackerSync
+cd nvim
+nvim init.lua
+ls
+nvim random/test.py
+z nvim
+nvim init.lua
+cd .config/my_nvim
+nvim lua/confs/toggleterm.lua
+cd ..
+ls
+rm nvim -rf
+mv my_nvim nvim
+ls
+cd nvim
+nvim init.lua
+cd git
+ls
+rm -rf NvChad
+ls
+rm -rf ind-appointment-checker
+ls
+nvim init.lua
+cd git
+git clone https://github.com/AstroNvim/AstroNvim
+ls
+cd AstroNvim
+s
+ls
+fd plugin
+nvim lua/core/plugins.lua
+nvim
+ls
+nvim
+nvim .gitconfig
+nvim random/test.md
+ls
+ls -la
+nvim
+nvim n
+nvim
+python
+python3
+nvim
+z nvim
+nvim init.lua
+rg "c+=17" .
+rg "c++" .
+rg "c++17" .
+rg "std" .
+cd ~
+fd "clang" .
+nvim Library/Preferences/clangd
+nvim Library/Preferences/clangd/config.yaml
+cd custom_headers_cpp
+ls
+nvim benchmark.h
+nvim
+nvim 
+nvimdiff
+cd .config
+ls
+cd minimal_nvim
+ls
+nvim lua/confs/telescope.lua
+z config
+ls
+ls ranger
+cd ..
+mv .config/ranger git/shreyash_configs
+mv git/shreyash_configs/ranger ~/.config
+ranger
+cp -r .config/ranger git/shreyash_configs
+cd git/shreyash_configs
+ls
+gst
+bat README.md
+nvim README.md
+ls
+gaa
+gc -m "add ranger configs"
+git push
+nvim
+z minnnnimal
+z minimal
+ls
+nvim init.lua
+ls
+gst
+gaa
+gc -m "removed system specific shortcuts"
+gp
+ls
+nvim
+z nvim
+ls
+cd ..
+cd minimal_nvim
+ls
+nvim init.lua
+ls
+gaa
+nvim init.lua
+ls
+cd ..
+cd nvim
+ls
+nvim lua/confs/packer.lua
+nvim lua/confs/lsp_config.lua
+nvim init.lua
+nvim init.lua i
+nvim init.lua
+ls
+nvim
+z nvim
+ls
+gst
+git diff
+gaa
+gc -m "updates"
+gp
+cd ..
+ls
+z nvim
+cd .config/minimal_nvim
+ls
+gst
+nvim lua/confs/packer.lua
+nvim init.lua
+gaa
+git diff
+gc -m "add mason instead of lsp install"
+git diff
+gp
+z minimal
+ls
+ls -la
+ls plugin
+lf
+ranger
+nvim .gitignore
+ls
+gst
+ls -la
+git rm --cached plugin
+git rm --cached plugin -r
+gst
+ls
+gaa
+gc -m "added gitignore"
+gp
+nvim init.lua
+gaa
+gc -m "added bookmarks"
+gp
+nvim init.lua
+date -u
+date
+ls
+cd anime
+ls
+cd Violet\ Evergarden
+ls
+iina Violet\ Evergarden\ Episode\ 1
+iina Violet\ Evergarden\ Episode\ 1.mp4
+or
+nvim
+exchange 16260 eur to inr
+exchange 13750 eur to inr
+hgrep orion
+zhist
+hgrep Orion
+rm -rf ~/Library/Application\ Support/Orion
+ls
+fzf
+tldr xargs
+tldr --update
+tldr xargs
+tldr grep
+man grep
+man fzf
+tldr fzf
+ps aux | fzf
+fzf --multi
+fzf --query "hi"
+fzf
+fzf --preview 'less'
+fzf --preview 'less' defence
+fd "defence" | fzf --preview 'less'
+ls
+fd ~/defence -type f | fzf --preview 'less'
+find ~/defence -type f | fzf --preview 'less'
+find ~/defence -type f | fzf --preview 'less {}'
+find ~/defence -type f | fzf --preview 'bat {}'
+ls
+cd git
+ls
+fzf
+nvim
+exchange 5000 inr to eur
+exchange 
+ls
+where exchange
+what exchange
+which exchange
+ls /usr/local/bin/exchange
+ls /usr/local/bin/exchange -G
+ls /usr/local/bin/exchange -l
+fzf
+ls
+telnet 
+brew install telnet
+telnet towel.blinkenlights.nl
+ls -la
+fd "." .
+tldr fd
+fd -tf -td --depth 1
+fd -tf -td --maxdepth 1 
+fd -tf -td --maxdepth 1 '.'
+fd -tf -td --maxdepth 1 '.' --hidden
+fd -tf -td --maxdepth 1 '^.'
+fd "g" -tf -td --maxdepth 1
+fd "." -tf -td --maxdepth 1
+fd "\." -tf -td --maxdepth 1
+fd "\." -tf -td --maxdepth 1 --hidden
+cd .Trash
+ls
+ls -la
+open pokemon_sexism.jpg
+cd ..
+ls
+ls -la
+fd "\." -tf -td --maxdepth 1 --hidden
+nvim .zshr
+nvim .idlerc/recent-files.lst
+rm -rf .idlerc
+rm -rf .wdm
+rm -rf .wget-hsts
+ls -la | grep '\.'
+ls -a | grep '\.'
+expr $(\ls -lA ~ | wc -l | tr -d "[:space:]" ) - $(\ls -l ~ | wc -l | tr -d "[:space:]")
+nvim .zshrc
+ls
+diff .zshrc .zshrc-e
+diff .zshrc .zshrc-e --color
+diff --help
+tldr diff
+nvim -d .zshrc .zshrc-e
+rm .zshrc-e
+ls
+ls *z*
+ls .*z*
+ls
+ls -ls
+ls -la
+cp .zshrc .zshrc_backup
+rm .bash_history
+bat .python_history
+rm .python_history
+bat .lesshst
+rm .lesshst
+ls 
+ls -l
+ls -la
+rm -rf custom_headers_cpp
+ls
+nvim
+ls -l
+rm -rf davinci
+ls node_modules
+rm -rf node_modules
+lf
+brew install lf
+ranger
+lf
+ls
+ls -la
+./.remove_default_folders.sh
+ls
+ls -la
+bat .profile
+bat .git-credentials
+bat .p10k.zsh
+bat .profile
+rm .profile
+bat .zshenv
+rm .zshenv
+bat .z
+bat .zprofile
+rm .zprofile
+ls
+ls -la
+bat .zcompdump-Shreyashâ€ƒ¹s\ MacBook\ Pro-5.8.1
+rm .zcompdump-Shreyashâ€ƒ¹s\ MacBook\ Pro-5.8.1
+ls
+ls -la
+bat .zcompdump-Shreyashâ€ƒ¹s\ MacBook\ Pro-5.8.1
+rm .zshrc
+ls
+cp .zshrc_backup .zshrc
+ls
+echo $ZDOTDIR
+nvim .zlogout
+exit
+bash
+exit
+nvim .zlogout
+rm .zlogout
+bat /etc/zshenv
+bat /etc/zshrc
+nvim .zshrc
+ls .cache
+rm .cache/wal -rf
+ls .cache -l
+ls .cache/ani-hsts
+bat .cache/ani-hsts
+autoload --help
+autoload -h
+tldr autoload
+man autoload
+ls
+rm .zshrc
+nvim .zprofile
+ls 
+ls .conf
+ls .config
+bpytop
+htop
+cd .config
+ls
+rm bpytop -rf
+ls
+rm -rf bpytop
+ls
+ls
+mkdir zsh
+cd zsh
+nvim .zshrc
+ls
+mktemp --help
+tldr mktemp
+ls
+ls .aliases.zsh
+ls .config/zsh
+ls .config/zsh -l
+ls .config/zsh -la
+z zsh
+z config
+cd zsh
+ls
+ls -la
+bat history
+echo .zsh_history
+bat .zsh_history
+rm .zsh_history
+ls -la
+bat .zcompdump
+ls
+~
+ls
+mv .aliases.zsh ~/.config/zsh/aliasrc
+ls
+ls -la
+bat .zprofile
+mv .zsh_history .config/zsh/history
+fzf --preview 'less' defence
+fzf
+ls
+rm .zsh_history
+echo $PATh
+echo $path
+echo $PATH
+antidote load
+cd .config/zsh
+ls
+echo $ZDOTDIR
+alias
+ls 
+bat aliasrc
+echo $ZDOTDIR
+echo $ZDOTDIR
+echo ${ZDOTDIR}
+echo ${ZDOTDIR}/miniplug.zsh
+alias
+echo $MINIPLUG_HOME
+echo $MINIPLUG_HOME
+miniplug install
+ls
+autoload "wow this is amazing" 
+ls
+miniplug
+miniplug install
+miniplug
+cd .oh-my-zsh
+ls
+cd plugins
+ls
+ls z
+cd z
+ls
+git branch -vv
+basename `git rev-parse --show-toplevel`
+cd ..
+ls
+ls z
+cd z
+nvim README
+nvim README
+ls
+ls
+rm \$\{ZDOTDIR\}
+rm \$\{ZDOTDIR\} -rf
+rm -rf \$\{ZDOTDIR\}
+ls
+cd .cache
+ls
+ls
+cd .cache
+ls
+rm p10k*
+ls
+miniplug install
+miniplug install
+z 
+z zsh
+ls
+miniplug install
+miniplug install
+brew install thefuck
+which ls
+ls --help
+ls -LGG
+ls -lG
+ls
+ls
+l
+ls -A
+ls -AGASD
+ls --color=auto
+ls -la
+ls
+ls
+miniplug install
+man fzf
+cd .config
+cd zshj
+cd zsh
+nvim .zsh
+nvim .zshrc
+man fzf
+nvim
+z zsh
+nvim
+echo $TERM
+brew install diff-so-fancy
+diff
+diff --help
+diff --help | bat
+diff
+diff --help
+ls -la
+rm -rf .zcompdump-Shreyashâ€ƒ¹s\ MacBook\ Pro-5.*
+rm -rf .z
+ls
+z config
+ls -la
+bat .z
+ls
+ls -la
+ls sdsd
+ls --help
+alias
+alias
+ls -la
+ls .zsh_plugins.txt
+ranger
+rm .p10k.zsh
+rm .zsh_history
+rm .zsh_plugins.txt .zsh_plugins.zsh 
+z zsh
+ls
+ls plugins
+ranger
+cd plugins
+rm -rf rupa
+cd ..
+ls
+bat history
+nvim history
+ls
+ls -la
+nvim aliasrc
+nvim
+nvim
+ls
+rm .zshrc_backup
+ls -la
+cd .cache
+ls
+cd p10k-shreyash
+ls
+bat prompt-
+bat prompt-15
+cd ..
+ls
+rm p10k-* -rf
+rm -rf p10k-*
+ls
+ls gitstatus
+ls nvim
+cd nvim
+ls
+ranger
+ls
+cd ..
+ls
+ls
+bat ani-hsts
+rm ani-hsts
+ls hie-bios
+cd ..
+ls
+ls -la
+rm .DS_Store
+rm .bash_history
+rm .z
+ls -la
+ranger
+nvim .zprofile
+ranger
+miniplug install
+fzf
+fzf --scheme=history
+fzf --help
+ls
+ls -la
+bat .fzf.zsh
+rm -rf .fzf.zsh
+cd .fzf
+ls
+cd ..
+rm -rf .fzf
+ls
+fzf
+miniplug install
+ls -la
+ls -la
+ls -help
+ls --help
+nvim
+ranger
+rm .vscode
+rm -rf .vscode
+ls
+ls -la
+rm -rf .fzf*
+rm .viminfo
+ls
+ls
+ls
+rm .oh-my-zsh -rf
+rm -rf .oh-my-zsh 
+ls -la
+rm .Trash/*
+rm -rf .Trash/*
+fuck
+thefuck
+brew uninstall fzf
+fzf
+fcd
+fzd
+fzf
+echo $ZDOTDIR
+ls
+ls
+fzf
+cd git
+ls
+git clone --depth 1 https://github.com/junegunn/fzf.git
+ls
+cd fzf
+ls
+bat install
+install
+./install
+~
+ls -la
+rm .fzf.bash
+nvim .bashrc
+rm .bashrc
+mv .fzf.zsh ~/.config/zsh/
+nvim
+z zsh
+cd .config/zsh
+ls
+z ~
+z zsh
+nvim .zshrc

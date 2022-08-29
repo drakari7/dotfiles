@@ -1,0 +1,6 @@
+alias out="./a.out"
+# alias spa="spicetify apply"
+# alias spcolor="spicetify config color_scheme"
+# alias sptheme="spicetify config current_theme"
+alias kitconf="nvim ~/.config/kitty/kitty.conf"
+alias kit_ssh="kitty +kitten ssh"
