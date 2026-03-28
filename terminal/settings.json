@@ -1,0 +1,133 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
+    "actions":
+    [
+        { "command": "paste", "id": "User.paste" },
+        { "command": { "action": "copy", "singleLine": false }, "id": "User.copy.644BA8F2" },
+
+        { "command": { "action": "newTab" }, "id": "User.newTab.5DEADB41" },
+        { "command": { "action": "closeTab" }, "id": "User.closeTab.0" },
+        { "command": "closePane", "id": "User.closePane" },
+        { "command": "openTabRenamer", "id": "User.openTabRenamer" },
+
+        { "command": { "action": "sendInput", "input": "nvim\r" }, "id": "User.sendInput.3A0DAF41" },
+
+        { "command": { "action": "switchToTab", "index": 0 }, "id": "User.switchToTab.D3F0B923" },
+        { "command": { "action": "switchToTab", "index": 1 }, "id": "User.switchToTab.2A0DA8E0" },
+        { "command": { "action": "switchToTab", "index": 2 }, "id": "User.switchToTab.87C324ED" },
+        { "command": { "action": "switchToTab", "index": 3 }, "id": "User.switchToTab.6CD791B" },
+        { "command": { "action": "switchToTab", "index": 4 }, "id": "User.switchToTab.F747588A" },
+        { "command": { "action": "switchToTab", "index": 5 }, "id": "User.switchToTab.75247157" },
+        { "command": { "action": "switchToTab", "index": 6 }, "id": "User.switchToTab.787314EB" },
+        { "command": { "action": "switchToTab", "index": 7 }, "id": "User.switchToTab.D7681B66" },
+        { "command": { "action": "switchToTab", "index": 8 }, "id": "User.switchToTab.ED268D78" },
+
+        { "command": { "action": "moveFocus", "direction": "down" }, "id": "User.moveFocus.F747588A" },
+        { "command": { "action": "moveFocus", "direction": "right" }, "id": "User.moveFocus.87C324ED" },
+        { "command": { "action": "moveFocus", "direction": "up" }, "id": "User.moveFocus.6CD791B" },
+        { "command": { "action": "moveFocus", "direction": "left" }, "id": "User.moveFocus.2A0DA8E0" },
+
+        { "command": { "action": "splitPane", "split": "down", "splitMode": "duplicate" }, "id": "User.splitPane.A6751878" },
+        { "command": { "action": "splitPane", "split": "right", "splitMode": "duplicate" }, "id": "User.splitPane.A6751879" }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+    "disableAnimations": true,
+    "firstWindowPreference": "persistedLayoutAndContent",
+    "keybindings":
+    [
+        { "id": null, "keys": "alt+enter" },
+        { "id": null, "keys": "ctrl+alt+1" },
+        { "id": null, "keys": "ctrl+alt+2" },
+        { "id": null, "keys": "ctrl+alt+3" },
+        { "id": null, "keys": "ctrl+alt+4" },
+        { "id": null, "keys": "ctrl+alt+5" },
+        { "id": null, "keys": "ctrl+alt+6" },
+        { "id": null, "keys": "ctrl+alt+7" },
+        { "id": null, "keys": "ctrl+alt+8" },
+        { "id": null, "keys": "ctrl+alt+9" },
+
+        { "id": "User.copy.644BA8F2", "keys": "alt+c" },
+        { "id": "User.paste", "keys": "alt+v" },
+
+        { "id": "User.newTab.5DEADB41", "keys": "ctrl+alt+shift+t" },
+        { "id": "User.closeTab.0", "keys": "ctrl+alt+shift+\\" },
+        { "id": "User.closePane", "keys": "ctrl+alt+shift+d" },
+        { "id": "User.openTabRenamer", "keys": "f2" },
+
+        { "id": "User.sendInput.3A0DAF41", "keys": "ctrl+alt+shift+n" },
+
+        { "id": "User.switchToTab.D3F0B923", "keys": "ctrl+alt+shift+1" },
+        { "id": "User.switchToTab.2A0DA8E0", "keys": "ctrl+alt+shift+2" },
+        { "id": "User.switchToTab.87C324ED", "keys": "ctrl+alt+shift+3" },
+        { "id": "User.switchToTab.6CD791B",  "keys": "ctrl+alt+shift+4" },
+        { "id": "User.switchToTab.F747588A", "keys": "ctrl+alt+shift+5" },
+        { "id": "User.switchToTab.75247157", "keys": "ctrl+alt+shift+6" },
+        { "id": "User.switchToTab.787314EB", "keys": "ctrl+alt+shift+7" },
+        { "id": "User.switchToTab.D7681B66", "keys": "ctrl+alt+shift+8" },
+        { "id": "User.switchToTab.ED268D78", "keys": "ctrl+alt+shift+9" },
+
+        { "id": "User.moveFocus.6CD791B", "keys": "ctrl+alt+shift+k" },
+        { "id": "User.moveFocus.87C324ED", "keys": "ctrl+alt+shift+l" },
+        { "id": "User.moveFocus.2A0DA8E0", "keys": "ctrl+alt+shift+h" },
+        { "id": "User.moveFocus.F747588A", "keys": "ctrl+alt+shift+j" },
+
+        { "id": "User.splitPane.A6751879", "keys": "ctrl+alt+shift+plus" },
+        { "id": "User.splitPane.A6751878", "keys": "ctrl+alt+shift+minus" }
+    ],
+    "newTabMenu": [{ "type": "remainingProfiles" }],
+    "profiles":
+    {
+        "defaults":
+        {
+            "colorScheme": "Tango Dark",
+            "font":
+            {
+                "cellHeight": "1.3",
+                "face": "IosevkaTerm Nerd Font Mono",
+                "features":
+                {
+                    "calt": 0
+                },
+                "size": 14,
+                "weight": "medium"
+            },
+            "intenseTextStyle": "bold",
+            "scrollbarState": "hidden",
+            "useAcrylic": false
+        },
+        "list":
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+                "hidden": false,
+                "name": "Arch",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{1aa5fb21-3acf-59ac-9330-89ee70dcfec3}",
+                "hidden": false,
+                "name": "archlinux",
+                "source": "Microsoft.WSL"
+            }
+        ]
+    },
+    "schemes": [],
+    "themes": [],
+    "warning.confirmCloseAllTabs": false,
+    "wordDelimiters": " /\\()\"':,;<>~!@#$%^&*|+=[]{}~?\u2502"
+}
