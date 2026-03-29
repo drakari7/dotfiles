@@ -20,7 +20,7 @@ alias ys='yay -S'
 # fzf aliases (require the definition of fzz command in scripts)
 alias nf='file=$(fzz) && nvim $file'
 alias bf='file=$(fzz) && bat $file'
-alias fcd='file=$(fd -td . | fzf) && cd $file'
+alias fcd='folder=$(fd -td . | fzf) && cd $folder'
 
 # Git aliases
 alias gp='git push'

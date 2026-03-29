@@ -36,7 +36,7 @@ WSL is all set.
 You probably want to install most of these packages in varying levels of priority.
 ```
 sudo pacman -S base-devel git curl unzip zip man-db man-pages htop openssh
-sudo pacman -S fzf eza zoxide
+sudo pacman -S fzf eza zoxide fd ripgrep bat
 ```
 
 
