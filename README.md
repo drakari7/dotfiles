@@ -102,5 +102,7 @@ Remember to log out and log back in for these changes to take place.
 
 ## Power Toys
 Dont remember what these mappings were in power toys for, but here they are
+```
 Win + Ctrl + Alt + Shift (Hyper) + h -> Win + Ctrl + left
 Hyper + l -> Win + Ctrl + right
+```
