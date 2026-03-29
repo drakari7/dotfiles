@@ -59,7 +59,6 @@ bindkey -M menuselect 'l' vi-forward-char
 
 # Sourcing aliases and custom scripts
 [ -f "${ZDOTDIR}/aliasrc" ] && source "${ZDOTDIR}/aliasrc"
-[ -f "${ZDOTDIR}/extra_aliasrc" ] && source "${ZDOTDIR}/extra_aliasrc"
 [ -f "${ZDOTDIR}/fzf.zsh" ] && source "${ZDOTDIR}/fzf.zsh"
 [ -f ~/scripts/my_funcs.sh ] && source ~/scripts/my_funcs.sh
 [ -f ~/scripts/fzf_aliases ] && source ~/scripts/fzf_aliases
@@ -81,7 +80,7 @@ MODE_CURSOR_SEARCH="#ff00ff steady underline"
 MODE_CURSOR_VISUAL="$MODE_CURSOR_VICMD steady bar"
 MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
 
-# Miscellaneous (Maybe move this to .zshenv)
+# Miscellaneous (Maybe move to .zshenv)
 export PATH=~/scripts/:$PATH
 export EDITOR="nvim"
 export VISUAL="nvim"
