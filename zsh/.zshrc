@@ -37,7 +37,9 @@ compinit
 _comp_options+=(globdots)   # Also show hidden files
 
 # Zoxide configuration
-eval "$(zoxide init --cmd j zsh)"
+if whence -p zoxide >/dev/null; then
+  eval "$(zoxide init --cmd j zsh)"
+fi
 
 # Make up and down keys like bash
 # Default values are history-beginning-search-backward-end and history-beginning-search-forward-end
@@ -59,14 +61,16 @@ bindkey -M menuselect 'l' vi-forward-char
 
 # Sourcing aliases and custom scripts
 [ -f "${ZDOTDIR}/aliasrc" ] && source "${ZDOTDIR}/aliasrc"
-[ -f "${ZDOTDIR}/fzf.zsh" ] && source "${ZDOTDIR}/fzf.zsh"
 [ -f ~/scripts/my_funcs.sh ] && source ~/scripts/my_funcs.sh
 [ -f ~/scripts/fzf_aliases ] && source ~/scripts/fzf_aliases
 
 # Set wordchars to modify ctrl-w behavior
 export WORDCHARS='._-'
 
-# Fzf settings
+#### Fzf settings
+# This file should be present after installing fzf via your package manager
+[ -f "${ZDOTDIR}/fzf.zsh" ] && source "${ZDOTDIR}/fzf.zsh"
+
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
 export FZF_DEFAULT_COMMAND="rg --files --hidden --follow --glob '!.git'"
