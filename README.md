@@ -36,11 +36,12 @@ WSL is all set.
 You probably want to install most of these packages in varying levels of priority.
 ```
 sudo pacman -S base-devel git curl unzip zip man-db man-pages htop openssh
-sudo pacman -S fzf eza zoxide fd ripgrep bat
+sudo pacman -S fzf eza zoxide fd ripgrep bat git-delta
+sudo pacman -S npm python3
 ```
 
 
-## Zsh 
+## Zsh
 Install and use zsh
 ```
 sudo pacman -S zsh starship
@@ -54,10 +55,34 @@ chsh -s /bin/zsh
 
 Log out and log back in to enter into zsh. Run `miniplug install` the first time you open it.
 
+## Git Delta
+Add the following to ~/.gitconfig
+
+```
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true  # use n and N to move between diff sections
+    dark = true      # or light = true, or omit for auto-detection
+
+[merge]
+    conflictStyle = zdiff3
+```
+
 ## Terminal
 Last known working version is 1.25.662.0. Copy the `terminal/settings.json` file to
 C:\Users\Ravi\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json
 
 Replace `Ravi` with username.
 
-##
+## Neovim
+Clone and use neovim
+```
+git clone https://github.com/drakari7/nvim.git
+```
+
+Most of the lsp servers require npm for Mason to install them.
