@@ -53,7 +53,7 @@ export GROFF_NO_SGR=1
 bindkey -v
 export KEYTIMEOUT=1
 
-# Use vim keybindings in autocompcomplete menus
+# Use hjkl in autocompcomplete menus
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -M menuselect 'k' vi-up-line-or-history
@@ -67,14 +67,12 @@ bindkey -M menuselect 'l' vi-forward-char
 # Set wordchars to modify ctrl-w behavior
 export WORDCHARS='._-'
 
-#### Fzf settings
-# This file should be present after installing fzf via your package manager
-[ -f "${ZDOTDIR}/fzf.zsh" ] && source "${ZDOTDIR}/fzf.zsh"
-
-source /usr/share/fzf/key-bindings.zsh
-source /usr/share/fzf/completion.zsh
-export FZF_DEFAULT_COMMAND="rg --files --hidden --follow --glob '!.git'"
-export FZF_DEFAULT_OPTS='--height=70% --layout=reverse'
+#### Fzf initialisation and settings
+if whence -p fzf >/dev/null; then
+  source <(fzf --zsh)
+  export FZF_DEFAULT_COMMAND="rg --files --hidden --follow --glob '!.git'"
+  export FZF_DEFAULT_OPTS='--height=70% --layout=reverse'
+fi
 
 # zsh-vim-mode configs
 MODE_CURSOR_VIINS="#ffffff blinking bar"

@@ -36,7 +36,9 @@ WSL is all set.
 You probably want to install most of these packages in varying levels of priority.
 ```
 sudo pacman -S base-devel git curl unzip zip man-db man-pages htop openssh
+sudo pacman -S fzf eza zoxide
 ```
+
 
 ## Zsh 
 Install and use zsh
@@ -49,6 +51,8 @@ Copy the `zsh` folder to `~/.config/zsh`. Export ZDOTDIR value in your ~/.zshenv
 echo 'export ZDOTDIR="$HOME/.config/zsh"' >> ~/.zshenv
 chsh -s /bin/zsh
 ```
+
+Log out and log back in to enter into zsh. Run `miniplug install` the first time you open it.
 
 ## Terminal
 Last known working version is 1.25.662.0. Copy the `terminal/settings.json` file to
