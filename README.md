@@ -24,10 +24,23 @@ pacman -S sudo vim
 EDITOR=vim visudo
 ```
 
-Uncomment the line `%wheel ALL=(ALL:ALL) NOPASSWD ALL`.
+Uncomment the line `%wheel ALL=(ALL:ALL) NOPASSWD: ALL`.
 Then log out back to powershell and run
 ```
-archlinux config --default-user ravi
+wsl --manage archlinux --set-default-user ravi
+```
+
+WSL is all set.
+
+# Pacman packages
+You probably want to install most of these packages in varying levels of priority.
+```
+sudo pacman -S base-devel git curl unzip zip man-db man-pages htop openssh
+```
+
+Change shell to zsh
+```
+
 ```
 
 
