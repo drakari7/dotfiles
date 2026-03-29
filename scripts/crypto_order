@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+PYTHONPATH=~/crypto/dist-test/lib64/
+# LD_LIBRARY_PATH=/home/egor/toolchains/gcc-10.3.0/lib64/:$PYTHONPATH
+crypto_order.py --shmem_prefix /shreyash.test.crypto -i 1 -o 1 $@

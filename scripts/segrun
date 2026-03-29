@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export PYTHON_PATH='dist-test/':$PYTHON_PATH
+./run_dev_segment.sh dev.shreyash dist-test/

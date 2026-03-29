@@ -1,0 +1,22 @@
+#!/bin/bash
+
+set -e
+
+if [[ "$1" == "main" ]]; then
+    config="/home/shreyash/prod-config/"
+    tag_prefix="crypto_prod/config-1."
+elif [[ "$1" == "beta" ]]; then
+    config="/home/shreyash/master-config"
+    tag_prefix="crypto/config-3."
+else
+    echo "Supply either main or beta as first argument"
+    exit 1
+fi
+
+vnum="$2"
+cd ${config}
+git fetch --all --quiet
+git checkout tags/${tag_prefix}${vnum}.0 --quiet
+head -1 build_version.py | cut -d "'" -f2
+git checkout - --quiet
+cd - > /dev/null

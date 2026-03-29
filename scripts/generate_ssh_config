@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+
+from pathlib import Path
+from dataclasses import dataclass
+from shutil import copyfile
+
+
+base_config_path = Path("~/.ssh/base_config").expanduser()
+ssh_config_path = Path("~/.ssh/config").expanduser()
+if not base_config_path.exists():
+    print("Base config not found, aborting")
+    exit(1)
+
+
+@dataclass
+class SshConfig:
+    alias:     str
+    hostname:  str
+    limit:     int
+
+    def get_alias(self, num: int) -> str:
+        return f"{self.alias}{num}"
+
+    def get_hostname(self, num: int) -> str:
+        assert "##" in self.hostname, "Hostname must contain ## to be replaced by a number"
+        filled_num = str(num).zfill(2)
+        return self.hostname.replace("##", filled_num)
+
+
+ssh_configs = [
+    SshConfig(alias='ams',      hostname='puamixmlz##',         limit=99),
+    SshConfig(alias='tk',       hostname='puawstomlz##-awsdc',  limit=99),
+    SshConfig(alias='dublin',   hostname='puawsdumlz##-awsdc',  limit=99),
+    SshConfig(alias='ldn',      hostname='pulnslmlz##',         limit=99),
+    SshConfig(alias='lws',      hostname='puawslomlz##-awsdc',  limit=99),
+    SshConfig(alias='hk',       hostname='pualihkmlz##-alidc',  limit=99),
+    SshConfig(alias='sg',       hostname='puawssgmlz##-awsdc',  limit=99),
+    SshConfig(alias='nj',       hostname='punjsemlz##',         limit=99),
+    SshConfig(alias='cme',      hostname='puaucmmlz##',         limit=99),
+]
+
+copyfile(base_config_path, ssh_config_path)
+
+with open(ssh_config_path, 'a') as f:
+    for config in ssh_configs:
+        for idx in range(1, config.limit+1):
+            print(f"Host {config.get_alias(idx)}", file=f)
+            print(f"    Hostname {config.get_hostname(idx)}", file=f)
+        print("\n", file=f)

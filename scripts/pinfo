@@ -1,0 +1,17 @@
+#!/usr/bin/python3.10
+import sys
+from crypto_clients.utils import get_all_product_definitions
+from pprint import pprint
+
+
+if len(sys.argv) < 2:
+    print("Needs a product")
+    exit(1)
+
+product_config_all = "/home/shreyash/prod-config/subprojects/product_config/product_config_all.toml"
+pdefs = get_all_product_definitions(product_config_all)
+query = sys.argv[1].upper()
+
+for pdef in pdefs:
+    if pdef.product == query:
+        pprint(pdef)

@@ -1,0 +1,7 @@
+#!/bin/bash
+boxes=$(grep "^Host " ~/.ssh/config | awk '{print $NF}')
+for box in ${boxes}
+do
+    echo $box
+    ssh -t ${box} "echo alias $1=\'$2\' >> ~/.bashrc"
+done

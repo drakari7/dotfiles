@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+openvpn3 session-manage --config ~/da_vinci/shreyash.ovpn --disconnect

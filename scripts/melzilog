@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+if [[ "$1" == "main" ]]; then
+    org_name="crypto_prod"
+    seg_name="main"
+elif [[ "$1" == "beta" ]]; then
+    org_name="crypto"
+    seg_name="beta"
+fi
+
+cd ~/master-config
+./melzilog.sh -o $org_name -s $seg_name -p ${2^^} -sv $3 ${@:4}
+cd -

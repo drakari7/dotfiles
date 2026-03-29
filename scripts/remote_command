@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+for box in sg2 # sg4
+do
+    echo $box
+    ssh -t melzi-prod@${box} "cd melzi/crypto_prod/builds/crypto_prod-1.97.0/dropcopy_bybit/; sed 's#bybit.client#bybit_client#g' dropcopy_bybit_spot.py;"
+done

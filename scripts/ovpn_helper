@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+set -euo pipefail
+shopt -s failglob
+
+install() {
+    if [ -f /usr/libexec/openvpn3-linux/openvpn3-run-wrapper ]; then
+        echo "Already installed, exiting."
+        exit
+    fi
+    rm -rf /tmp/openvpn3-workaround
+    mkdir /tmp/openvpn3-workaround
+    cd /tmp/openvpn3-workaround
+    wget https://archive.archlinux.org/packages/g/glib2/glib2-2.74.6-1-x86_64.pkg.tar.zst
+    sha256sum -c <<< "b9f5411edd8613cbca3e172cbf7359e1ea52b5ac6ade5826b974aa03fa7c8692  glib2-2.74.6-1-x86_64.pkg.tar.zst"
+    tar --zstd -xvf glib2-2.74.6-1-x86_64.pkg.tar.zst
+
+    sudo mv --no-clobber --no-target-directory usr/lib /usr/libexec/openvpn3-linux/glib2
+    # Removing unnecessary files
+    sudo rm -rf /usr/libexec/openvpn3-linux/glib2/pkgconfig
+    sudo rm -rf /usr/libexec/openvpn3-linux/glib2/glib-2.0
+
+    {
+        echo '#!/bin/sh'
+        echo 'glib2=/usr/libexec/openvpn3-linux/glib2'
+        echo 'export LD_PRELOAD="$glib2/libglib-2.0.so.0 $glib2/libgobject-2.0.so.0 $glib2/libgio-2.0.so.0"'
+        echo 'exec "$0".bin "$@"'
+    } > openvpn3-run-wrapper
+
+    sudo install --mode=755 openvpn3-run-wrapper /usr/libexec/openvpn3-linux/
+    sudo bash -c 'for f in /usr/libexec/openvpn3-linux/openvpn3-service*; do if [ -f "$f" ]; then echo "$f -> $f.bin"; mv --no-clobber "$f" "$f".bin; ln -s openvpn3-run-wrapper "$f"; fi; done'
+}
+
+uninstall() {
+    sudo bash -c 'for f in /usr/libexec/openvpn3-linux/openvpn3-service*; do if [ -L "$f" ]; then echo "$f.bin -> $f"; mv "$f".bin "$f"; fi; done'
+    sudo rm -rf /usr/libexec/openvpn3-linux/glib2/
+    sudo rm -f /usr/libexec/openvpn3-linux/openvpn3-run-wrapper
+}
+
+reinstall_openvpn3_client() {
+    sudo pacman -Rs openvpn3
+    yay -S openvpn3
+}
+
+case "${1-}" in
+    install)
+        install
+        ;;
+    uninstall)
+        uninstall
+        ;;
+    reinstall-openvpn3-client)
+        reinstall_openvpn3_client
+        ;;
+    *)
+        echo "Usage: $0 {install|uninstall|reinstall-openvpn3-client}"
+        exit 1
+esac
+
