@@ -36,7 +36,7 @@ WSL is all set.
 You probably want to install most of these packages in varying levels of priority.
 ```
 sudo pacman -S base-devel git curl unzip zip man-db man-pages htop openssh
-sudo pacman -S fzf eza zoxide fd ripgrep bat git-delta
+sudo pacman -S fzf eza zoxide fd ripgrep bat git-delta tldr yazi
 sudo pacman -S npm python3
 ```
 
@@ -86,3 +86,21 @@ git clone https://github.com/drakari7/nvim.git
 ```
 
 Most of the lsp servers require npm for Mason to install them.
+
+## Windows Registry Changes
+Change keystroke repeat delay to values I like in the windows registry
+```
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
+AutoRepeatDelay = 250
+AutoRepeatRate = 13
+BounceTime = 0
+DelayBeforeAcceptance = 0
+Flags = 59
+```
+
+Remember to log out and log back in for these changes to take place.
+
+## Power Toys
+Dont remember what these mappings were in power toys for, but here they are
+Win + Ctrl + Alt + Shift (Hyper) + h -> Win + Ctrl + left
+Hyper + l -> Win + Ctrl + right
