@@ -1,5 +1,0 @@
-#!/bin/bash
-
-# WIP
-changed_projects=$(git diff --name-only | grep "^subprojects" | sed 's#subprojects/##')
-

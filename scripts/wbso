@@ -1,3 +1,0 @@
-#!/bin/bash
-
-python3 ~/wbso/wbso.py --author "shreyash" $2 $3 $1
