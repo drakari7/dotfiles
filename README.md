@@ -30,6 +30,12 @@ Then log out back to powershell and run
 wsl --manage archlinux --set-default-user ravi
 ```
 
+Enable interop between Windows and WSL by adding the following to `/etc/wsl.conf`
+```
+[interop]
+enabled=true
+appendWindowsPath=true
+```
 WSL is all set.
 
 ## Pacman packages
