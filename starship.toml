@@ -1,0 +1,65 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[](fg:blue)\
+$directory\
+[](fg:blue bg:dark_blue)\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+[](fg:dark_blue)\
+\n$character"""
+
+right_format = """
+[](fg:darker_blue)\
+$time\
+[](fg:darker_blue)\
+"""
+
+# Define the palette
+palette = "tokyo_night"
+
+[palettes.tokyo_night]
+dir_text = "#e5e9f0"
+blue = "#769ff0"
+lavender = "#a3aed2"
+dark_blue = "#394260"
+darker_blue = "#212736"
+deep_blue = "#1d2230"
+muted = "#a0a9cb"
+red = "#ff5555"
+
+[directory]
+style = "fg:dir_text bg:blue"
+format = "[$path ]($style)[$read_only]($read_only_style)"
+read_only = ""
+read_only_style = 'fg:red bg:blue'
+truncation_length = 4
+truncation_symbol = "…/"
+truncate_to_repo = false
+
+[git_branch]
+symbol = ""
+style = "bg:dark_blue"
+format = '[[ $symbol $branch ](fg:blue bg:dark_blue)]($style)'
+
+[git_commit]
+style = "bg:dark_blue"
+tag_disabled = false
+format = '[\($hash$tag\)](fg:blue bg:dark_blue)'
+
+[git_state]
+style = "bg:dark_blue"
+format = '\([$state( $progress_current/$progress_total)](fg:blue bg:dark_blue)\) '
+disabled = false
+
+[git_status]
+style = "bg:dark_blue"
+format = '[[($all_status$ahead_behind )](fg:blue bg:dark_blue)]($style)'
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:dark_blue"
+format = '[[  $time ](fg:muted bg:darker_blue)]($style)'
