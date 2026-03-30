@@ -8,20 +8,24 @@ $git_branch\
 $git_commit\
 $git_state\
 $git_status\
-[](fg:dark_blue)\
-\n$character"""
-
-right_format = """
+[](fg:dark_blue bg:darker_blue)\
+$jobs\
+[](fg:darker_blue bg:deep_blue)\
+$cmd_duration\
+[](fg:deep_blue)\
+$fill\
 [](fg:darker_blue)\
 $time\
 [](fg:darker_blue)\
+$line_break\
+$character\
 """
 
 # Define the palette
 palette = "tokyo_night"
 
 [palettes.tokyo_night]
-dir_text = "#e5e9f0"
+text = "#e5e9f0"
 blue = "#769ff0"
 lavender = "#a3aed2"
 dark_blue = "#394260"
@@ -31,7 +35,7 @@ muted = "#a0a9cb"
 red = "#ff5555"
 
 [directory]
-style = "fg:dir_text bg:blue"
+style = "fg:text bg:blue"
 format = "[$path ]($style)[$read_only]($read_only_style)"
 read_only = ""
 read_only_style = 'fg:red bg:blue'
@@ -55,11 +59,32 @@ format = '\([$state( $progress_current/$progress_total)](fg:blue bg:dark_blue)\)
 disabled = false
 
 [git_status]
+ahead = '[⇡${count}](fg:green bg:dark_blue)'
+behind = '[⇣${count}](fg:green bg:dark_blue)'
+diverged = '[⇡${ahead_count}⇣${behind_count}](fg:green bg:dark_blue)'
+up_to_date = '[✓](fg:green bg:dark_blue)'
+
+conflicted = '[~$count](fg:red bg:dark_blue)'
+untracked = '[?$count](fg:blue bg:dark_blue)'
+stashed = '[*$count](fg:green bg:dark_blue)'
+modified = '[!$count](fg:yellow bg:dark_blue)'
+staged = '[+$count](fg:yellow bg:dark_blue)'
+renamed = '[»$count](fg:red bg:dark_blue)'
+deleted = '[✘$count](fg:red bg:dark_blue)'
+
 style = "bg:dark_blue"
-format = '[[($all_status$ahead_behind )](fg:blue bg:dark_blue)]($style)'
+format = '[(($conflicted )($stashed )($deleted )($renamed )($modified )($staged )($untracked )$ahead_behind)]($style)'
+
+[jobs]
+style = "fg:cyan bg:darker_blue"
+format = '[ $symbol$number]($style)'
+
+[cmd_duration]
+format = '[took $duration](bg:deep_blue)'
 
 [time]
 disabled = false
-time_format = "%R" # Hour:Minute Format
+time_format = "%r" # Hour:Minute Format
+use_12hr = true
 style = "bg:dark_blue"
 format = '[[  $time ](fg:muted bg:darker_blue)]($style)'
