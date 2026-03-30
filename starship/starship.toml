@@ -32,6 +32,7 @@ dark_blue = "#394260"
 darker_blue = "#212736"
 deep_blue = "#1d2230"
 muted = "#a0a9cb"
+purple = "#c792ea"
 red = "#ff5555"
 
 [directory]
@@ -59,20 +60,19 @@ format = '\([$state( $progress_current/$progress_total)](fg:blue bg:dark_blue)\)
 disabled = false
 
 [git_status]
-ahead = '[⇡${count}](fg:green bg:dark_blue)'
-behind = '[⇣${count}](fg:green bg:dark_blue)'
-diverged = '[⇡${ahead_count}⇣${behind_count}](fg:green bg:dark_blue)'
-up_to_date = '[✓](fg:green bg:dark_blue)'
+ahead = '[⇡${count}](fg:#8bd49c bg:#394260)'
+behind = '[⇣${count}](fg:#8bd49c  bg:#394260)'
+diverged = '[⇡${ahead_count}⇣${behind_count}](fg:#8bd49c  bg:#394260)'
 
-conflicted = '[~$count](fg:red bg:dark_blue)'
-untracked = '[?$count](fg:blue bg:dark_blue)'
-stashed = '[*$count](fg:green bg:dark_blue)'
-modified = '[!$count](fg:yellow bg:dark_blue)'
-staged = '[+$count](fg:yellow bg:dark_blue)'
-renamed = '[»$count](fg:red bg:dark_blue)'
-deleted = '[✘$count](fg:red bg:dark_blue)'
-
+conflicted = '[~$count](fg:#f07178 bg:#394260)'
+untracked = '[?$count](fg:#7aa2f7 bg:#394260)'
+stashed = '[*$count](fg:#c792ea bg:#394260)'
+modified = '[!$count](fg:#f2c96d bg:#394260)'
+staged = '[+$count](fg:#8bd49c bg:#394260)'
+renamed = '[»$count](fg:#7aa2f7 bg:#394260)'
+deleted = '[✘$count](fg:#f07178 bg:#394260)'
 style = "bg:dark_blue"
+
 format = '[(($conflicted )($stashed )($deleted )($renamed )($modified )($staged )($untracked )$ahead_behind)]($style)'
 
 [jobs]
@@ -80,7 +80,7 @@ style = "fg:cyan bg:darker_blue"
 format = '[ $symbol$number]($style)'
 
 [cmd_duration]
-format = '[took $duration](bg:deep_blue)'
+format = '[$duration](bg:deep_blue)'
 
 [time]
 disabled = false
