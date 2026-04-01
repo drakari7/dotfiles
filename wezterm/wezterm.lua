@@ -5,7 +5,6 @@ local config = wezterm.config_builder()
 -- Always start in Arch WSL
 -- config.default_domain = "WSL:Arch"
 config.default_prog = {"wsl.exe", "-d", "Arch", "--cd", "~"}
-config.default_cwd = "~"
 
 -- Appearance
 config.color_scheme = "Catppuccin Mocha"
@@ -16,7 +15,7 @@ config.window_close_confirmation = "NeverPrompt"
 
 -- Tabs
 config.enable_tab_bar = true
-config.use_fancy_tab_bar = true
+config.use_fancy_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = true
 
 -- Launch on right half
@@ -38,7 +37,7 @@ wezterm.on("gui-startup", function(cmd)
   local y = screen.y
 
   gui_win:set_position(x, y)
-  gui_win:set_inner_size(width, height)
+  gui_win:set_inner_size(width, height - 50)
 end)
 
 -- Show active key table
@@ -99,23 +98,23 @@ config.keys = {
   },
 
   -- Jump to Tabs
-  { key = "1", mods = "CTRL", action = wezterm.action.ActivateTab(0) },
-  { key = "2", mods = "CTRL", action = wezterm.action.ActivateTab(1) },
-  { key = "3", mods = "CTRL", action = wezterm.action.ActivateTab(2) },
-  { key = "4", mods = "CTRL", action = wezterm.action.ActivateTab(3) },
-  { key = "5", mods = "CTRL", action = wezterm.action.ActivateTab(4) },
-  { key = "6", mods = "CTRL", action = wezterm.action.ActivateTab(5) },
-  { key = "7", mods = "CTRL", action = wezterm.action.ActivateTab(6) },
-  { key = "8", mods = "CTRL", action = wezterm.action.ActivateTab(7) },
+  { key = "1", mods = "LEADER", action = wezterm.action.ActivateTab(0) },
+  { key = "2", mods = "LEADER", action = wezterm.action.ActivateTab(1) },
+  { key = "3", mods = "LEADER", action = wezterm.action.ActivateTab(2) },
+  { key = "4", mods = "LEADER", action = wezterm.action.ActivateTab(3) },
+  { key = "5", mods = "LEADER", action = wezterm.action.ActivateTab(4) },
+  { key = "6", mods = "LEADER", action = wezterm.action.ActivateTab(5) },
+  { key = "7", mods = "LEADER", action = wezterm.action.ActivateTab(6) },
+  { key = "8", mods = "LEADER", action = wezterm.action.ActivateTab(7) },
 
 }
 
 config.key_tables = {
   resize_pane = {
-    { key = "h", action = act.AdjustPaneSize {'Left', 1 } },
-    { key = "l", action = act.AdjustPaneSize {'Right', 1 } },
-    { key = "j", action = act.AdjustPaneSize {'Down', 1 } },
-    { key = "k", action = act.AdjustPaneSize {'Up', 1 } },
+    { key = "h",      action = act.AdjustPaneSize { 'Left', 1 } },
+    { key = "l",      action = act.AdjustPaneSize { 'Right', 1 } },
+    { key = "j",      action = act.AdjustPaneSize { 'Down', 1 } },
+    { key = "k",      action = act.AdjustPaneSize { 'Up', 1 } },
     { key = "Escape", action = 'PopKeyTable' },
   },
 }
