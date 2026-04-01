@@ -1,93 +1,70 @@
-local wezterm = require 'wezterm'
+local wezterm = require('wezterm')
 local act = wezterm.action
 local config = wezterm.config_builder()
 
--- Always start in Arch WSL
--- config.default_domain = "WSL:Arch"
-config.default_prog = {"wsl.exe", "-d", "Arch", "--cd", "~"}
-
 -- Appearance
 config.color_scheme = "Catppuccin Mocha"
-
--- Misc
-config.automatically_reload_config = true
-config.window_close_confirmation = "NeverPrompt"
+config.font = wezterm.font("IosevkaTerm Nerd Font Mono")
+config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
+config.font_size = 16.0
+config.scrollback_lines = 10000
+config.default_cursor_style = "BlinkingBar"
 
 -- Tabs
 config.enable_tab_bar = true
 config.use_fancy_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = true
 
--- Launch on right half
-wezterm.on("gui-startup", function(cmd)
-  local mux = wezterm.mux
-  local gui = wezterm.gui
+--Settings
+-- config.window_close_confirmation = "NeverPrompt"
 
-  local tab, pane, window = mux.spawn_window(cmd or {})
-  local gui_win = window:gui_window()
-
-  local screen = gui.screens().main
-
-  -- Half width, full height
-  local width = screen.width / 2
-  local height = screen.height
-
-  -- Position: right side
-  local x = screen.x + width
-  local y = screen.y
-
-  gui_win:set_position(x, y)
-  gui_win:set_inner_size(width, height - 50)
-end)
-
--- Show active key table
-wezterm.on("update-right-status", function(window, pane)
-  local name = window:active_key_table()
-  if name then
-    window:set_right_status("MODE: " .. name)
-  else
-    window:set_right_status("")
-  end
-end)
-
--- Font
-config.font = wezterm.font("IosevkaTerm Nerd Font Mono")
-config.font_size = 15.0
-
---  Scrollback
-config.scrollback_lines = 10000
-
--- Cursor
--- config.default_cursor_style = "BlinkingBlock"
-config.cursor_blink_rate = 800
-
+-- Leader key
 config.leader = { key = "b", mods = "CTRL" }
 
-config.keys = {
-  -- Split panes
-  { key = "=", mods = "LEADER", action = wezterm.action.SplitHorizontal { domain = "CurrentPaneDomain" } },
-  { key = "-", mods = "LEADER", action = wezterm.action.SplitVertical { domain = "CurrentPaneDomain" } },
+config.disable_default_key_bindings = true
 
-  -- Navigate panes
-  { key = "h", mods = "LEADER", action = wezterm.action.ActivatePaneDirection "Left" },
-  { key = "l", mods = "LEADER", action = wezterm.action.ActivatePaneDirection "Right" },
-  { key = "k", mods = "LEADER", action = wezterm.action.ActivatePaneDirection "Up" },
-  { key = "j", mods = "LEADER", action = wezterm.action.ActivatePaneDirection "Down" },
+config.keys = {
+  -- COPY MODE & QuickSelect
+  { key = "c",  mods = "LEADER", action = act.ActivateCopyMode },
+  { key = "q",  mods = "LEADER", action = act.QuickSelect },
+
+  -- Misc
+  { key = "p",  mods = "LEADER", action = act.ActivateCommandPalette },
+  {key = "f", mods = "LEADER", action = act.Search { CaseInSensitiveString = "" }},
+
+  -- COPY PASTE
+  {key = "c", mods = "ALT", action = act.CopyTo "Clipboard",},
+  {key = "v", mods = "ALT", action = act.PasteFrom "Clipboard",},
+
+  -- Splits
+  {key = "=", mods = "LEADER", action = act.SplitHorizontal { domain = "DefaultDomain" },},
+  {key = "-", mods = "LEADER", action = act.SplitVertical { domain = "DefaultDomain" },},
+
+  -- Navigation between panes
+  { key = "h", mods = "LEADER", action = act.ActivatePaneDirection "Left" },
+  { key = "l", mods = "LEADER", action = act.ActivatePaneDirection "Right" },
+  { key = "k", mods = "LEADER", action = act.ActivatePaneDirection "Up" },
+  { key = "j", mods = "LEADER", action = act.ActivatePaneDirection "Down" },
 
   -- Tabs
-  { key = "t", mods = "LEADER", action = wezterm.action.SpawnTab "CurrentPaneDomain" },
-  { key = "d", mods = "LEADER", action = wezterm.action.CloseCurrentPane({confirm = false})},
-  { key = "\\", mods = "LEADER", action = wezterm.action.CloseCurrentTab({confirm = false})},
-  { key = "n", mods = "LEADER", action = wezterm.action.ActivateTabRelative(1) },
-  { key = "p", mods = "LEADER", action = wezterm.action.ActivateTabRelative(-1) },
+  { key = "t",  mods = "LEADER", action = act.SpawnTab "DefaultDomain", },
+  { key = "d",  mods = "LEADER", action = act.CloseCurrentPane { confirm = true }, },
+  { key = "\\", mods = "LEADER", action = act.CloseCurrentTab { confirm = false }, },
+  { key = "]",  mods = "LEADER", action = act.ActivateTabRelative(1) },
+  { key = "[",  mods = "LEADER", action = act.ActivateTabRelative(-1) },
 
-  -- Copy mode
-  { key = "c", mods = "ALT", action = wezterm.action.ActivateCopyMode },
-  { key = "Enter", mods = "ALT", action = wezterm.action.DisableDefaultAssignment },
+  -- Jump to tabs
+  { key = "1", mods = "LEADER", action = act.ActivateTab(0) },
+  { key = "2", mods = "LEADER", action = act.ActivateTab(1) },
+  { key = "3", mods = "LEADER", action = act.ActivateTab(2) },
+  { key = "4", mods = "LEADER", action = act.ActivateTab(3) },
+  { key = "5", mods = "LEADER", action = act.ActivateTab(4) },
+  { key = "6", mods = "LEADER", action = act.ActivateTab(5) },
+  { key = "7", mods = "LEADER", action = act.ActivateTab(6) },
+  { key = "8", mods = "LEADER", action = act.ActivateTab(7) },
+  { key = "9", mods = "LEADER", action = act.ActivateTab(8) },
 
-  -- Quick launcher
-  { key = "p", mods = "CTRL|SHIFT", action = wezterm.action.ActivateCommandPalette },
-
+  -- Resize pane key table
   {
     key = "r",
     mods = "LEADER",
@@ -96,16 +73,6 @@ config.keys = {
       one_shot = false,
     },
   },
-
-  -- Jump to Tabs
-  { key = "1", mods = "LEADER", action = wezterm.action.ActivateTab(0) },
-  { key = "2", mods = "LEADER", action = wezterm.action.ActivateTab(1) },
-  { key = "3", mods = "LEADER", action = wezterm.action.ActivateTab(2) },
-  { key = "4", mods = "LEADER", action = wezterm.action.ActivateTab(3) },
-  { key = "5", mods = "LEADER", action = wezterm.action.ActivateTab(4) },
-  { key = "6", mods = "LEADER", action = wezterm.action.ActivateTab(5) },
-  { key = "7", mods = "LEADER", action = wezterm.action.ActivateTab(6) },
-  { key = "8", mods = "LEADER", action = wezterm.action.ActivateTab(7) },
 
 }
 
@@ -118,6 +85,5 @@ config.key_tables = {
     { key = "Escape", action = 'PopKeyTable' },
   },
 }
-
 
 return config
