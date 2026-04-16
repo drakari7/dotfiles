@@ -4,3 +4,6 @@
 [submodule "zsh"]
 	path = zsh
 	url = git@github.com:drakari7/zsh
+[submodule "wezterm"]
+	path = wezterm
+	url = git@github.com:drakari7/wezterm.git
